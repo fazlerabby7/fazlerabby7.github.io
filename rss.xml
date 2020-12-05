@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Fazle Rabby&#39;s Thoughts</title>
+        <link>https://fazlerabby7.github.io/</link>
+        <description>Personal blog of Fazle Rabby about software engineering, technology and self!.</description>
+        <generator>Hugo 0.79.0 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Sun, 06 Dec 2020 02:05:40 &#43;0600</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://fazlerabby7.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>এটা প্রথম বার ছিল, শেষ বার নয়…….</title>
+                <link>https://fazlerabby7.github.io/it-was-the-first-time-not-the-last/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/it-was-the-first-time-not-the-last/</guid>
+                <pubDate>Wed, 06 Jun 2018 17:36:25 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;আমাদের ডিপার্টমেন্ট (ইউনিভার্সিটির) থেকে প্রতি সেমিস্টারে নতুন ছাত্র-ছাত্রীদের জন্য ওরিয়েন্টেশন প্রোগ্রামের আয়োজন করা হয়। ওই প্রোগ্রামের একটা সেগমেন্টে সাধারণত একজন বর্তমান এবং সাবেক ছাত্র-ছাত্রীদের আমন্ত্রণ জানানো হয় তাদের অভিজ্ঞতা শেয়ার করার জন্য।&lt;/p&gt;
+&lt;p&gt;সময়টা বছর দুয়েক আগে হবে। বর্তমান ছাত্র হিসেবে এরকম একটা প্রোগ্রামে আমন্ত্রণ পেলাম আমার অভিজ্ঞতা শেয়ার করার জন্য। ব্যাপারটা সম্মানজনক ছিল। ডিপার্টমেন্টের অন্যতম সফল দুই বড় ভাই এর সাথে স্টেজ শেয়ার করার সুযোগ হয়েছিল।&lt;/p&gt;
+&lt;p&gt;আমি প্রস্তুতি নিয়ে গিয়েছিলাম মূলত কমিউনিটি এনগেজমেন্ট নিয়ে কথা বলার জন্য। আমাদের শ্রদ্ধেয় হেড স্যার ঘোষণা করলেন, আমি কথা বলবো এই ডিপার্টমেন্টের ছাত্র হিসেবে আমার অভিজ্ঞতা নিয়ে! এমনিতেই নার্ভাস ছিলাম। তারমধ্যে ঠিক ওই সময়টাতে ইউনিভার্সিটি এবং আমার পারিবারিক কিছু কারণে খুবই হতাশার মধ্যে ছিলাম। আমার মাথায় ইউনিভার্সিটি নিয়ে কোন পজেটিভ কথা ছিল না। কিন্তু হতাশার কথা গুলো তো আর ওরিয়েন্টেশন প্রোগ্রামে বলা যাবে না!&lt;/p&gt;
+&lt;p&gt;তো আমি স্টেজে উঠলাম। বানিয়ে বানিয়ে ডিপার্টমেন্টের ভাল দিক গুলো বলা শুরু করলাম। বানিয়ে বানিয়ে বললেও কথা গুলো মিথ্যা ছিল না। একটা সময় পর আমার মাথা খালি হয়ে গেল। উপসংহার টানতে পারছিলাম না। আমি থেমে গেলাম। আমার মাথা কাজ করছিল না। ব্যাপারটা প্যানিক এটাকের মত ছিল। আমার মনে হচ্ছিল স্টেজ থেকে অদৃশ্য হয়ে যেতে পারলে বাঁচতাম…..&lt;/p&gt;
+&lt;p&gt;একটু সময় নিয়ে তারপর দুঃখ প্রকাশ করে শেষ করলাম। ওইদিন ব্যাপারটা নিয়ে অনেক খারাপ লাগছিল। নিজেকে অপদার্থ মনে হচ্ছিল। বিশেষ করে ওখানে ইউনিভার্সিটির উচ্চপদস্থ ব্যক্তিরা ছিলেন। মনে হচ্ছিল নিজের ডিপার্টমেন্টকে তাদের সামনে ছোট করে ফেলেছি।&lt;/p&gt;
+&lt;p&gt;এক বড় ভাই সাহস দিয়ে বললেন, এটা প্রথম বার ছিল, শেষ বার নয়।&lt;/p&gt;
+&lt;p&gt;আজ থেকে তিন দিন আগে আবার ওরিয়েন্টেশন প্রোগ্রামে কথা বলতে গেলাম। না, দ্বিতীয় বারের মত না। ৫ম বার।&lt;/p&gt;
+&lt;p&gt;না, আর কোন বারই আটকে যাই নি। নির্ঘুম চোখে, মাথা ব্যাথা নিয়ে, বিনা প্রস্তুতিও আর আটকাই না এখন। আলহামদুলিল্লাহ, প্রথম বারই শেষ ছিল না।&lt;/p&gt;
+&lt;p&gt;তবে এবারই বর্তমান ছাত্র হিসেবে হয়ত শেষ বার। এই সেমিস্টার শেষে ৩ বছর ৮ মাসে গ্র্যাজুয়েশন শেষ হবে ইনশাআল্লাহ। এবার কথা বলা শেষে যখন বসে ছিলাম, আবেগ পেয়ে বসেছিল। নাহ, আমি আসলে আমার ইউনিভার্সিটিকে ভালবাসি, ভালবাসি আমার ডিপার্টমেন্টকে।&lt;figure id=&#34;attachment_253&#34; style=&#34;width: 1200px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2018/06/orientation_program_of_25_batch.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-253&#34; src=&#34;https://fazlerabby7.github.io/files/2018/06/orientation_program_of_25_batch.jpg&#34; alt=&#34;&#34; width=&#34;1200&#34; height=&#34;663&#34; srcset=&#34;/files/2018/06/orientation_program_of_25_batch.jpg 1200w, /files/2018/06/orientation_program_of_25_batch-300x166.jpg 300w, /files/2018/06/orientation_program_of_25_batch-768x424.jpg 768w, /files/2018/06/orientation_program_of_25_batch-1024x566.jpg 1024w&#34; sizes=&#34;(max-width: 1200px) 100vw, 1200px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;ছবিটা গত ওরিয়েন্টেশন প্রোগ্রামের। স্বভাবতই আমার ব্যাক্তিগত ছবির কালেকশন ‘নাই’ এর কোটায়।&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/other/">Other</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Auto generating unique slug in Django: a generic approach</title>
+                <link>https://fazlerabby7.github.io/auto-generating-unique-slug-django-generic-approach/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/auto-generating-unique-slug-django-generic-approach/</guid>
+                <pubDate>Fri, 10 Nov 2017 22:27:57 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;More than a year ago I wrote the post: &lt;a href=&#34;https://fazlerabby7.github.io/auto-generating-unique-slug-in-django/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Auto generating unique slug in Django&lt;/a&gt;. There we considered a model named &lt;code&gt;Article&lt;/code&gt;, which had &lt;code&gt;title&lt;/code&gt; and &lt;code&gt;slug&lt;/code&gt; fields. We had overridden the &lt;code&gt;save&lt;/code&gt; method of that model to automatically save the unique slug which had been generated by our written &lt;code&gt;_get_unique_slug&lt;/code&gt; model method. But what will happen if we want to auto generate unique slug for tens or even hundreds of models? Do the same for each of the models? No way! So, in this post, we will know how we can achieve that through a generic approach. To continue reading this post, you don’t necessarily need to read that previous post, but recommended.&lt;/p&gt;
+&lt;h4 id=&#34;the-basics&#34;&gt;The Basics&lt;/h4&gt;
+&lt;p&gt;What is slug? Consider the URL of this post: /&lt;strong&gt;auto-generating-unique-slug-django-generic-approach&lt;/strong&gt;/ . Here the bold part of the URL is called slug.&lt;/p&gt;
+&lt;p&gt;Suppose we have tens of models including the &lt;code&gt;Author&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;models.py&#34;&gt;from django.db import models
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+
+    def __str__(self):
+        return self.name&lt;/pre&gt;
+&lt;p&gt;Based on the &lt;code&gt;name&lt;/code&gt; filed, &lt;code&gt;slug&lt;/code&gt; filed should be generated. If the &lt;code&gt;name&lt;/code&gt; of our first &lt;code&gt;Author&lt;/code&gt; is ‘John Doe’, the &lt;code&gt;slug&lt;/code&gt; should be ‘john-doe’. If the &lt;code&gt;name&lt;/code&gt; of our second &lt;code&gt;Author&lt;/code&gt; is also ‘John Doe’, the &lt;code&gt;slug&lt;/code&gt; should be ‘john-doe-1’. And if the &lt;code&gt;name&lt;/code&gt; of our third &lt;code&gt;Author&lt;/code&gt; is ‘John Doe’ again, the &lt;code&gt;slug&lt;/code&gt; should be ‘john-doe-2’. And so on.&lt;/p&gt;
+&lt;h4 id=&#34;the-solution&#34;&gt;The Solution&lt;/h4&gt;
+&lt;p&gt;Create a file named &lt;code&gt;utils.py&lt;/code&gt; in the app directory and write this code:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;utils.py&#34;&gt;from django.utils.text import slugify
+
+
+def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
+    &#34;&#34;&#34;
+    Takes a model instance, sluggable field name (such as &#39;title&#39;) of that
+    model as string, slug field name (such as &#39;slug&#39;) of the model as string;
+    returns a unique slug as string.
+    &#34;&#34;&#34;
+    slug = slugify(getattr(model_instance, slugable_field_name))
+    unique_slug = slug
+    extension = 1
+    ModelClass = model_instance.__class__
+
+    while ModelClass._default_manager.filter(
+        **{slug_field_name: unique_slug}
+    ).exists():
+        unique_slug = &#39;{}-{}&#39;.format(slug, extension)
+        extension += 1
+
+    return unique_slug&lt;/pre&gt;
+&lt;p&gt;As the docstring says, the &lt;code&gt;get_unique_slug&lt;/code&gt; takes a django model instance for the first argument, sluggable field name such as ‘name’ (based on which the slug will be generated) of that model as string for the second argument and slug field name such as ‘slug’ of the model as string for the third argument. And it returns a unique slug as string.&lt;/p&gt;
+&lt;p&gt;Let’s break down the code a bit. At line 10, &lt;code&gt;slugify&lt;/code&gt; (&lt;a href=&#34;https://docs.djangoproject.com/en/dev/ref/utils/#django.utils.text.slugify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;django.utils.text.slugify&lt;/code&gt;&lt;/a&gt;) takes a string like ‘John Doe’ as argument and returns a string like ‘john-doe’. And we are accessing the sluggable field of the model instance using &lt;a href=&#34;https://docs.python.org/3/library/functions.html#getattr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;getattr&lt;/code&gt;&lt;/a&gt;. At line 13, we are getting the model class from the model instance using &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#instance.__class__&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;&lt;strong&gt;class&lt;/strong&gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Take a closer look at line 15-19. Until we get a unique slug, we append the current slug string with an extension number starting from 1; such as ‘john-doe-1’, ‘john-doe-2’…. For accessing the model manager (usually &lt;code&gt;objects&lt;/code&gt;) we are using &lt;a href=&#34;https://docs.djangoproject.com/en/dev/topics/db/managers/#django.db.models.Model._default_manager&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;_default_manager&lt;/code&gt;&lt;/a&gt;. Line 15 might look a bit tricky, in short, &lt;code&gt;**{slug_field_name: unique_slug}&lt;/code&gt; works like something similar to &lt;code&gt;slug=&#39;john-doe&#39;&lt;/code&gt;. To understand this clearly, we need to know about how &lt;code&gt;**kwargs&lt;/code&gt; works in python and how django model unpacks it. As this is beyond the scope of this post, I’m not discussing it here.&lt;/p&gt;
+&lt;p&gt;Let’s update our &lt;code&gt;models.py&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34; title=&#34;models.py&#34;&gt;from django.db import models
+
+from .utils import get_unique_slug
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = get_unique_slug(self, &#39;name&#39;, &#39;slug&#39;)
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
+&lt;/pre&gt;
+&lt;p&gt;Here we are overriding the &lt;code&gt;save&lt;/code&gt; method, if the &lt;code&gt;slug&lt;/code&gt; is already not set, we are setting it using the &lt;code&gt;get_unique_slug&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Update: 13/June/2018: It could be a better idea to use pre_save signal instead of overriding the save method what I have done in this post.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Boom! all done, enjoy!&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/python/">Python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/slug/">slug</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>পাইথন ডেকরেটর‍্স‍</title>
+                <link>https://fazlerabby7.github.io/python-decorator-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/python-decorator-bangla/</guid>
+                <pubDate>Sat, 01 Oct 2016 18:19:22 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;“ডেকরেটর! ওই যে বিভিন্ন অনুষ্ঠানের সাজ সজ্জা করে মানে ডেকরেট করে….. তো পাইথনে আবার তাদের কি কাজ!”&lt;/p&gt;
+&lt;p&gt;পোস্টের টাইটেল দেখে যদি আপনার মনে এরকম প্রশ্নের উদয় হয় তাহলেও দোষের কিছু নেই। পাইথনে ডেকরেটর কিছুটা এডভান্স আর কমপ্লেক্স টপিক। তবে চিন্তা নেই, এই পোস্টে আমরা একটু সহজ ভাবে, ধাপে ধাপে জানার চেষ্টা করবো পাইথনে ডেকরেটর জিনিষটা কী, কীভাবে কাজ করে আর কীভাবেই বা ব্যাবহার করে।&lt;/p&gt;
+&lt;p&gt;ঠিক ঠাক ভাবে বললে, ডেকরেটর হল এক ধরনের callable যা অন্য callable এর ফাংশনালিটিকে মডিফাই করে। আরেকটু সহজ করে বললে, ডেকরেটর হল এক ধরনের ফাংশন যা অন্য ফাংশনের ফাংশনালিটিকে মডিফাই করে। [ডেকরেটর ক্লাসও হয়, তবে এ পোস্টে সেটা আলোচনা করবো না।] তো ধাপে ধাপে শুরু করা যাক। আমি ধরে নিচ্ছি ভ্যারিয়েবলের স্কোপ রেজ্যুলেশন সম্পর্কে আমাদের মোটামুটি ভাল ধারনা আছে, তাই এ সম্পর্কে আর বাড়তি কিছু লিখলাম না।&lt;/p&gt;
+&lt;h3 id=&#34;ফশনর-করকর&#34;&gt;ফাংশনের কারিকুরি&lt;/h3&gt;
+&lt;p&gt;এই কোড ব্লক টা দেখি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def hello():
+    print(&#34;Hello World!&#34;)
+
+
+hello()
+# output: Hello World!
+
+hi = hello    # interesting!
+
+print(hi)
+# output: &amp;lt;function hello at 0x7ff330b412f0&amp;gt;
+
+hi()
+# output: Hello World!
+&lt;/pre&gt;
+&lt;p&gt;৮ নম্বর লাইন থেকে কোডটা ইন্টারেস্টিং হওয়া শুরু করেছে। আমরা জানি পাইথনে সব কিছুই এক একটা অবজেক্ট। ফাংশনও। এই লাইনে আমরা hello কে hi তে এসাইন করেছি। লক্ষনীয়, এখানে hello এর পাশে () (ব্র্যাকেট/প্যারেন্থেসিস) দেই নি। অর্থাৎ এখানে hello ফাংশনটি এক্সিকিউট বা কল হয় নি। ১০ নম্বর লাইনের আউটপুট দেখলে ব্যাপারটা আরো পরিষ্কার হবে। আর ১৩ নম্বর লাইনে hi কে কল করা হয়েছে, আউটপুট পেয়েছি ঠিক hello এর মত।&lt;/p&gt;
+&lt;h3 id=&#34;ফশনর-ভতর-ফশন&#34;&gt;ফাংশনের ভেতর ফাংশন!&lt;/h3&gt;
+&lt;p&gt;হ্যা, পাইথনে আমরা ফাংশনের ভেতর ফাংশন ডিফাইন করতে পারি। অন্যভাবে বললে আমরা নেস্টেড ফাংশন বানাতে পারি। এরকম:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def hello():
+    print(&#34;Inside hello&#34;)
+
+    def nested():
+        print(&#34;Inside nested&#34;)
+
+    nested()
+    print(&#34;Inside hello again&#34;)
+
+
+hello()
+&lt;/pre&gt;
+&lt;p&gt;আউটপুট:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true&#34;&gt;Inside hello
+Inside nested
+Inside hello again
+&lt;/pre&gt;
+&lt;p&gt;আরেকটি কোড ব্লক দেখি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34;&gt;def count(value):
+
+    def increment():
+        return value + 1
+
+    print(&#34;Incremented value of {} is {}&#34;.format(value, increment()))
+
+
+count(5)
+# output: Incremented value of 5 is 6&lt;/pre&gt;
+&lt;p&gt;শুরুতেই লিখেছিলাম ভ্যারিয়েবলের স্কোপ রেজ্যুলেশন সম্পর্কে লিখবো না। কোডটা একটু ভাল মত লক্ষ্য করলেই আশা করি বুঝতে পারবেন।&lt;/p&gt;
+&lt;h3 id=&#34;ফশন-থক-ফশন-রটরন&#34;&gt;ফাংশন থেকে ফাংশন রিটার্ন!&lt;/h3&gt;
+&lt;p&gt;ফাংশন থেকে ইচ্ছা করলে আমরা ফাংশন রিটার্নও করতে পারি! এই কোডটা দেখলে ব্যাপারটা পরিষ্কার হবে:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def hello():
+
+    def nested():
+        print(&#34;Inside nested&#34;)
+
+    return nested
+
+
+hi = hello()
+
+print(hi)
+# output: &amp;lt;function hello.&amp;lt;locals&amp;gt;.nested at 0x7f1ed4e94488&amp;gt;
+
+hi()
+# output: Inside nested
+&lt;/pre&gt;
+&lt;p&gt;৯ নম্বর লাইনে hello() কে কল করায় এটা nested কে রিটার্ন করেছে, তা এসাইন হয়েছে hi তে। পূর্বের কোড ব্লক গুলো ফলো করলে এটি সহজেই বোঝা যাবে।&lt;/p&gt;
+&lt;p&gt;আরেকটি কোড ব্লক দেখি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def count(value):
+
+    def increment(n):
+        return value + n
+
+    return increment
+
+
+counter = count(5)
+print(counter(1))    # Guess the output!&lt;/pre&gt;
+&lt;p&gt;কি, আউটপুট গেস করেছেন? এটা আর এক্সপ্লেইন করবো না। আউটপুট হবে 6।&lt;/p&gt;
+&lt;h3 id=&#34;ফশনর-আরগমনটপযরমটর-হসব-ফশন&#34;&gt;ফাংশনের আর্গুমেন্ট/প্যারামিটার হিসেবে ফাংশন&lt;/h3&gt;
+&lt;p&gt;সরাসরি একটা কোড স্নিপেট দেখে ফেলি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def hello():
+    print(&#34;Hello World!&#34;)
+
+
+def hi(func):
+    print(&#34;Hi!&#34;)
+    func()
+
+
+hi(hello)
+&lt;/pre&gt;
+&lt;p&gt;এখানে hi ফাংশনের প্যারামিটার হিসেবে hello কে পাস করা হয়েছে। hi এর ভেতর hello কল হয়েছে। আউটপুট হবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Hi!
+Hello World!&lt;/pre&gt;
+&lt;h2 id=&#34;ডকরটর&#34;&gt;ডেকরেটর&lt;/h2&gt;
+&lt;p&gt;এখন হচ্ছে মূল বিষয়, ডেকরেটর। আমরা আগেই জেনেছি, ডেকরেটর হচ্ছে এমন ফাংশন যা অন্য ফাংশনের ফাংশনালিটি মডিফাই করে। এখন তাহলে একটু সাজানো গুছানো উদাহরণ দেখে নেই:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;def mydecorator(func):
+
+    def wrapper():
+        print(&#34;Before calling func()&#34;)
+        func()
+        print(&#34;After calling func()&#34;)
+
+    return wrapper
+
+
+def hello():
+    print(&#34;Hello World!&#34;)
+
+
+hello = mydecorator(hello)
+hello()
+&lt;/pre&gt;
+&lt;p&gt;এখানে mydecorator ফাংশনটি প্যারামিটার হিসেবে আরেকটি ফাংশন এক্সপেক্ট করছে। এর মধ্যকার wrapper ফাংশনটিতে প্যারামিটারে পাওয়া ফাংশন কল করার আগে এবং পরে কিছু কাজ হচ্ছে। আর mydecorator থেকে wrapper কে রিটার্ন করা হচ্ছে। ১৫ নম্বর লাইনে mydecorator কে hello প্যারামিটার দিয়ে কল করা হয়েছে। রিটার্ন ভ্যালু এসাইন করা হয়েছে আবার hello তে। অর্থাৎ mydecorator এর মাধ্যমেে hello মডিফাই হয়েছে। [প্রয়োজনে আবার খেয়াল করুন।] সব শেষ লাইনে hello() কল হয়েছে। আউটপুট হবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Before calling func()
+Hello World!
+After calling func()&lt;/pre&gt;
+&lt;p&gt;নাম এবং কাজ দেখে বোঝাই যাচ্ছে mydecorator হচ্ছে আমাদের কাঙ্খিত সেই ডেকরেটর।&lt;/p&gt;
+&lt;p&gt;তবে ডেকরেটর ব্যাবহারের সুন্দর একটি সিনট্যাক্স আছে, @। উপরের কোড কে আমরা সুন্দর করে এভাবে লিখতে পারি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34;&gt;def mydecorator(func):
+
+    def wrapper():
+        print(&#34;Before calling func()&#34;)
+        func()
+        print(&#34;After calling func()&#34;)
+
+    return wrapper
+
+
+@mydecorator
+def hello():
+    print(&#34;Hello World!&#34;)
+
+
+hello()&lt;/pre&gt;
+&lt;p&gt;অর্থাৎ, hello = mydecorator(hello) এই লাইনের পরিবর্তে আমরা hello ফাংশনটি ডিফাইনের ঠিক আগে @mydecorator লিখেছি। পূর্বের মত একই কাজ হবে।&lt;/p&gt;
+&lt;h3 id=&#34;বসতব-উদহরণ&#34;&gt;বাস্তব উদাহরণ&lt;/h3&gt;
+&lt;p&gt;এবার একটি বাস্তব উদাহরণ দেখা যাক। মনে করি আমাদের একটি ফাংশন আছে, আমরা চাই যখন এটি কল হবে ঠিক ওই সময় যেন লগ হিসবে একটা ফাইলে থাকে। এর সমাধান দেখে নেয়া যাক:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;from datetime import datetime
+from time import sleep
+
+
+def log(func):
+
+    def wrapper():
+        with open(&#39;log.txt&#39;, &#39;a&#39;) as file:
+            now = datetime.now().strftime(&#34;%I:%M:%S%p on %d %B, %Y&#34;)
+            file.write(now + &#39;\n&#39;)
+        func()
+
+    return wrapper
+
+
+@log
+def hello():
+    print(&#39;Hello World!&#39;)
+
+
+for i in range(3):
+    hello()
+    sleep(5)
+&lt;/pre&gt;
+&lt;p&gt;এই প্রোগ্রাম রান করলে কারেন্ট ওয়ার্কিং ডিরেক্টরিতে log.txt নামের একটা ফাইল তৈরি হবে, সেটি খুললে hello() এক্সিকিউট হওয়ার সময় গুলো পাওয়া যাবে।&lt;/p&gt;
+&lt;h3 id=&#34;পযরমটরআরগমনট-সহ-ডকরটর&#34;&gt;প্যারামিটার/আর্গুমেন্ট সহ ডেকরেটর&lt;/h3&gt;
+&lt;p&gt;যদি log ডেকরেটর টায় প্যারামিটার হিসেবে ফাইলের নাম দিয়ে দেয়া যেত, log.txt এর পরিবর্তে আমাদের প্রয়োজন মত নাম, তাহলে সুবিধা হতো না? হ্যা, ডেকরেটরে প্যারামিটার/আর্গুমেন্ট পাস করা সম্ভব। এজন্য আমাদের ডেকরেটরকে আরেকটা ফাংশনের মধ্যে নেস্টেড আকারে রাখা লাগবে। এরকম:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;from datetime import datetime
+from time import sleep
+
+
+def log(filename=&#39;log.txt&#39;):
+    def log_decorator(func):
+        def wrapper():
+            with open(filename, &#39;a&#39;) as file:
+                now = datetime.now().strftime(&#34;%I:%M:%S%p on %d %B, %Y&#34;)
+                file.write(now + &#39;\n&#39;)
+            func()
+        return wrapper
+    return log_decorator
+
+
+@log(filename=&#39;history.txt&#39;)
+def hello():
+    print(&#39;Hello World!&#39;)
+
+
+for i in range(3):
+    hello()
+    sleep(5)
+&lt;/pre&gt;
+&lt;p&gt;এখন আমাদের লগ history.txt খুললে পাওয়া যাবে। আর যদি @log এ কোন প্যারামিটার পাস না করা হয়, তাহলে ডিফল্ট ভাবে log.txt তে লগ থাকবে।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;এইত! এই ছিল পাইথনের ডেকরেটর‍্স‍ কনসেপ্ট। যদিও যেভাবে উপস্থাপন করতে চেয়েছিলাম সেভাবে পারি নি, তারপরও আশা করছি অপেক্ষাকৃত নতুনেরা উপকৃত হবে। সামনে কোন এক সময় ক্লাস ডেকরেটর নিয়ে লিখবো ইনশাআল্লাহ।&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/programming/">Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%A1%E0%A7%87%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9F%E0%A6%B0/">ডেকরেটর</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/">পাইথন</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>পাইথনে ফাইলের নাম এবং মডিউল নিয়ে বিভ্রাট</title>
+                <link>https://fazlerabby7.github.io/python-file-name-and-module-conflict-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/python-file-name-and-module-conflict-bangla/</guid>
+                <pubDate>Fri, 29 Jul 2016 17:42:56 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;আসলে লেখাটির সঠিক শিরোনাম কি হবে, কিছুক্ষণ চিন্তা করেও যখন ঠিক করতে পারছিলাম না, ঠিক করলাম আর চিন্তা করে সময় নষ্ট না করে মূল বিষয়টা লিখে ফেলি।&lt;/p&gt;
+&lt;p&gt;আচ্ছা, একটা ফাইল ক্রিয়েট করি email.py নামে। এর ভেতর শুধুমাত্র এই দুটি লাইন লিখে সেভ করি:&lt;/p&gt;
+&lt;pre class=&#34;whitespace-after:1 lang:python decode:true &#34;&gt;import requests
+
+print(&#39;I have been executed!&#39;)&lt;/pre&gt;
+&lt;p&gt;এখন ফাইলটা রান করি:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python3  email.py&lt;/pre&gt;
+&lt;p&gt;কি দেখলেন! নিশ্চই পাইথন এরকম বিদঘুটে ধরনের এক্সেপশন থ্রো করেছে:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true&#34;&gt;Traceback (most recent call last):
+  File &#34;email.py&#34;, line 1, in &amp;lt;module&amp;gt;
+    import requests
+  File &#34;/usr/lib/python3/dist-packages/requests/__init__.py&#34;, line 58, in &amp;lt;module&amp;gt;
+    from . import utils
+  File &#34;/usr/lib/python3/dist-packages/requests/utils.py&#34;, line 12, in &amp;lt;module&amp;gt;
+    import cgi
+  File &#34;/usr/lib/python3.5/cgi.py&#34;, line 39, in &amp;lt;module&amp;gt;
+    from email.parser import FeedParser
+ImportError: No module named &#39;email.parser&#39;; &#39;email&#39; is not a package&lt;/pre&gt;
+&lt;p&gt;আচ্ছা এখন ফাইলটাকে রিনেম করি a.py নামে।&lt;/p&gt;
+&lt;p&gt;এখন আবার রান করি:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python3 a.py&lt;/pre&gt;
+&lt;p&gt;এখন আউটপুট এসেছে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true&#34;&gt;I have been executed!&lt;/pre&gt;
+&lt;p&gt;কিন্তু কেন এ বৈষম্য!&lt;/p&gt;
+&lt;p&gt;requests মডিউলটার মধ্যে email নামের আরেকটা মডিউলকে কল করা হয়েছে, যা পাইথন স্ট্যান্ডার্ড লাইব্রেরির অংশ। এখন পাইথন নিয়ম অনুযায়ী কোন মডিউল প্রথমে করেন্ট ওয়ার্কিং ডিরেক্টরিতে খোঁজে, এরপর অন্য যায়গায়। যখন আমাদের ফাইলের নাম email.py ছিল, তখন পাইথন এটাকেই স্ট্যান্ডার্ড লাইব্রেরির email মডিউল ধরে নিয়েছে। তাই ওরকম বিদঘুটে এক্সেপশন রেইজ হয়েছে। আবার রিনেম করে a.py করার পর সব ঠিক ঠাক।&lt;/p&gt;
+&lt;p&gt;পাইথনের মডিউল লুক আপ অর্ডার দেখতে ইন্টারএক্টিভ শেল চালু করে এরকম লিখুন:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;&amp;gt;&amp;gt;&amp;gt; import sys
+&amp;gt;&amp;gt;&amp;gt; 
+&amp;gt;&amp;gt;&amp;gt; sys.path&lt;/pre&gt;
+&lt;p&gt;সুতরাং, আমাদের পাইথন ফাইল নামকরণের সময় একটু সতর্ক থাকা লাগবে, চেষ্টা করতে হবে তা যেন অন্য কোন লাইব্রেরির নামে না হয়।&lt;/p&gt;
+&lt;p&gt;আর জটিলতা এড়ানোর জন্য সম্পূর্ণ লেখায় প্যাকেজ এবং মডিউল উভয়কেই মডিউল বলা হয়েছে। আশা করি ব্যাপারটি ক্ষমা সুন্দর দৃষ্টিতে দেখবেন। 🙂&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/">পাইথন</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AE%E0%A6%A1%E0%A6%BF%E0%A6%89%E0%A6%B2/">মডিউল</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>পাইথনে বিল্ট-ইন ক্লাস থেকে ইনহ্যারিটেন্স</title>
+                <link>https://fazlerabby7.github.io/inheriting-from-built-ins-in-python-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/inheriting-from-built-ins-in-python-bangla/</guid>
+                <pubDate>Fri, 22 Jul 2016 10:25:39 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;কিছু ক্ষেত্রে দেখা যায় আমাদের এমন একটি ক্লাস দরকার পরছে, যার আচরণ হবে পাইথনের কোন বিল্ট-ইন ক্লাসের মত। কিন্তু তাতে আমাদের কাস্টম কিছু ফিচার দরকার। এরকম পরিস্থিতিতে আমরা আমাদের ক্লাস কে পাইথনের বিল্ট-ইন ক্লাস থেকে ইনহ্যারিট করতে পারি। এতে করে ঐ ক্লাস, বিল্ট-ইন ক্লাসের সকল বৈশিষ্ট্য অর্জন করবে, এবং আমরা আমাদের প্রয়োজন মত কাস্টমাইজও করে নিতে পারবো।&lt;/p&gt;
+&lt;p&gt;আচ্ছা, এই কোড টুকু দেখি:&lt;/p&gt;
+&lt;pre class=&#34;whitespace-after:1 lang:python decode:true&#34;&gt;class MyList(list):
+    pass
+
+
+numbers = MyList([1, 2, 3, 4])
+numbers.append(5)
+print(numbers)
+&lt;/pre&gt;
+&lt;p&gt;এখানে আমরা MyList কে পাইথনের বিল্ট-ইন ক্লাস list থেকে ইনহ্যারিট করেছি। MyList এ আর কোন কোড লিখি নি। সুতরাং আমাদের MyList এর অবজেক্ট list এর মত আচরন করবে। 5 নম্বর লাইন লক্ষ্য করি। এখানে MyList ইন্সট্যান্সিয়েট করার সময় প্যারামিটার হিসেবে একটি লিস্ট পাস করেছি, কিন্তু MyList এর মাঝে কোন __init__ মেথড লিখি নি। এখানে MyList এর প্যারেন্ট ক্লাস list এর __init__ মেথড কল হচ্ছে। আবার 6 নম্বর লাইনের append মেথডও একই ভাবে প্যারেন্ট ক্লাস থেকে কল হচ্ছে।&lt;/p&gt;
+&lt;p&gt;কোড টি রান করলে আমরা এরকম আউটপুট পাবো:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;[1, 2, 3, 4, 5]&lt;/pre&gt;
+&lt;p&gt;আর্থাৎ আমাদের MyList পাইথনের বিল্ট-ইন list এর মতই আচরণ করছে।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;আমরা list এর ইনডেক্স শুরু হয় 0 থেকে। এখন আমরা চাই list এর মত এমন একটি ডেটা স্ট্রাকচার MyList বানাতে, যার ইনডেক্স শুরু হবে 1 থেকে। আর বাকি সব ফিচার একই থাকবে। তাহলে আমরা কোড লিখবো এরকম (Python 3):&lt;/p&gt;
+&lt;pre class=&#34;whitespace-after:1 lang:python decode:true &#34;&gt;class MyList(list):
+
+    def __setitem__(self, index, value):
+        if index == 0:
+            raise IndexError
+        if index &amp;gt; 0:
+            index -= 1
+        super().__setitem__(index, value)
+
+    def __getitem__(self, index):
+        if index == 0:
+            raise IndexError
+        if index &amp;gt; 0:
+            index -= 1
+        return super().__getitem__(index)
+
+
+mylist = MyList([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;])
+
+mylist[1] = &#39;apple&#39;
+mylist[5] = &#39;orange&#39;
+
+print(mylist)
+print(mylist[1])
+print(mylist[5])
+&lt;/pre&gt;
+&lt;p&gt;MyList এ list এর দুটি ম্যাজিক মেথড __setitem__ এবং __getitem__ অল্টার করেছি। আমরা যখন alist[2] = 5 এরকম কোড লিখি তখন __setitem__ মেথড টি কল হয়। আবার যখন value = alist[2] এরকম কোড লিখি তখন __getitem__ মেথড টি কল হয়।&lt;/p&gt;
+&lt;p&gt;এখন আমাদের চাহিদা অনুযায়ী index শুরু হতে হবে 1 থেকে। তাই __setitem__ এবং __getitem__ এর ভেতর ওরকম লজিক লিখেছি। এবং তার পর প্যারেন্ট ক্লাস থেকে সংশ্লিষ্ট মেথড কে কল করেছি (অল্টার করেছি)।&lt;/p&gt;
+&lt;p&gt;আউটপুট দেখে নেই:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;[&#39;apple&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;orange&#39;]
+apple
+orange
+&lt;/pre&gt;
+&lt;p&gt;সুতরাং দেখা যাচ্ছে আমাদের Mylist এর ইনডেক্স 1 থেকেই শুরু হচ্ছে, 0 থেকে নয়। মিশন একমপ্লিশড 😎 ।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;এরকম ভাবে প্রয়োজনে আমরা পাইথনের অন্যান্য বিল্ট-ইন ক্লাস (যেমন dict, tuple ইত্যাদি) থেকেও ইনহ্যারিট করতে পারি।&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/object-oriented-programming/">Object Oriented Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/programming/">Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/python/">Python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A1/">অবজেক্ট অরিয়েন্টেড</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/">পাইথন</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Auto generating unique slug in Django</title>
+                <link>https://fazlerabby7.github.io/auto-generating-unique-slug-in-django/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/auto-generating-unique-slug-in-django/</guid>
+                <pubDate>Tue, 05 Jul 2016 05:16:21 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;In this post we are going to know how to generate unique slug in django automatically. So what is slug? Consider the URL of this post: /&lt;strong&gt;auto-generating-unique-slug-in-django&lt;/strong&gt;/ . Here the bold part of the URL is called slug.&lt;/p&gt;
+&lt;p&gt;First, consider a model ‘Article’ in which we will generate the unique slug.&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;models.py&#34;&gt;from django.db import models
+
+
+class Article(models.Model):
+    title = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.title
+
+&lt;/pre&gt;
+&lt;p&gt;In our model ‘Article’ we have three fields: title, slug and content. Django provides a built-in model field for slug, &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/ref/models/fields/#slugfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SlugField&lt;/a&gt;. We will generate the slug based on the title field.&lt;/p&gt;
+&lt;p&gt;How the slug will be generated: If the title of our first article is ‘New article’, the slug will be ‘new-article’. If the title of our second article is also ‘New article’, the slug will be ‘new-article-1’.  And if the title of our third article is ‘New article’ again, the slug will be ‘new-article-2’. And so on.&lt;/p&gt;
+&lt;p&gt;So, to do that we have to write code like this:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;models.py&#34;&gt;from django.db import models
+from django.utils.text import slugify
+
+
+class Article(models.Model):
+    title = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.title
+
+    def _get_unique_slug(self):
+        slug = slugify(self.title)
+        unique_slug = slug
+        num = 1
+        while Article.objects.filter(slug=unique_slug).exists():
+            unique_slug = &#39;{}-{}&#39;.format(slug, num)
+            num += 1
+        return unique_slug
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = self._get_unique_slug()
+        super().save(*args, **kwargs)
+&lt;/pre&gt;
+&lt;p&gt;Look at the line 22, we override the save() method here. If the slug doesn’t already exist in the instance of Article, we generate it by calling _get_unique_slug() method. I am not explaining the code of _get_unique_slug() method in detail because it is kind of self explanatory. But what slugify() does? Well, if we give a string like ‘The new article title’ to slugify(), it returns ‘the-new-article-title’. Simple.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Update: 13/June/2018: It could be a better idea to use pre_save signal instead of overriding the save method what I have done in this post.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for reading this post. Have a nice day!&lt;/p&gt;
+&lt;p&gt;You should consider to read this post as well: &lt;a href=&#34;https://fazlerabby7.github.io/auto-generating-unique-slug-django-generic-approach/&#34;&gt;Auto generating unique slug in Django: a generic approach&lt;/a&gt;.&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/python/">Python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/slug/">slug</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Creating a simple feedback system using Django</title>
+                <link>https://fazlerabby7.github.io/creating-simple-feedback-system-using-django/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/creating-simple-feedback-system-using-django/</guid>
+                <pubDate>Sat, 02 Jul 2016 13:33:20 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;&lt;a href=&#34;https://www.djangoproject.com/&#34; target=&#34;_blank&#34;&gt;Django&lt;/a&gt; is a popular &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; web framework. In this tutorial we are going to create a simple feedback system using &lt;strong&gt;Python 3&lt;/strong&gt; and &lt;strong&gt;Django 1.9&lt;/strong&gt;. It is assumed that you know the basics of django. If not, then please read the &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/intro/&#34; target=&#34;_blank&#34;&gt;django official tutorial&lt;/a&gt; first. It is also assumed that you are using python 3 and django 1.9.x is installed (possibly in a virtual environment) in your computer. In this tutorial we will focus mostly on code. In most of the case, things will not be described in depth, but the documentation link will be provided, so no worry. Ok, let’s start.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-django-project-and-app&#34;&gt;Creating the django project and app&lt;/h2&gt;
+&lt;p&gt;Run this command in the terminal/console:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;django-admin startproject feedback&lt;/pre&gt;
+&lt;p&gt;This will create a directory structure like this:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;feedback
+├── feedback
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
+&lt;/pre&gt;
+&lt;p&gt;Now enter to the project directory by:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;cd feedback&lt;/pre&gt;
+&lt;p&gt;Well, now we will create an app named ‘form’:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python manage.py startapp form&lt;/pre&gt;
+&lt;p&gt;This will create the directory structure like this:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;feedback
+├── feedback
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── form
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+└── manage.py
+&lt;/pre&gt;
+&lt;p&gt;If you know the basics of django, you know what’s going on. If you stuck here, please read the &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/intro/&#34; target=&#34;_blank&#34;&gt;django official tutorial&lt;/a&gt; first.&lt;/p&gt;
+&lt;h2 id=&#34;enabling-the-app-atsettingspy&#34;&gt;Enabling the app at settings.py&lt;/h2&gt;
+&lt;p&gt;Open the &lt;strong&gt;feedback/settings.py&lt;/strong&gt; file and add ‘form’ in the INSTALLED_APPS list, like this:&lt;/p&gt;
+&lt;pre class=&#34;start-line:33 lang:python decode:true&#34; title=&#34;feedback/settings.py&#34;&gt;INSTALLED_APPS = [
+    &#39;django.contrib.admin&#39;,
+    &#39;django.contrib.auth&#39;,
+    &#39;django.contrib.contenttypes&#39;,
+    &#39;django.contrib.sessions&#39;,
+    &#39;django.contrib.messages&#39;,
+    &#39;django.contrib.staticfiles&#39;,
+    &#39;form&#39;,
+]&lt;/pre&gt;
+&lt;p&gt;Additionally you can change the time zone from settings.py file. I am setting the time zone from ‘UTC’ to ‘Asia/Dhaka’:&lt;/p&gt;
+&lt;pre class=&#34;start-line:110 lang:python decode:true &#34;&gt;TIME_ZONE = &#39;Asia/Dhaka&#39;
+&lt;/pre&gt;
+&lt;h2 id=&#34;creating-the-models&#34;&gt;Creating the models&lt;/h2&gt;
+&lt;p&gt;Models are the python classes which contain the information about database. Read more about &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/topics/db/models/&#34; target=&#34;_blank&#34;&gt;models here&lt;/a&gt;. For your information, in this tutorial, we are using SQLite as database backend. It is the default, so no further action is required.&lt;/p&gt;
+&lt;p&gt;In our feedback system, we will receive product based feedback. So there should be products in our database. For simplicity we assume that, our product has only one property, just its name.&lt;/p&gt;
+&lt;p&gt;And in the feedback form, we want to collect the customer name, email, related product, detailed feedback, is he/she happy or not, and date.&lt;/p&gt;
+&lt;p&gt;So to design the models, open the &lt;strong&gt;form/models.py&lt;/strong&gt; file and add this code:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;form/models.py&#34;&gt;from django.db import models
+
+
+class Product(models.Model):
+    name = models.CharField(max_length=120)
+
+    def __str__(self):
+        return self.name
+
+
+class Feedback(models.Model):
+    customer_name = models.CharField(max_length=120)
+    email = models.EmailField()
+    product = models.ForeignKey(Product)
+    details = models.TextField()
+    happy = models.BooleanField()
+    date = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.customer_name
+&lt;/pre&gt;
+&lt;p&gt;Now, run this command for making the migrations (database changes):&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python manage.py makemigrations&lt;/pre&gt;
+&lt;p&gt;And apply the migrations by this command:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python manage.py migrate&lt;/pre&gt;
+&lt;p&gt;To know the details about migrations, read &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/topics/migrations/&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;enabling-and-configuring-the-admin-interface&#34;&gt;Enabling and configuring the admin interface&lt;/h2&gt;
+&lt;p&gt;To use the default admin interface provided by django for our models, we need to create the super user first. Run this command to do that:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python manage.py createsuperuser&lt;/pre&gt;
+&lt;p&gt;This will prompt for username, email and password. Provide this.&lt;/p&gt;
+&lt;p&gt;Now to enable and to customize the admin interface of our model, open the &lt;strong&gt;form/admin.py&lt;/strong&gt; file and put this code in it:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34; title=&#34;form/admin.py&#34;&gt;from django.contrib import admin
+
+from .models import Product, Feedback
+
+
+class FeedbackAdmin(admin.ModelAdmin):
+    list_display = (&#39;product&#39;, &#39;customer_name&#39;, &#39;date&#39;, &#39;happy&#39;,)
+    list_filter = (&#39;product&#39;, &#39;date&#39;,)
+    search_fields = (&#39;product__name&#39;, &#39;details&#39;,)
+
+    class Meta:
+        model = Feedback
+
+
+admin.site.register(Feedback, FeedbackAdmin)
+admin.site.register(Product)
+&lt;/pre&gt;
+&lt;p&gt;The details about admin site can be found &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/ref/contrib/admin/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now run this command to start the development server:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default decode:true &#34;&gt;python manage.py runserver&lt;/pre&gt;
+&lt;p&gt;Now go to &lt;strong&gt;http://127.0.0.1:8000/admin/&lt;/strong&gt; from your browser, log in and add some products and feedback and check that everything works just fine.&lt;figure id=&#34;attachment_138&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2016/07/django-feedback-admin.png&#34;&gt;&lt;img class=&#34;wp-image-138 size-large&#34; src=&#34;https://fazlerabby7.github.io/files/2016/07/django-feedback-admin-1024x561.png&#34; alt=&#34;list of feedback at django admin site&#34; width=&#34;768&#34; height=&#34;421&#34; srcset=&#34;/files/2016/07/django-feedback-admin-1024x561.png 1024w, /files/2016/07/django-feedback-admin-300x164.png 300w, /files/2016/07/django-feedback-admin-768x421.png 768w, /files/2016/07/django-feedback-admin.png 1388w&#34; sizes=&#34;(max-width: 768px) 100vw, 768px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Screenshot: list of feedback at django admin site&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-view&#34;&gt;Creating the view&lt;/h2&gt;
+&lt;p&gt;First create a new file at &lt;strong&gt;form/forms.py&lt;/strong&gt; and put this code in it:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34; title=&#34;form/forms.py&#34;&gt;from django import forms
+
+from .models import Feedback
+
+
+class FeedbackForm(forms.ModelForm):
+    class Meta:
+        model = Feedback
+        exclude = []
+&lt;/pre&gt;
+&lt;p&gt;Learn more about &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/topics/forms/&#34; target=&#34;_blank&#34;&gt;forms&lt;/a&gt; and &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/topics/forms/modelforms/&#34; target=&#34;_blank&#34;&gt;model forms&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now edit the &lt;strong&gt;form/views.py&lt;/strong&gt; in this way:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34; title=&#34;form/views.py&#34;&gt;from django.shortcuts import render
+
+from .forms import FeedbackForm
+
+
+def feedback_form(request):
+    if request.method == &#39;POST&#39;:
+        form = FeedbackForm(request.POST)
+
+        if form.is_valid():
+            form.save()
+            return render(request, &#39;form/thanks.html&#39;)
+    else:
+        form = FeedbackForm()
+    return render(request, &#39;form/feedback_form.html&#39;, {&#39;form&#39;: form})
+&lt;/pre&gt;
+&lt;h2 id=&#34;creating-the-templates&#34;&gt;Creating the templates&lt;/h2&gt;
+&lt;p&gt;Create a folder named ‘templates’ inside the ‘form’ folder. And create another folder named ‘form’ inside the ‘templates’ folder. Now create three empty html file named ‘base.html’, ‘feedback_form.html’ and ‘thanks.html’ inside the form folder. The directory structure should look like this:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;form
+├── templates
+│   └── form
+│       ├── base.html
+│       ├── feedback_form.html
+│       └── thanks.html&lt;/pre&gt;
+&lt;p&gt;Now, open the &lt;strong&gt;form/templates/form/base.html&lt;/strong&gt; file and add this code to it:&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;form/templates/form/base.html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;{% block title %}{% endblock %}&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+{% block body %}{% endblock %}
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;Open the &lt;strong&gt;form/templates/form/feedback_form.html&lt;/strong&gt; file and add this code to it:&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;form/templates/form/feedback_form.html&#34;&gt;{% extends &#39;form/base.html&#39; %}
+
+{% block title %}Feedback Form{% endblock %}
+
+{% block body %}
+&amp;lt;form action=&#34;{% url &#39;form:home&#39; %}&#34; method=&#34;POST&#34;&amp;gt;
+    {% csrf_token %}
+    {{ form.as_p }}
+    &amp;lt;input type=&#34;submit&#34; /&amp;gt;
+&amp;lt;/form&amp;gt;
+{% endblock %}
+&lt;/pre&gt;
+&lt;p&gt;Finally, open the &lt;strong&gt;form/templates/form/thanks.html&lt;/strong&gt; file and add this code to it:&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;form/templates/form/thanks.html&#34;&gt;{% extends &#39;form/base.html&#39; %}
+
+{% block title %}Thanks{% endblock %}
+
+{% block body %}
+&amp;lt;h1&amp;gt;Thanks for your response.&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&#34;{% url &#39;form:home&#39; %}&#34;&amp;gt;Response again?&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+{% endblock %}
+&lt;/pre&gt;
+&lt;p&gt;You can learn more about &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/ref/templates/language/&#34; target=&#34;_blank&#34;&gt;django template language&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;url-configuration&#34;&gt;URL configuration&lt;/h2&gt;
+&lt;p&gt;Create and open the file &lt;strong&gt;form/urls.py&lt;/strong&gt; and put this code in it:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34; title=&#34;form/urls.py&#34;&gt;from django.conf.urls import url
+
+from . import views
+
+app_name = &#39;form&#39;
+urlpatterns = [
+    url(r&#39;^$&#39;, views.feedback_form, name=&#39;home&#39;),
+]
+&lt;/pre&gt;
+&lt;p&gt;Now, edit the feedback/urls.py if like this way:&lt;/p&gt;
+&lt;pre class=&#34;start-line:16 lang:python decode:true &#34; title=&#34;feedback/urls.py&#34;&gt;from django.conf.urls import include, url
+from django.contrib import admin
+
+urlpatterns = [
+    url(r&#39;^&#39;, include(&#39;form.urls&#39;)),
+    url(r&#39;^admin/&#39;, admin.site.urls),
+]
+&lt;/pre&gt;
+&lt;p&gt;You can learn more about &lt;a href=&#34;https://docs.djangoproject.com/en/1.9/topics/http/urls/&#34; target=&#34;_blank&#34;&gt;django URL dispatcher&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All done! Now fire up the django development server by this command:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;python manage.py runserver&lt;/pre&gt;
+&lt;p&gt;Now go to **http://127.0.0.1:8000/ **from your browser. You should see like this:&lt;figure id=&#34;attachment_144&#34; style=&#34;width: 433px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2016/07/feedback-form.png&#34;&gt;&lt;img class=&#34;size-full wp-image-144&#34; src=&#34;https://fazlerabby7.github.io/files/2016/07/feedback-form.png&#34; alt=&#34;feedback form&#34; width=&#34;433&#34; height=&#34;458&#34; srcset=&#34;/files/2016/07/feedback-form.png 433w, /files/2016/07/feedback-form-284x300.png 284w&#34; sizes=&#34;(max-width: 433px) 100vw, 433px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Screenshot: feedback form&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Fill up the form and hit submit. Now, you should see a thanks page. Go to **http://127.0.0.1:8000/admin/form/feedback/ **. You will see your entry here.&lt;/p&gt;
+&lt;p&gt;Thanks for reading this tutorial.&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/django/">Django</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/project/">Project</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/python/">Python</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>পাইথনে অ্যাবস্ট্রাক্ট বেস ক্লাস</title>
+                <link>https://fazlerabby7.github.io/python-abstract-base-class-in-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/python-abstract-base-class-in-bangla/</guid>
+                <pubDate>Sat, 18 Jun 2016 08:42:04 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;অ্যাবস্ট্রাক্ট ক্লাস হল – যেভাবে সাবক্লাস গুলো ডিজাইন করা হবে তার একটা নকশা বা ব্লু-প্রিন্ট। আমরা যদি টিমে কাজ করে থাকি তাহলে এরকম প্রয়োজন হতে পারে যে, একজন ডেভেলপার শুরুতে ঠিক করে দিবেন ক্লাস গুলোতে কি কি মেথড/প্রোপার্টি থাকবে। অন্য ডেভেলপার সে অনুযায়ী ক্লাস ডিজাইন করবেন। অর্থাৎ একজন নকশা করবেন, আরেকজন ইমপ্লিমেন্ট করবেন। এরকম পরিস্থিতির জন্য আছে অ্যাবস্ট্রাক্ট বেস ক্লাস।&lt;/p&gt;
+&lt;p&gt;আচ্ছা, এখন কল্পনা করি, আমি এবং আমার একজন বন্ধু মিলে একটা প্রোজেক্ট করছি। সেই প্রোজেক্টে একটা গাড়ির জন্য ক্লাস ডিজাইন করা লাগবে। সেই গাড়ির স্পিড – মেথড দিয়ে কমানো আর বাড়ানো যাবে। এই রিক্যুয়ারমেন্ট দেখেই আমি চিন্তা করে ফেললাম এমন একটা ক্লাস থাকবে, যার দুইটা মেথড থাকবে speed_up আর speed_down নামের। কিন্তু এ দুইটা মেথড কীভাবে ইমপ্লিমেন্ট করা হবে তা নিয়ে আমি আর চিন্তা করলাম না। এ কাজ আমার বন্ধুর উপর ছেড়ে দিলাম।&lt;/p&gt;
+&lt;p&gt;তাহলে আমি আমার বন্ধুকে নিচের মত একটা অ্যাবস্ট্রাক্ট  ক্লাস তৈরি করে দিলাম।&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true&#34;&gt;import abc
+
+
+class BaseCar(metaclass=abc.ABCMeta):
+
+    @abc.abstractmethod
+    def speed_up(self):
+        pass
+
+    @abc.abstractmethod
+    def speed_down(self):
+        pass&lt;/pre&gt;
+&lt;p&gt;এখানে লক্ষ্যনীয়, প্রথম লাইনে আমি abc নামের একটা মডিউল ইমপোর্ট করেছি। এ মডিউলটা আমাদের অ্যাবস্ট্রাক্ট বেস ক্লাস ফিচারটা দেয়। এরপর ৪ নম্বর লাইনের metaclass=abc.ABCMeta দিয়ে পাইথনকে বলে দিচ্ছি, এটা অ্যাবস্ট্রাক্ট ক্লাস। মেটাক্লাস নিয়ে এখানে বিস্তারিত লিখবো না। পরে এ নিয়ে একটা ব্লগ লেখার ইচ্ছা আছে। এরপর ৬ এবং ১০ নম্বর লাইনে @abc.abstractmethod ডেকরেটর দিয়ে বুঝিয়ে দিচ্ছি মেথড দুইটি অ্যাবস্ট্রাক্ট মেথড।&lt;/p&gt;
+&lt;p&gt;তাহলে আমি একরকম একটা কনট্রাক্ট লিখলাম। আর এ কনট্রাক্ট বাস্তবায়নের দায়িত্ব দিলাম আমার বন্ধুকে। কিন্তু আমার বন্ধু একটু হাবলু কিসিমের। সে প্রথমেই করলো কি, আমার দেয়া BaseCar অ্যাবস্ট্রাক্ট ক্লাসটাকে ইন্সটেন্সশিয়েট করার চেষ্টা করলো।&lt;/p&gt;
+&lt;pre class=&#34;start-line:15 lang:python decode:true&#34;&gt;toyota = BaseCar()&lt;/pre&gt;
+&lt;p&gt;কিন্তু অ্যাবস্ট্রাক্ট ক্লাসকে ইন্সটেন্সশিয়েট করা যায় না, শুধু ইনহেরিট বা সাবক্লাস করা যায়।&lt;/p&gt;
+&lt;p&gt;এ কথা জেনে ও এরপর এরকম কোড লিখলো:&lt;/p&gt;
+&lt;pre class=&#34;start-line:15 lang:python decode:true&#34;&gt;class Car(BaseCar):
+
+    def __init__(self, initial_speed):
+        self.speed = initial_speed
+
+    def speed_plus(self):
+        self.speed += 5
+
+    def speed_minus(self):
+        self.speed -= 5
+
+
+toyota = Car(50)
+&lt;/pre&gt;
+&lt;p&gt;এবার পাইথন ওকে এরকম ইরর দিল:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:python highlight:0 decode:true&#34;&gt;Traceback (most recent call last):
+  File &#34;abstract.py&#34;, line 27, in &amp;lt;module&amp;gt;
+    toyota = Car(50)
+TypeError: Can&#39;t instantiate abstract class Car with abstract methods speed_down, speed_up&lt;/pre&gt;
+&lt;p&gt;আসলে কনট্রাক্টে(অ্যাবস্ট্রাক্ট ক্লাসে) আমি বলে দিয়েছিলাম যে speed_up আর speed_down নামের দুটি মেথড থাকবে। কিন্তু আমার বন্ধু মেথড দুটির নাম দিয়েছে speed_plus আর speed_minus । অর্থাৎ সে কনট্রাক্ট ভায়োলেট করেছে। এটা করলে তো চলবে না। এখন সে ঠিক ঠাক করে এরকম কোড লিখলো:&lt;/p&gt;
+&lt;pre class=&#34;start-line:15 lang:python decode:true &#34;&gt;class Car(BaseCar):
+
+    def __init__(self, initial_speed):
+        self.speed = initial_speed
+
+    def speed_up(self):
+        self.speed += 5
+
+    def speed_down(self):
+        self.speed -= 5
+
+
+toyota = Car(50)
+&lt;/pre&gt;
+&lt;p&gt;এবার আর পাইথন বেঁকে বসেনি। অর্থাৎ সব ঠিক ঠাকই আছে।&lt;/p&gt;
+&lt;p&gt;এর মাধ্যমে আমরা পাইথনে অ্যাবস্ট্রাক্ট বেস ক্লাস সম্পর্কে ব্যাসিক একটা ধারণা পেলাম। বিস্তারিত জানতে চাইলে সার্চ ইঞ্জিন মামা তো আছেই। abc মডিউল সম্পর্কে বিস্তারিত জানা যাবে &lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;এখান থেকে&lt;/a&gt;।&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/object-oriented-programming/">Object Oriented Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/programming/">Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A1/">অবজেক্ট অরিয়েন্টেড</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8/">অ্যাবস্ট্রাক্ট ক্লাস</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/">পাইথন</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>পাইথনে মাল্টিপল ইনহ্যারিটেন্স যেভাবে কাজ করে</title>
+                <link>https://fazlerabby7.github.io/multiple-inheritance-in-python-in-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/multiple-inheritance-in-python-in-bangla/</guid>
+                <pubDate>Sat, 11 Jun 2016 12:40:27 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;বেশির ভাগ প্রোগ্রামারই মাল্টিপল ইনহ্যারিটেন্স ব্যাবহার করতে নিষেধ করেন। তারপরও বিশেষ কিছু ক্ষেত্রে আমাদের মাল্টিপল ইনহ্যারিটেন্স ব্যাবহার করতে হয়। তাহলে জেনে নেয়া যাক পাইথনে মাল্টিপল ইনহ্যারিটেন্স যে অর্ডার অনুসারে কাজ করে।&lt;/p&gt;
+&lt;p&gt;নিচের ডায়াগ্রাম টি দেখি:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-1.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-106 size-full&#34; src=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-1.png&#34; alt=&#34;পাইথনে মাল্টিপল ইনহ্যারিটেন্স&#34; width=&#34;543&#34; height=&#34;273&#34; srcset=&#34;/files/2016/06/Python-Multiple-Inheritance-1.png 543w, /files/2016/06/Python-Multiple-Inheritance-1-300x151.png 300w&#34; sizes=&#34;(max-width: 543px) 100vw, 543px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;এই ডায়াগ্রাম অনুযায়ী কোড লিখি তাহলে:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;class A(object):
+    def test(self):
+        print(&#34;Test from A&#34;)
+
+
+class B(object):
+    def test(self):
+        print(&#34;Test from B&#34;)
+
+
+class C(A, B):
+    pass
+
+
+c_instance = C()
+c_instance.test()
+&lt;/pre&gt;
+&lt;p&gt;এখন আমরা যদি কোডটি রান করি তাহলে আউটপুট কী আসবে?&lt;/p&gt;
+&lt;p&gt;কোডটির আউটপুট আসবে:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Test from A&lt;/pre&gt;
+&lt;p&gt;অর্থাৎ আমরা যখন c_instance এর উপর test() মেথডটি কল করলাম, পাইথন প্রথমে এ মেথড টিকে C ক্লাসে খুজেছে। না পেয়ে এরপর A ক্লাসে খুজেছে। এখানে পেয়ে গেছে। এখানেও না পেলে তখন B ক্লাসে খুঁজত।&lt;/p&gt;
+&lt;p&gt;এই যে খোঁজাখুজি, পাইথন কোনটার পর কোনটায় খুঁজবে – এ ব্যাপারটিকে বলে মেথড রেজ্যুলেশন অর্ডার। আমরা যদি C ক্লাস এর মেথড রেজুলেশন অর্ডার দেখতে চাই, তাহলে যা করতে হবে:&lt;/p&gt;
+&lt;pre class=&#34;start-line:17 lang:python decode:true &#34;&gt;print(C.mro())&lt;/pre&gt;
+&lt;p&gt;তাহলে এরকম আউটপুট পাবো:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;[&amp;lt;class &#39;__main__.C&#39;&amp;gt;, &amp;lt;class &#39;__main__.A&#39;&amp;gt;, &amp;lt;class &#39;__main__.B&#39;&amp;gt;, &amp;lt;class &#39;object&#39;&amp;gt;]&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;আচ্ছা এখন তাহলে এ ডায়াগ্রামটি দেখি:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-2.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-112 size-full&#34; src=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-2.png&#34; alt=&#34;পাইথনে মাল্টিপল ইনহ্যারিটেন্স&#34; width=&#34;653&#34; height=&#34;433&#34; srcset=&#34;/files/2016/06/Python-Multiple-Inheritance-2.png 653w, /files/2016/06/Python-Multiple-Inheritance-2-300x199.png 300w&#34; sizes=&#34;(max-width: 653px) 100vw, 653px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;এখন এই ডায়াগ্রাম অনুযায়ী কোড লিখি:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;class A(object):
+    def test(self):
+        print(&#34;Test from A&#34;)
+
+
+class B(A):
+    pass
+
+
+class C(object):
+    def test(self):
+        print(&#34;Test from C&#34;)
+
+
+class D(B, C):
+    pass
+
+
+d_instance = D()
+d_instance.test()
+&lt;/pre&gt;
+&lt;p&gt;তাহলে এ কোডের আউটপুট কি হবে?&lt;/p&gt;
+&lt;p&gt;কোডের আউটপুট হবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Test from A&lt;/pre&gt;
+&lt;p&gt;কি! উল্টাপাল্টা মনে হচ্ছে?&lt;/p&gt;
+&lt;p&gt;আসলে পাইথনে মেথড রেজ্যুলেশন অর্ডার &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target=&#34;_blank&#34;&gt;ডেপথ-ফার্স্ট সার্চিং&lt;/a&gt; উপায়ে কাজ করে। ডেপথ-ফার্স্ট অনুযায়ী তাহলে অর্ডার হবে এমন: D -&amp;gt; B -&amp;gt; A -&amp;gt; C। তাই আমাদের আউটপুট এমন এসেছে।&lt;/p&gt;
+&lt;p&gt;আরেকটু নিশ্চিত হই:&lt;/p&gt;
+&lt;pre class=&#34;start-line:21 lang:python decode:true &#34;&gt;print(D.mro())&lt;/pre&gt;
+&lt;p&gt;এটার আউটপুট আসবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;[&amp;lt;class &#39;__main__.D&#39;&amp;gt;, &amp;lt;class &#39;__main__.B&#39;&amp;gt;, &amp;lt;class &#39;__main__.A&#39;&amp;gt;, &amp;lt;class &#39;__main__.C&#39;&amp;gt;, &amp;lt;class &#39;object&#39;&amp;gt;]
+&lt;/pre&gt;
+&lt;p&gt;আচ্ছা, তাহলে সব ঠিক ঠাকই আছে। কিন্তু মাল্টিপল ইনহ্যারিটেন্স যদি নিচের ডায়াগ্রামের মত হয় তাহলে!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-3.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-117 size-full&#34; src=&#34;https://fazlerabby7.github.io/files/2016/06/Python-Multiple-Inheritance-3.png&#34; alt=&#34;পাইথনে মাল্টিপল ইনহ্যারিটেন্স ডায়মন্ড শেপ&#34; width=&#34;626&#34; height=&#34;423&#34; srcset=&#34;/files/2016/06/Python-Multiple-Inheritance-3.png 626w, /files/2016/06/Python-Multiple-Inheritance-3-300x203.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;এই ডায়াগ্রাম অনুযায়ী কোড:&lt;/p&gt;
+&lt;pre class=&#34;lang:python decode:true &#34;&gt;class A(object):
+    def test(self):
+        print(&#34;Test from A&#34;)
+
+
+class B(A):
+    pass
+
+
+class C(A):
+    def test(self):
+        print(&#34;Test from C&#34;)
+
+
+class D(B, C):
+    pass
+
+
+d_instance = D()
+d_instance.test()&lt;/pre&gt;
+&lt;p&gt;এই কোডের আউটপুট কী হব?&lt;/p&gt;
+&lt;p&gt;আউটপুট জানার আগে D ক্লাসের মেথড রেজ্যুলেশন অর্ডার বের করার চেষ্টা করি। ডেপথ-ফার্স্ট অনুযায়ী মেথড রেজ্যুলেশন অর্ডার এরকম হবার কথা: D -&amp;gt; B -&amp;gt; A -&amp;gt; C -&amp;gt; A।&lt;/p&gt;
+&lt;p&gt;তাহলে আউটপুট আসার কথা:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Test from A&lt;/pre&gt;
+&lt;p&gt;এখন কোডটি রান করে দেখি কী আউটপুট আসে:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;Test from C&lt;/pre&gt;
+&lt;p&gt;আহা! এরকম আউটপুট আসল কী করে! মেথড রেজ্যুলেশন অর্ডার চেক করে দেখি তো:&lt;/p&gt;
+&lt;pre class=&#34;start-line:21 lang:python decode:true &#34;&gt;print(D.mro())&lt;/pre&gt;
+&lt;p&gt;আউটপুট:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default highlight:0 decode:true &#34;&gt;[&amp;lt;class &#39;__main__.D&#39;&amp;gt;, &amp;lt;class &#39;__main__.B&#39;&amp;gt;, &amp;lt;class &#39;__main__.C&#39;&amp;gt;, &amp;lt;class &#39;__main__.A&#39;&amp;gt;, &amp;lt;class &#39;object&#39;&amp;gt;]
+&lt;/pre&gt;
+&lt;p&gt;অর্থাৎ D -&amp;gt; B -&amp;gt; C -&amp;gt; A। তাহলে এটা ডেপথ-ফার্স্ট হলো কী করে!&lt;/p&gt;
+&lt;p&gt;পাইথন ২.৩ থেকে নতুন একটি রুল যুক্ত হয়েছে। মেথড রেজ্যুলেশন অর্ডারের ডেপথ-ফার্স্টে যদি একই উপাদান একাধিক বার আসে, তাহলে একেবারে শেষটি রেখে বাকি গুলো মুছে দেয়া হয়। এখানে A দুইবার এসেছিল। তাই শুধু শেষেটি রাখা হয়েছে।&lt;/p&gt;
+&lt;p&gt;আশা করি ব্যাপারটি এখন পরিষ্কার হয়েছে। পোস্টটি ভাল লাগলে কমেন্ট করুন আর বন্ধুদের সাথে শেয়ার করুন। আর যদি কোন ভুল ত্রুটি খুঁজে পান, তাহলেও কমেন্টের মধ্যমে জানান। দ্রুত আপডেট করা হবে ইনশা-আল্লাহ।&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/object-oriented-programming/">Object Oriented Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/programming/">Programming</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A1/">অবজেক্ট অরিয়েন্টেড</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%87%E0%A6%A8%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8/">ইনহ্যারিটেন্স</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/">পাইথন</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>C প্রোগ্রাম এর সাহায্যে ইমেইল প্রেরণ</title>
+                <link>https://fazlerabby7.github.io/send-email-using-c-program/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/send-email-using-c-program/</guid>
+                <pubDate>Fri, 16 Oct 2015 16:53:52 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;বিভিন্ন কারণে আমাদের C প্রোগ্রাম থেকে ইমেইল প্রেরণের প্রয়োজন হতে পারে। আজ আমরা দেখবো কীভাবে libcurl ব্যাবহার করে জিমেইল SMTP সার্ভারের মাধ্যমে ইমেইল পাঠানো যায়।&lt;/p&gt;
+&lt;p&gt;আমি এখানে libcurl কিংবা SMTP নিয়ে কোন আলোচনা করবো না। এগুলো সম্পর্কে না জেনে থাকলে সার্চ ইঞ্জিন ব্যাবহার করে জেনে নিন। আর আপনার কম্পিউটারে libcurl ইন্সটল করা না থাকলে, তা ইন্সটল করে আপনার IDE (Code::Blocks হয়ত!) তে লিংক করে নিন। আর এটা করার জন্যও সার্চ ইঞ্জিনের সরণাপন্ন হোন 🙂 ।&lt;/p&gt;
+&lt;p&gt;এখন আসল কাজে নামা যাক। প্রথমে নিচের কোডটা দেখুন। এটা &lt;a href=&#34;http://curl.haxx.se/libcurl/c/smtp-tls.html&#34; target=&#34;_blank&#34;&gt;এখান&lt;/a&gt; থেকে নেয়া।&lt;/p&gt;
+&lt;pre class=&#34;lang:c decode:true&#34;&gt;/***************************************************************************
+ *                                  _   _ ____  _
+ *  Project                     ___| | | |  _ | |
+ *                             / __| | | | |_) | |
+ *                            | (__| |_| |  _ &amp;lt;| |___
+ *                             ___|___/|_| ______|
+ *
+ * Copyright (C) 1998 - 2014, Daniel Stenberg, &amp;lt;daniel@haxx.se&amp;gt;, et al.
+ *
+ * This software is licensed as described in the file COPYING, which
+ * you should have received as part of this distribution. The terms
+ * are also available at http://curl.haxx.se/docs/copyright.html.
+ *
+ * You may opt to use, copy, modify, merge, publish, distribute and/or sell
+ * copies of the Software, and permit persons to whom the Software is
+ * furnished to do so, under the terms of the COPYING file.
+ *
+ * This software is distributed on an &#34;AS IS&#34; basis, WITHOUT WARRANTY OF ANY
+ * KIND, either express or implied.
+ *
+ ***************************************************************************/
+#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;curl/curl.h&amp;gt;
+
+/* This is a simple example showing how to send mail using libcurl&#39;s SMTP
+ * capabilities. It builds on the smtp-mail.c example to add authentication
+ * and, more importantly, transport security to protect the authentication
+ * details from being snooped.
+ *
+ * Note that this example requires libcurl 7.20.0 or above.
+ */
+
+#define FROM    &#34;&amp;lt;sender@example.org&amp;gt;&#34;
+#define TO      &#34;&amp;lt;addressee@example.net&amp;gt;&#34;
+#define CC      &#34;&amp;lt;info@example.org&amp;gt;&#34;
+
+static const char *payload_text[] = {
+  &#34;Date: Mon, 29 Nov 2010 21:54:29 +1100rn&#34;,
+  &#34;To: &#34; TO &#34;rn&#34;,
+  &#34;From: &#34; FROM &#34;(Example User)rn&#34;,
+  &#34;Cc: &#34; CC &#34;(Another example User)rn&#34;,
+  &#34;Message-ID: &amp;lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&amp;gt;rn&#34;,
+  &#34;Subject: SMTP TLS example messagern&#34;,
+  &#34;rn&#34;, /* empty line to divide headers from body, see RFC5322 */
+  &#34;The body of the message starts here.rn&#34;,
+  &#34;rn&#34;,
+  &#34;It could be a lot of lines, could be MIME encoded, whatever.rn&#34;,
+  &#34;Check RFC5322.rn&#34;,
+  NULL
+};
+
+struct upload_status {
+  int lines_read;
+};
+
+static size_t payload_source(void *ptr, size_t size, size_t nmemb, void *userp)
+{
+  struct upload_status *upload_ctx = (struct upload_status *)userp;
+  const char *data;
+
+  if((size == 0) || (nmemb == 0) || ((size*nmemb) &amp;lt; 1)) {
+    return 0;
+  }
+
+  data = payload_text[upload_ctx-&amp;gt;lines_read];
+
+  if(data) {
+    size_t len = strlen(data);
+    memcpy(ptr, data, len);
+    upload_ctx-&amp;gt;lines_read++;
+
+    return len;
+  }
+
+  return 0;
+}
+
+int main(void)
+{
+  CURL *curl;
+  CURLcode res = CURLE_OK;
+  struct curl_slist *recipients = NULL;
+  struct upload_status upload_ctx;
+
+  upload_ctx.lines_read = 0;
+
+  curl = curl_easy_init();
+  if(curl) {
+    /* Set username and password */
+    curl_easy_setopt(curl, CURLOPT_USERNAME, &#34;user&#34;);
+    curl_easy_setopt(curl, CURLOPT_PASSWORD, &#34;secret&#34;);
+
+    /* This is the URL for your mailserver. Note the use of port 587 here,
+     * instead of the normal SMTP port (25). Port 587 is commonly used for
+     * secure mail submission (see RFC4403), but you should use whatever
+     * matches your server configuration. */
+    curl_easy_setopt(curl, CURLOPT_URL, &#34;smtp://mainserver.example.net:587&#34;);
+
+    /* In this example, we&#39;ll start with a plain text connection, and upgrade
+     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
+     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
+     * will continue anyway - see the security discussion in the libcurl
+     * tutorial for more details. */
+    curl_easy_setopt(curl, CURLOPT_USE_SSL, (long)CURLUSESSL_ALL);
+
+    /* If your server doesn&#39;t have a valid certificate, then you can disable
+     * part of the Transport Layer Security protection by setting the
+     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
+     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+     * That is, in general, a bad idea. It is still better than sending your
+     * authentication details in plain text though.
+     * Instead, you should get the issuer certificate (or the host certificate
+     * if the certificate is self-signed) and add it to the set of certificates
+     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
+     * docs/SSLCERTS for more information. */
+    curl_easy_setopt(curl, CURLOPT_CAINFO, &#34;/path/to/certificate.pem&#34;);
+
+    /* Note that this option isn&#39;t strictly required, omitting it will result in
+     * libcurl sending the MAIL FROM command with empty sender data. All
+     * autoresponses should have an empty reverse-path, and should be directed
+     * to the address in the reverse-path which triggered them. Otherwise, they
+     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
+     */
+    curl_easy_setopt(curl, CURLOPT_MAIL_FROM, FROM);
+
+    /* Add two recipients, in this particular case they correspond to the
+     * To: and Cc: addressees in the header, but they could be any kind of
+     * recipient. */
+    recipients = curl_slist_append(recipients, TO);
+    recipients = curl_slist_append(recipients, CC);
+    curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);
+
+    /* We&#39;re using a callback function to specify the payload (the headers and
+     * body of the message). You could just use the CURLOPT_READDATA option to
+     * specify a FILE pointer to read from. */
+    curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);
+    curl_easy_setopt(curl, CURLOPT_READDATA, &amp;upload_ctx);
+    curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);
+
+    /* Since the traffic will be encrypted, it is very useful to turn on debug
+     * information within libcurl to see what is happening during the transfer.
+     */
+    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+
+    /* Send the message */
+    res = curl_easy_perform(curl);
+
+    /* Check for errors */
+    if(res != CURLE_OK)
+      fprintf(stderr, &#34;curl_easy_perform() failed: %sn&#34;,
+              curl_easy_strerror(res));
+
+    /* Free the list of recipients */
+    curl_slist_free_all(recipients);
+
+    /* Always cleanup */
+    curl_easy_cleanup(curl);
+  }
+
+  return (int)res;
+}
+&lt;/pre&gt;
+&lt;p&gt;কিহ! ঘাবরে গেলেন! নাহ, ঘাবরানোর কিছু নেই। পুরো কোডটার অর্থ আমাদের আপাতত না বুঝলেও চলবে।&lt;/p&gt;
+&lt;p&gt;এখন কোডের এ অংশটির দিকে খেয়াল করুন:&lt;/p&gt;
+&lt;pre class=&#34;start-line:34 lang:c decode:true&#34;&gt;#define FROM    &#34;&amp;lt;sender@example.org&amp;gt;&#34;
+#define TO      &#34;&amp;lt;addressee@example.net&amp;gt;&#34;
+#define CC      &#34;&amp;lt;info@example.org&amp;gt;&#34;&lt;/pre&gt;
+&lt;p&gt;মনে করি, আমরা যে ইমেইল এড্রেস থেকে ইমেইলটি পাঠাবো, সেটি হল &lt;a href=&#34;mailto:blabla@gmail.com&#34;&gt;blabla@gmail.com&lt;/a&gt;, যাকে পাঠাবো তার ইমেইল হল, &lt;a href=&#34;mailto:hellotest@gmail.com&#34;&gt;hellotest@gmail.com&lt;/a&gt; এবং CC হল &lt;a href=&#34;mailto:testcc@gmail.com&#34;&gt;testcc@gmail.com&lt;/a&gt;. তাহলে এ অংশ আমাদের এভাবে পরিবর্তন করতে হবে।&lt;/p&gt;
+&lt;pre class=&#34;start-line:34 lang:c decode:true &#34;&gt;#define FROM    &#34;&amp;lt;blabla@gmail.com&amp;gt;&#34;
+#define TO      &#34;&amp;lt;hellotest@gmail.com&amp;gt;&#34;
+#define CC      &#34;&amp;lt;testcc@gmail.com&amp;gt;&#34;&lt;/pre&gt;
+&lt;p&gt;এখন নিচের অংশটুকু লক্ষ্য করুন:&lt;/p&gt;
+&lt;pre class=&#34;start-line:38 lang:c decode:true &#34;&gt;static const char *payload_text[] = {
+  &#34;Date: Mon, 29 Nov 2010 21:54:29 +1100rn&#34;,
+  &#34;To: &#34; TO &#34;rn&#34;,
+  &#34;From: &#34; FROM &#34;(Example User)rn&#34;,
+  &#34;Cc: &#34; CC &#34;(Another example User)rn&#34;,
+  &#34;Message-ID: &amp;lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&amp;gt;rn&#34;,
+  &#34;Subject: SMTP TLS example messagern&#34;,
+  &#34;rn&#34;, /* empty line to divide headers from body, see RFC5322 */
+  &#34;The body of the message starts here.rn&#34;,
+  &#34;rn&#34;,
+  &#34;It could be a lot of lines, could be MIME encoded, whatever.rn&#34;,
+  &#34;Check RFC5322.rn&#34;,
+  NULL
+};&lt;/pre&gt;
+&lt;p&gt;এ অংশটুকু আশা করি দেখেই বুঝে ফেলেছেন। এখন নিজের ইচ্ছা মত পরিবর্তন করুন। আমি এরকম করছি:&lt;/p&gt;
+&lt;pre class=&#34;start-line:38 lang:c decode:true &#34;&gt;static const char *payload_text[] = {
+  &#34;Date: Fri, 16 Oct 2015 22:50:29 +0600rn&#34;,
+  &#34;To: &#34; TO &#34;rn&#34;,
+  &#34;From: &#34; FROM &#34;Bla Blarn&#34;,
+  &#34;Cc: &#34; CC &#34;Testerrn&#34;,
+  &#34;Message-ID: &amp;lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&amp;gt;rn&#34;,
+  &#34;Subject: Gmail SMTP test emailrn&#34;,
+  &#34;rn&#34;, /* empty line to divide headers from body, see RFC5322 */ 
+  &#34;This is my awesome message.rn&#34;,
+  &#34;rn&#34;,
+  &#34;I can add more text here.rn&#34;,
+  &#34;etc etc.rn&#34;,
+  NULL
+};&lt;/pre&gt;
+&lt;p&gt;এখন গুরুত্বপূর্ণ অংশ। নিচের কোড লক্ষ্য করুন:&lt;/p&gt;
+&lt;pre class=&#34;start-line:91 lang:c decode:true &#34;&gt;curl_easy_setopt(curl, CURLOPT_USERNAME, &#34;user&#34;);
+curl_easy_setopt(curl, CURLOPT_PASSWORD, &#34;secret&#34;);&lt;/pre&gt;
+&lt;p&gt;উপরে যেখানে user এবং secret লেখা দেখছেন, সেখানে যথাক্রমে আপনি যে জিমেইল একাউন্ট ব্যাবহার করে ইমেইলটি পাঠাতে চাচ্ছেন সেটি এবং তার পাসওয়ার্ড দিতে হবে। আমি &lt;a href=&#34;mailto:blabla@gmail.com&#34;&gt;blabla@gmail.com&lt;/a&gt; থেকে যদি ইমেইল টি পাঠাতে চাই, এবং তার পাসওয়ার্ড যদি হয় blablapass , তাহলে কোডটুকু দেখতে হবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;start-line:91 lang:c decode:true &#34;&gt;curl_easy_setopt(curl, CURLOPT_USERNAME, &#34;blabla@gmail.com&#34;);
+curl_easy_setopt(curl, CURLOPT_PASSWORD, &#34;blablapass&#34;);&lt;/pre&gt;
+&lt;p&gt;এখন দখুন:&lt;/p&gt;
+&lt;pre class=&#34;start-line:98 lang:c decode:true &#34;&gt;curl_easy_setopt(curl, CURLOPT_URL, &#34;smtp://mainserver.example.net:587&#34;);&lt;/pre&gt;
+&lt;p&gt;এটি পরিবর্তন করে করতে হবে এভাবে:&lt;/p&gt;
+&lt;pre class=&#34;start-line:98 lang:c decode:true &#34;&gt;curl_easy_setopt(curl, CURLOPT_URL, &#34;smtp://smtp.gmail.com:587&#34;);&lt;/pre&gt;
+&lt;p&gt;এখন শেষ কাজ:&lt;/p&gt;
+&lt;pre class=&#34;start-line:118 lang:c decode:true &#34;&gt;curl_easy_setopt(curl, CURLOPT_CAINFO, &#34;/path/to/certificate.pem&#34;);&lt;/pre&gt;
+&lt;p&gt;এই লাইনটিকে কমেন্ট আউট করুন। এভাবে:&lt;/p&gt;
+&lt;pre class=&#34;start-line:118 lang:c decode:true &#34;&gt;//curl_easy_setopt(curl, CURLOPT_CAINFO, &#34;/path/to/certificate.pem&#34;);&lt;/pre&gt;
+&lt;p&gt;তাহলে সম্পূর্ন কোডটি দেখতে হবে এরকম:&lt;/p&gt;
+&lt;pre class=&#34;lang:c decode:true &#34;&gt;/***************************************************************************
+ *                                  _   _ ____  _
+ *  Project                     ___| | | |  _ | |
+ *                             / __| | | | |_) | |
+ *                            | (__| |_| |  _ &amp;lt;| |___
+ *                             ___|___/|_| ______|
+ *
+ * Copyright (C) 1998 - 2014, Daniel Stenberg, &amp;lt;daniel@haxx.se&amp;gt;, et al.
+ *
+ * This software is licensed as described in the file COPYING, which
+ * you should have received as part of this distribution. The terms
+ * are also available at http://curl.haxx.se/docs/copyright.html.
+ *
+ * You may opt to use, copy, modify, merge, publish, distribute and/or sell
+ * copies of the Software, and permit persons to whom the Software is
+ * furnished to do so, under the terms of the COPYING file.
+ *
+ * This software is distributed on an &#34;AS IS&#34; basis, WITHOUT WARRANTY OF ANY
+ * KIND, either express or implied.
+ *
+ ***************************************************************************/ 
+#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;curl/curl.h&amp;gt;
+ 
+/* This is a simple example showing how to send mail using libcurl&#39;s SMTP
+ * capabilities. It builds on the smtp-mail.c example to add authentication
+ * and, more importantly, transport security to protect the authentication
+ * details from being snooped.
+ *
+ * Note that this example requires libcurl 7.20.0 or above.
+ */ 
+ 
+#define FROM    &#34;&amp;lt;blabla@gmail.com&amp;gt;&#34;
+#define TO      &#34;&amp;lt;hellotest@gmail.com&amp;gt;&#34;
+#define CC      &#34;&amp;lt;testcc@gmail.com&amp;gt;&#34;
+ 
+static const char *payload_text[] = {
+  &#34;Date: Fri, 16 Oct 2015 22:50:29 +0600rn&#34;,
+  &#34;To: &#34; TO &#34;rn&#34;,
+  &#34;From: &#34; FROM &#34;Bla Blarn&#34;,
+  &#34;Cc: &#34; CC &#34;Testerrn&#34;,
+  &#34;Message-ID: &amp;lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&amp;gt;rn&#34;,
+  &#34;Subject: Gmail SMTP test emailrn&#34;,
+  &#34;rn&#34;, /* empty line to divide headers from body, see RFC5322 */ 
+  &#34;This is my awesome message.rn&#34;,
+  &#34;rn&#34;,
+  &#34;I can add more text here.rn&#34;,
+  &#34;etc etc.rn&#34;,
+  NULL
+};
+ 
+struct upload_status {
+  int lines_read;
+};
+ 
+static size_t payload_source(void *ptr, size_t size, size_t nmemb, void *userp)
+{
+  struct upload_status *upload_ctx = (struct upload_status *)userp;
+  const char *data;
+ 
+  if((size == 0) || (nmemb == 0) || ((size*nmemb) &amp;lt; 1)) {
+    return 0;
+  }
+ 
+  data = payload_text[upload_ctx-&amp;gt;lines_read];
+ 
+  if(data) {
+    size_t len = strlen(data);
+    memcpy(ptr, data, len);
+    upload_ctx-&amp;gt;lines_read++;
+ 
+    return len;
+  }
+ 
+  return 0;
+}
+ 
+int main(void)
+{
+  CURL *curl;
+  CURLcode res = CURLE_OK;
+  struct curl_slist *recipients = NULL;
+  struct upload_status upload_ctx;
+ 
+  upload_ctx.lines_read = 0;
+ 
+  curl = curl_easy_init();
+  if(curl) {
+    /* Set username and password */ 
+    curl_easy_setopt(curl, CURLOPT_USERNAME, &#34;blabla@gmail.com&#34;);
+    curl_easy_setopt(curl, CURLOPT_PASSWORD, &#34;blablapass&#34;);
+ 
+    /* This is the URL for your mailserver. Note the use of port 587 here,
+     * instead of the normal SMTP port (25). Port 587 is commonly used for
+     * secure mail submission (see RFC4403), but you should use whatever
+     * matches your server configuration. */ 
+    curl_easy_setopt(curl, CURLOPT_URL, &#34;smtp://smtp.gmail.com:587&#34;);
+ 
+    /* In this example, we&#39;ll start with a plain text connection, and upgrade
+     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
+     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
+     * will continue anyway - see the security discussion in the libcurl
+     * tutorial for more details. */ 
+    curl_easy_setopt(curl, CURLOPT_USE_SSL, (long)CURLUSESSL_ALL);
+ 
+    /* If your server doesn&#39;t have a valid certificate, then you can disable
+     * part of the Transport Layer Security protection by setting the
+     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
+     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+     * That is, in general, a bad idea. It is still better than sending your
+     * authentication details in plain text though.
+     * Instead, you should get the issuer certificate (or the host certificate
+     * if the certificate is self-signed) and add it to the set of certificates
+     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
+     * docs/SSLCERTS for more information. */ 
+    //curl_easy_setopt(curl, CURLOPT_CAINFO, &#34;/path/to/certificate.pem&#34;);
+ 
+    /* Note that this option isn&#39;t strictly required, omitting it will result in
+     * libcurl sending the MAIL FROM command with empty sender data. All
+     * autoresponses should have an empty reverse-path, and should be directed
+     * to the address in the reverse-path which triggered them. Otherwise, they
+     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
+     */ 
+    curl_easy_setopt(curl, CURLOPT_MAIL_FROM, FROM);
+ 
+    /* Add two recipients, in this particular case they correspond to the
+     * To: and Cc: addressees in the header, but they could be any kind of
+     * recipient. */ 
+    recipients = curl_slist_append(recipients, TO);
+    recipients = curl_slist_append(recipients, CC);
+    curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);
+ 
+    /* We&#39;re using a callback function to specify the payload (the headers and
+     * body of the message). You could just use the CURLOPT_READDATA option to
+     * specify a FILE pointer to read from. */ 
+    curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);
+    curl_easy_setopt(curl, CURLOPT_READDATA, &amp;upload_ctx);
+    curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);
+ 
+    /* Since the traffic will be encrypted, it is very useful to turn on debug
+     * information within libcurl to see what is happening during the transfer.
+     */ 
+    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+ 
+    /* Send the message */ 
+    res = curl_easy_perform(curl);
+ 
+    /* Check for errors */ 
+    if(res != CURLE_OK)
+      fprintf(stderr, &#34;curl_easy_perform() failed: %sn&#34;,
+              curl_easy_strerror(res));
+ 
+    /* Free the list of recipients */ 
+    curl_slist_free_all(recipients);
+ 
+    /* Always cleanup */ 
+    curl_easy_cleanup(curl);
+  }
+ 
+  return (int)res;
+}&lt;/pre&gt;
+&lt;p&gt;এখন কোডটা কম্পাইল করে রান করুন। আপনি যদি সব কিছু ঠিক ঠাক মত করে থাকেন, তাহলে কনসোলে কিছু ইনফরমেশন দেখতে পাবেন এবং আপনার ইমেইলটি যথাযথ ভাবে পৌছে যাবে।&lt;/p&gt;
+&lt;p&gt;ধৈর্য ধরে লেখাটি পড়ার জন্য ধন্যবাদ। আপনি কাজটি করতে সফল হলে কিংবা কোথাও বুঝতে সমস্যা হলে নির্দ্বিধায় কমেন্ট করুন। আর আমি কোথাও ভুল লিখলে সেটাও কমেন্টের মাধ্যমে জানিয়ে দিন। আর ইচ্ছে হলে সাবস্ক্রাইব করতে পারেন এ ব্লগে।&lt;/p&gt;
+&lt;p&gt;হ্যাপি কোডিং 🙂&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/c/c-/">C/C&#43;&#43;</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/programming/">Programming</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/c/">C</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/libcurl/">libcurl</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/smtp/">SMTP</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A7%87%E0%A6%87%E0%A6%B2/">জিমেইল</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Project story: website of ISACA student group, DIU</title>
+                <link>https://fazlerabby7.github.io/project-story-website-of-isaca-student-group-diu/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/project-story-website-of-isaca-student-group-diu/</guid>
+                <pubDate>Sat, 15 Aug 2015 18:41:27 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;Recently I have developed the website of &lt;a href=&#34;http://diuisg.daffodilvarsity.edu.bd&#34; target=&#34;_blank&#34;&gt;ISACA student group, DIU&lt;/a&gt;. This blog post is about to share the experience of doing the task.&lt;/p&gt;
+&lt;p&gt;Some days before, &lt;a href=&#34;https://plus.google.com/110390321832819397507/&#34; target=&#34;_blank&#34;&gt;Ring vai&lt;/a&gt; (sir) told me to meet with him at varsity. I met with him and he asked me to be a volunteer of some upcoming workshops and seminars. I replied with positive. Then he referred me to &lt;a href=&#34;https://www.facebook.com/linkedinsagar&#34; target=&#34;_blank&#34;&gt;Alamgir Kabir&lt;/a&gt; sir for this purpose.&lt;/p&gt;
+&lt;p&gt;Recently our Daffodil International University has gained official recognition for its &lt;a href=&#34;https://www.isaca.org/Pages/default.aspx&#34; target=&#34;_blank&#34;&gt;ISACA&lt;/a&gt; Student Group which is first time in Bangladesh. So a website was needed urgently. Alamgir sir asked me to develop a website for this initiative. Though I was little bit nervous, I replied with positive. I was thinking that it was a great opportunity to involve with this awesome initiative.&lt;/p&gt;
+&lt;p&gt;Then Alamgir sir described the requirements to me. The requirements were not complex but very much traditional. He drew a sketch of the design of the website to make me understood. I decided to use WordPress as a CMS to develop that website.&lt;/p&gt;
+&lt;p&gt;As there was very little time to develop a unique theme for the website, I decided to go for a free and GPL licensed theme. But the actual problem happened then. As the requirements were traditional, I could not use the themes that I liked most. I was browsing the internet for a long time to find a suitable one. Then I decided to use &lt;a href=&#34;https://wordpress.org/themes/generatepress/&#34; target=&#34;_blank&#34;&gt;GeneratePress&lt;/a&gt;, a simple yet powerful WordPress theme.&lt;/p&gt;
+&lt;p&gt;Within a short time I prepared a prototype in my personal server. It was appreciated by sir. He also told me to change some functionalities. While working for this website, I met with him several times to discuss about that project. We also discussed over facebook chat and email. He was very cordial at these times.&lt;/p&gt;
+&lt;p&gt;Then I transferred the website to the server of DIU under the sub-domain of daffodilvarsity.edu.bd. Suddenly a problem happened. At first sir figured it out. Except the home page, all the pages were giving 500 internal server error. I took some time to figure out what was wrong. At last I found, it was the .htaccess file. After solving it, we started to update the files of the website. It was an easy job, but boring. Within a short time the website got ready to use.&lt;/p&gt;
+&lt;p&gt;I know this is not a very good work, not even a good work, I have just fulfilled the requirements. But I feel proud when I see my name in the &lt;a href=&#34;http://diuisg.daffodilvarsity.edu.bd/credits/&#34; target=&#34;_blank&#34;&gt;credit page&lt;/a&gt; of the website. Thanks to the both of the teachers for giving me this opportunity.&lt;/p&gt;
+&lt;p&gt; &lt;figure id=&#34;attachment_92&#34; style=&#34;width: 1366px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2015/08/isaca_diu.png&#34;&gt;&lt;img class=&#34;wp-image-92 size-full&#34; src=&#34;https://fazlerabby7.github.io/files/2015/08/isaca_diu.png&#34; alt=&#34;DIU - ISG website screenshot&#34; width=&#34;1366&#34; height=&#34;738&#34; srcset=&#34;/files/2015/08/isaca_diu.png 1366w, /files/2015/08/isaca_diu-300x162.png 300w, /files/2015/08/isaca_diu-768x415.png 768w, /files/2015/08/isaca_diu-1024x553.png 1024w&#34; sizes=&#34;(max-width: 1366px) 100vw, 1366px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;DIU – ISG website screenshot&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  Website link: &lt;a href=&#34;http://diuisg.daffodilvarsity.edu.bd/&#34; target=&#34;_blank&#34;&gt;diuisg.daffodilvarsity.edu.bd&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/projects/">Projects</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/wordpress/">Wordpress</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/experience/">Experience</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/project/">Project</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/story/">Story</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>[Solution] WordPress asks for FTP credentials in Ubuntu</title>
+                <link>https://fazlerabby7.github.io/solution-wordpress-asks-for-ftp-credentials-in-ubuntu/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/solution-wordpress-asks-for-ftp-credentials-in-ubuntu/</guid>
+                <pubDate>Thu, 13 Aug 2015 18:20:15 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;Maybe the title of this blog post isn’t perfect. While I am writing this post, no better title is coming to my mind.&lt;/p&gt;
+&lt;p&gt;By the way, let me explain the topic. Suppose you have installed WordPress in the XAMPP stack in Ubuntu (or any other ubuntu based distro). Now you want to install some plugins and themes from the WordPress dashboard. You have clicked on the “Install Now” button and suddenly this ugly(!) message comes in front of you, asking for your FTP credentials.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2015/08/wp-ftp-info.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-88 size-full&#34; src=&#34;https://fazlerabby7.github.io/files/2015/08/wp-ftp-info.png&#34; alt=&#34;WordPress is asking for FTP credentials&#34; width=&#34;430&#34; height=&#34;438&#34; srcset=&#34;/files/2015/08/wp-ftp-info.png 430w, /files/2015/08/wp-ftp-info-295x300.png 295w&#34; sizes=&#34;(max-width: 430px) 100vw, 430px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But it should not be happened. So you start searching in the internet how to fix this problem. In the maximum solution, you have been told to input your FTP credentials or add them to the wp-config.php file. But it can be solved in a different way.&lt;/p&gt;
+&lt;p&gt;Actually if the user of WordPress installation directory is different from the user of apache, this problem happens. So we need to fix this.&lt;/p&gt;
+&lt;p&gt;Firstly, we need to check the user of apache. To do this, run the following command in terminal:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default decode:true&#34;&gt;ps -ef | grep httpd | grep -v `whoami` | grep -v root | head -n1 | awk &#39;{print $1}&#39;&lt;/pre&gt;
+&lt;p&gt;In my case, the user of apache is “daemon”.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fazlerabby7.github.io/files/2015/08/user_of_apache.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-89&#34; src=&#34;https://fazlerabby7.github.io/files/2015/08/user_of_apache.png&#34; alt=&#34;user of apache&#34; width=&#34;1072&#34; height=&#34;612&#34; srcset=&#34;/files/2015/08/user_of_apache.png 1072w, /files/2015/08/user_of_apache-300x171.png 300w, /files/2015/08/user_of_apache-768x438.png 768w, /files/2015/08/user_of_apache-1024x585.png 1024w&#34; sizes=&#34;(max-width: 1072px) 100vw, 1072px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So we need to change the user and group of WordPress installation directory to “daemon”. To do this, run the following command in terminal:&lt;/p&gt;
+&lt;pre class=&#34;nums:false lang:default decode:true &#34;&gt;sudo chown -R daemon:daemon /opt/lampp/htdocs/wordpress/&lt;/pre&gt;
+&lt;p&gt;Replace “daemon:daemon” with your apache user:group (you have got this by running the firstly mentioned command). Replace “/opt/lampp/htdocs/wordpress/” with your WordPress directory location.&lt;/p&gt;
+&lt;p&gt;Boom!!! Done!!!&lt;/p&gt;
+&lt;p&gt;So by now you can install themes and plugins and can update them without your FTP credentials. Congratulation!&lt;/p&gt;
+&lt;p&gt;If you find this post helpful, please do share and subscribe to this blog by your email. And obviously feel free to share your thoughts in the comment section. Have a nice day 🙂&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/linux/">Linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/ubuntu/">Ubuntu</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/wordpress/">Wordpress</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/ftp/">FTP</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/ubuntu/">Ubuntu</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/wordpress/">WordPress</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>একজন নবাগত মজিলিয়ানের দৃষ্টিতে #mozbasis15</title>
+                <link>https://fazlerabby7.github.io/mozbasis15/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/mozbasis15/</guid>
+                <pubDate>Mon, 23 Feb 2015 16:13:43 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;৯ থেকে ১২ ফেব্রুয়ারি, বঙ্গবন্ধু আন্তর্জাতিক সম্মেলন কেন্দ্রে এবারের চার দিন ব্যাপী ডিজিটাল ওয়ার্ল্ড ‘১৫ মেলা অনুষ্ঠিত হয়েছে। সেখানে ব্যাসিস সফট এক্সপো’র ২৯-৩০ নাম্বার বুথ ছিল মজিলা ফাউন্ডেশনের। এই বুথ-ইভেন্টের জন্য হ্যাশট্যাগ ছিল #mozbasis15.&lt;/p&gt;
+&lt;p&gt;মজিলিয়ান হিসেবে কিংবা এমনিতেও এরকম ইভেন্টে জীবনের প্রথম বুথ এটেন্ডি হিসেবে অংশগ্রহণ করেছিলাম। আমি মূলত উপস্থিত ছিলাম ১০ ও ১১ তারিখ। সেই সামান্য সময়ের অভিজ্ঞতা নিয়ে এলোমেলো এই ব্লগ পোস্ট।&lt;/p&gt;
+&lt;p&gt;সম্পূর্ণ সফট এক্সপোর মধ্যে আমার দেখা সবচেয়ে ব্যাস্ত বুথ ছিল আমাদের এই মজিলা ফাউন্ডেশনের বুথ। মানুষের আগ্রহ ছিল তুলনা মূলক অনেক বেশি। মানুষের জানার আগ্রহ মেটাতে মজিলিয়ানরা সর্বদা তৎপর ছিলেন। বুথের পাশাপাশি, ভীড় কমাতে আমরা অনেকে বুথের বাইরে ছিলাম সাপোর্ট দেয়ার জন্য।&lt;/p&gt;
+&lt;p&gt;আমি সেখানে মূলত ছিলাম &lt;a href=&#34;https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/&#34; target=&#34;_blank&#34;&gt;FSA&lt;/a&gt; সম্পর্কে বলতে। কিন্তু শুধু FSA নয়, এর চেয়ে বরং বেশি আন্যান্য ব্যাপারে বলতে হয়েছে।&lt;/p&gt;
+&lt;p&gt;আমি মূলত যে ব্যাপারে দর্শনার্থীদের বলতে চেষ্টা করেছি:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;মজিলা কি? আমরা এখানে কেন? আমাদের কি লাভ?&lt;/li&gt;
+&lt;li&gt;ফায়ারফক্সের বিভিন্ন সমস্যা সমাধান।&lt;/li&gt;
+&lt;li&gt;মজিলায় কিভাবে যুক্ত হব?&lt;/li&gt;
+&lt;li&gt;ওয়েব মেকার।&lt;/li&gt;
+&lt;li&gt;ফায়রফক্স হ্যালো, ডু-নট-ট্র্যাক, বাংলা বানান শুদ্ধকরণ।&lt;/li&gt;
+&lt;li&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম।&lt;/li&gt;
+&lt;li&gt;মজিলা লোকেশন সার্ভিস…….ইত্যাদি।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;আমর-পরপত&#34;&gt;আমার প্রাপ্তি:&lt;/h3&gt;
+&lt;p&gt;আসলে কোন প্রাপ্তির কথা চিন্তা করে আমি এই ইভেন্টে অংশগ্রহণ করি নি। তারপরও ইভেন্ট শেষে প্রাপ্তির তালিকাও কম লম্বা নয়।&lt;/p&gt;
+&lt;p&gt;এই ইভেন্ট অংশগ্রহণ করে পেয়েছি আসাধারণ কিছু মজিলিয়ান বন্ধু। (আসলে ছোট-বড় ভাই-বোন)। সময় টুকু ব্যাস্ততার মধ্যেও বেশ আনন্দে কেটেছে। সবাই অনেক সাহায্যকারী এবং বন্ধু সুলভ। আমার একবারের জন্যও মনে হয় নি, আমি তাদের সাথে এই প্রথম আছি। সব সময় মনে হয়েছে এরা আপন, অনেক আগে থেকেই সম্পর্ক আছে। এই ইভেন্ট শেষে তাদের খুব মিস করছি।&lt;/p&gt;
+&lt;p&gt;পাবলিক-স্পিকিং বলে একটা ব্যাপার আছে। এটায় আমার মনে হয় আমি খুব খারাপ না, আসলে কখনো এভাবে পরীক্ষা করেই তো দেখা হয় নি – এ বিষয়ে আমি কেমন! এই ইভেন্টের বদৌলতে তা হয়ে গেল। অনেক কিছু শিখেছি। কীভাবে মানুষদের সাথে কথা বলতে হয়, কীভাবে দৃষ্টি আকর্ষণ করে কোন পণ্য বা সেবা সম্পর্কে মানুষকে জানাতে হয়, কীভাবে প্রশ্নের উত্তর যথাযথ ভাবে দেয়া যায়, কীভাবে মাথা ঠান্ডা রেখে একটু অপ্রাশঙ্গিক প্রশ্ন কৌশলে উত্তর দেয়া যায় ইত্যাদি ইত্যাদি।&lt;/p&gt;
+&lt;p&gt;বেশ কয়েকজন ভিজিটিং কার্ড দিয়ে যাচ্ছিলেন। ফেলে দিয়েছিলাম বেশিভাগই। আসলে কেন দিয়ে যাচ্ছিলেন সেটাই বোধগম্য হচ্ছিল না। পরে বুঝলাম, বোধহয় মজিলার মিশন কিংবা আমার উত্তর শুনে তাদের ভাল লেগেছিল। তাই তারা সংযুক্ত থাকতে চেয়েছিলেন। এটাকে প্রাপ্তির খাতায়ই ফেলা যায়!&lt;/p&gt;
+&lt;p&gt;আমার ভার্সিটির কিছু সিনিয়র ভাইদের সাথে দেখা হয়ে গিয়েছিল, তখন আমি তাদেরকে আমাদের ফায়ারফক্স ক্লাব সম্পর্কে বলেছি, যুক্ত হতে উৎসাহ দিয়েছি। তারা শিঘ্রই যুক্ত হবেন বলে আশা করি। আর এই ইভেন্ট সম্পর্কে জেনে আমার অনেক বন্ধুই ফায়ারফক্স ক্লাবে যোগ দিতে আগ্রহী হয়েছে। তারা কিভাবে মজিলায় অবদান রাখবে সে সম্পর্কে জানতে চাচ্ছে। এ এক বিরাট প্রাপ্তি।&lt;/p&gt;
+&lt;h3 id=&#34;কছ-ছবfigure-stylewidth-960px-classwp-caption-aligncenter&#34;&gt;কিছু ছবি:&lt;figure style=&#34;width: 960px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.google.com/drawings/d/1qJ9T_pqD4FmSzcQkeRMFor1slYz_UrLbVEGRhM6_Mm4/pub?w=960&amp;h=720&#34; alt=&#34;#mozbasis15&#34; width=&#34;960&#34; height=&#34;720&#34; /&gt; &lt;figcaption class=&#34;wp-caption-text&#34;&gt;নিজের ছবি শুরুতে দিলাম 😉&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div class=&#34;entry-content clear&#34;&gt;
+  &lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter&#34; src=&#34;https://gloriouspapun.files.wordpress.com/2015/02/page-4.jpg?w=696&#34; alt=&#34;&#34; width=&#34;696&#34; height=&#34;696&#34; /&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter&#34; src=&#34;https://gloriouspapun.files.wordpress.com/2015/02/page-3.jpg?w=696&#34; alt=&#34;&#34; width=&#34;696&#34; height=&#34;696&#34; /&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter&#34; src=&#34;https://gloriouspapun.files.wordpress.com/2015/02/page-2.jpg?w=696&#34; alt=&#34;&#34; width=&#34;696&#34; height=&#34;696&#34; /&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter&#34; src=&#34;https://gloriouspapun.files.wordpress.com/2015/02/page-1.jpg?w=696&#34; alt=&#34;&#34; width=&#34;696&#34; height=&#34;696&#34; /&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter&#34; src=&#34;https://ourherock.files.wordpress.com/2015/02/collage-moztatto.jpg?w=696&#34; alt=&#34;&#34; width=&#34;696&#34; height=&#34;675&#34; /&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/mozilla/">Mozilla</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/mozbasis15/">mozbasis15</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AE%E0%A6%9C%E0%A6%BF%E0%A6%B2%E0%A6%BE/">মজিলা</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর : কী, কেন এবং কীভাবে!</title>
+                <link>https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/</guid>
+                <pubDate>Thu, 05 Feb 2015 15:57:10 &#43;0000</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;আসসালামু-অলাইকুম। পোস্টের শিরোনাম দেখে এতক্ষণে নিশ্চয়ই অনুমান করে নিয়েছেন লেখাটি ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম সম্পর্কে। হ্যাঁ, এই পোস্টে আমরা ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম সহ আরো কিছু বিষয়ে সংক্ষেপে জানব। যে সব বিষয় সম্পর্কে সংক্ষেপে আলোচনা থাকছে এই পোস্টে:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম কী?&lt;/li&gt;
+&lt;li&gt;মজিলা কী এবং এর উদ্দেশ্য কী?&lt;/li&gt;
+&lt;li&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডররা কী করেন?&lt;/li&gt;
+&lt;li&gt;আপনি এই প্রোগ্রামে কেন যুক্ত হবেন?&lt;/li&gt;
+&lt;li&gt;কীভাবে যুক্ত হবেন?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;আচ্ছা, তাহলে শুরু করা যাক!&lt;/p&gt;
+&lt;h2 id=&#34;ফয়রফকস-সটডনট-অযমবসডর-পরগরম&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম:&lt;/h2&gt;
+&lt;p&gt;&lt;img class=&#34;aligncenter wp-image-59 size-full&#34; src=&#34;https://fazlerabby7.files.wordpress.com/2015/02/fsa1.jpg&#34; alt=&#34;FSA&#34; width=&#34;696&#34; height=&#34;392&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর(সংক্ষেপে FSA) হলেন সেই সকল শিক্ষার্থীরা, যারা মজিলা, ওপেন ওয়েব, ফায়ারফক্স, ফায়ারফক্স ওস সহ মজিলার বিভিন্ন সেবার সুবিধা সমূহ নিয়ে উৎসাহী। এ সকল উৎসাহী শিক্ষার্থীদের নিয়েই মজিলার এই ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম।&lt;/p&gt;
+&lt;h2 id=&#34;মজল-এব-এর-উদদশয&#34;&gt;মজিলা এবং এর উদ্দেশ্য:&lt;/h2&gt;
+&lt;p&gt;মজিলা হল একটি অলাভজনক প্রতিষ্ঠান, যেটা ওয়েব কে মুক্ত রাখতে ও আমাদের মত ব্যাবহারকারীদের স্বার্থ সংরক্ষণে নানা উপায়ে কাজ করে যাচ্ছে। এটি কোন ব্যাবসায়ীক প্রতিষ্ঠান নয়, একটি সংগঠন। আমার এবং আপনার মত সাধারণ মানুষের সংগঠন। যা আমাদের মত সাধারণ মানুষদের অধিকারের জন্য, বড় বড় ব্যাবসায়ীক প্রতিষ্ঠানের বিরুদ্ধে লড়ে যাচ্ছে।&lt;/p&gt;
+&lt;p&gt;মজিলা ও ফায়রফক্স সম্পর্ক আরেকটু গভীর ভাবে জানতে এই ভিডিও দুটি দেখতে পারেন:&lt;/p&gt;
+&lt;p&gt;মজিলার মিশন সম্পর্কে জানতে চলে যান &lt;a href=&#34;https://www.mozilla.org/en-US/mission/&#34; target=&#34;_blank&#34;&gt;এই লিংকে&lt;/a&gt;।&lt;figure id=&#34;attachment_43&#34; style=&#34;width: 960px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;wp-image-43 size-full&#34; src=&#34;https://fazlerabby7.files.wordpress.com/2015/02/meaning-of-open.png&#34; alt=&#34;meaning of open&#34; width=&#34;960&#34; height=&#34;540&#34; /&gt; &lt;figcaption class=&#34;wp-caption-text&#34;&gt;মজিলা ওপেন বলতে যা বোঝায়&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;সটডনট-অযমবসডরর-য-সকল-কজ-সমপকত-থকন&#34;&gt;স্টুডেন্ট অ্যাম্বাসেডররা যে সকল কাজে সম্পৃক্ত থাকেন:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ফায়ারফক্স ওয়েব ব্রাউজারকে প্রোমোট কারা।&lt;/li&gt;
+&lt;li&gt;ফায়ারফক্স ওএস কে প্রোমোট করা।&lt;/li&gt;
+&lt;li&gt;মজিলার মিশন সম্পর্কে অন্যদের অবগত করা।&lt;/li&gt;
+&lt;li&gt;ওয়েব সম্পর্কে শিক্ষার প্রসার ঘটানো।&lt;/li&gt;
+&lt;li&gt;কিভাবে কোডিং করতে হয়, অ্যাপস বানাতে হয়, অনলাইনে কিভাবে অসাধারণ জিনিস তৈরি করতে হয় তা অন্যদের শেখানো।&lt;/li&gt;
+&lt;li&gt;ওপেন ওয়েব এবং ইনোভেশন কে প্রোমোট করা।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;মজিলা বলে থাকে:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We know we’re up against billion-dollar giants, but our Ambassadors are here tackling new challenges daily to fight for your privacy and for an open Web.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;আপন-য-জনয-সটডনট-অযমবসডর-হবন&#34;&gt; আপনি যে জন্য স্টুডেন্ট অ্যাম্বাসেডর হবেন:&lt;/h2&gt;
+&lt;p&gt;আপনি আপনার অবসর সময়ের একটা অংশ এমন এক সংগঠন কে দিবেন, যারা প্রত্যক্ষ্য ভাবে আপনার জন্য কাজ করে যাচ্ছে।&lt;/p&gt;
+&lt;p&gt;প্রকৃতপক্ষে আপনি আপনার এবং সমগ্র ইন্টারনেট কমিউনিটির জন্য কাজ করবেন, যা এক দিক থেকে সামাজিক দায়িত্বের অন্তর্ভুক্ত।&lt;/p&gt;
+&lt;p&gt;তাছাড়া আপনি আরো অনেক কিছু উপভোগ করার সুযোগ পাবেন। যেমন:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;আপনার ক্যাম্পাসে নেতৃত্বের গুণাবলী অর্জন।&lt;/li&gt;
+&lt;li&gt;মজিলা কমিউনিটির সাথে বিভিন্ন বড় ইভেন্ট আয়োজনের সুযোগ।&lt;/li&gt;
+&lt;li&gt;বিভিন্ন ধরণের কন্টেন্ট তৈরির সুযোগ যা আপনি ভালবাসেন। যেমন: অ্যাপস, ওয়েব পেজ, ভিডিও, গ্রাফিক্স ইত্যাদি।&lt;/li&gt;
+&lt;li&gt;অসাধারণ কিছু উপহার পেতে পারেন। যাকে সাধারণ ভাবে সোয়াগ বলা হয়।&lt;/li&gt;
+&lt;li&gt;প্রযুক্তি, ব্যাবসা এবং বিপণনে অভিজ্ঞতা অর্জন।&lt;/li&gt;
+&lt;li&gt;পৃথিবীর বিভিন্ন প্রান্তের অ্যাম্বাসাডরদের সাথে যোগাযোগের সুযোগ। আপনি এখানে একা নন 🙂&lt;/li&gt;
+&lt;li&gt;মজিলা ইন্টার্নশিপের জন্য বিবেচিত হওয়ার সুযোগ।&lt;/li&gt;
+&lt;li&gt;নতুন কিছু করার মাধ্যমে পৃথিবী বদলে দেবার সুযোগ!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ফয়রফকস-সটডনট-অযমবসডর-হত-গল-আপনক&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর হতে গেলে আপনাকে:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;কমপক্ষে ১৮ বছর বয়স্ক হতে হবে।&lt;/li&gt;
+&lt;li&gt;বর্তমানে শিক্ষার্থী, শিক্ষক কিংবা প্রশাসক হিসেবে কোন কলেজ বা বিশ্ববিদ্যালয়ের সাথে যুক্ত থাকতে হবে।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;সধরণ-দট-পরশন&#34;&gt;সাধারণ দুটি প্রশ্ন:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;এই প্রোগ্রামে কি নির্দিষ্ট কোন সময়সীমা আছে, যা আমাকে দিতেই হবে?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;– না। কোন সময়সীমা নেই। আপনার যতটুকু খুশি ঠিক ততটুকু সময়ই দিতে পারবেন।&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;এখান থেকে কোন টাকা পাবার সম্ভাবনা আছে কি?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;– না, নেই। এই প্রোগ্রাম সম্পূর্ণ স্বেচ্ছাশ্রম নির্ভর।&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;এতক্ষণ যে বিষয় গুলো লিখলাম, এর পূর্বে এ বিষয়েই ইংরেজিতে একটা প্রেজেন্টেশন বানিয়েছিলাম। ইচ্ছা হলে &lt;a href=&#34;http://bit.ly/intro-fsa&#34; target=&#34;_blank&#34;&gt;এই লিংকে&lt;/a&gt; দেখতে পারেন।&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;তো! আর দেরি কেন? আজই যুক্ত হোন ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর হিসেবে!&lt;/p&gt;
+&lt;h2 id=&#34;যভব-এই-পরগরম-যকত-হবন&#34;&gt;যেভাবে এই প্রোগ্রামে যুক্ত হবেন:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;প্রথমে &lt;a href=&#34;https://www.mozilla.org/en-US/contribute/studentambassadors/join/&#34; target=&#34;_blank&#34;&gt;এই লিংকে&lt;/a&gt; যান। এখানে গেলে একটা ফর্ম পাবেন। নাম, ইমেইল সহ যাবতীয় তথ্য দিয়ে Sign me up! বাটনে ক্লিক করুন। এই ফরমে School নামের একটা ঘর আছে। ঘাবড়াবেন না। এখানে আপনার কলেজ বা ইউনিভার্সিটির তথ্য দিতে হবে।&lt;/li&gt;
+&lt;li&gt;আপনার ইমেইলে একটা কনফার্মেশন ইমেইল আসবে। আপনাকে &lt;a href=&#34;https://tjlee.makes.org/thimble/ODk0NDM1NTg0/fsa-beginners-guide&#34; target=&#34;_blank&#34;&gt;FSA Beginner’s Guide&lt;/a&gt; এবং &lt;a href=&#34;https://wiki.mozilla.org/StudentAmbassadors&#34; target=&#34;_blank&#34;&gt;FSA wiki&lt;/a&gt; পড়তে বলা হবে।&lt;/li&gt;
+&lt;li&gt;মনযোগ দিয়ে পড়ে ফেলুন। বিস্তারিত অনেক কিছু জানতে পারবেন। এরপর কী করণীয় নিজেই বুঝতে পারবেন। তবুও লিখছি।&lt;/li&gt;
+&lt;li&gt;মজিলা বাংলাদেশের &lt;a href=&#34;https://lists.mozilla.org/listinfo/community-bangladesh&#34; target=&#34;_blank&#34;&gt;মেইলিং লিস্টে&lt;/a&gt; যোগ দিন। ফেসবুকে &lt;a href=&#34;https://www.facebook.com/groups/MozillaBD/&#34; target=&#34;_blank&#34;&gt;মজিলা বাংলাদেশ &lt;/a&gt;ও &lt;a href=&#34;https://www.facebook.com/groups/298008373667320/&#34; target=&#34;_blank&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর, বাংলাদেশ&lt;/a&gt; গ্রুপ দুটিতে যোগ দিন।&lt;/li&gt;
+&lt;li&gt;এখন আপনার কাজ হল আপনার প্রতিষ্ঠানের ফায়ারফক্স ক্লাবে যোগ দেয়া। &lt;a href=&#34;https://wiki.mozilla.org/StudentAmbassadors/FirefoxClubs/Directory&#34; target=&#34;_blank&#34;&gt;এখান থেকে &lt;/a&gt;আপনার প্রতিষ্ঠানের ফায়ারফক্স ক্লাব খুঁজে বের করে, ক্লাবের সাথে সোশাল মিডিয়ায়(মূলত ফেসবুক গ্রুপ) যোগ দিন। প্রতিষ্ঠানে পূর্বে ফায়ারফক্স ক্লাব না থাকলে, &lt;a href=&#34;https://wiki.mozilla.org/StudentAmbassadors/FirefoxClubs#Club_Establishment&#34; target=&#34;_blank&#34;&gt;এই উইকি&lt;/a&gt; ফলো করে ক্লাব খুলে ফেলতে পারেন।&lt;/li&gt;
+&lt;li&gt;ফেসবুকে মজিলা বাংলাদেশ গ্রুপের &lt;a href=&#34;https://www.facebook.com/groups/MozillaBD/doc/552250128159208/&#34; target=&#34;_blank&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর লিস্টে&lt;/a&gt; নিজের নামটি IRC নিকসহ যোগ করে দিন। IRC সম্পর্কে পূর্বে না জেনে থাকলে &lt;a href=&#34;https://wiki.mozilla.org/IRC&#34; target=&#34;_blank&#34;&gt;এখানে দেখুন&lt;/a&gt;। irc.mozilla.org সার্ভারের #Bangladesh রুমে মজিলা বাংলাদেশের মিটিং হয়ে থাকে। মিটিং সম্পর্কে ইমেইলে কিংবা গ্রুপে জানতে পারবেন।&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;অভিনন্দন! আপনি সমস্ত কাজ সফল ভাবে শেষ করেছেন। আপনি এখন থেকে একজন গর্বিত ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর(FSA)।&lt;/p&gt;
+&lt;p&gt;কোন প্রশ্ন থাকলে &lt;a href=&#34;https://www.facebook.com/groups/MozillaBD/&#34; target=&#34;_blank&#34;&gt;মজিলা বাংলাদেশ &lt;/a&gt;বা &lt;a href=&#34;https://www.facebook.com/groups/298008373667320/&#34; target=&#34;_blank&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর, বাংলাদেশ&lt;/a&gt; গ্রুপে মন খুলে করে ফেলুন। মনে রাখবেন, আপনি কখনোই একা নন 🙂 ।&lt;/p&gt;
+&lt;p&gt;FSA দের কাজ এই পোস্টে পূর্বেই বলা হয়েছে। আপনার কাজও তাই। নিয়মিত ক্লাবের মিটিংয়ে উপস্থিত থেকে ক্লাবের কর্মপরিকল্পনা ঠিক করুন। অন্যান্য ক্লাব গুলো কি করছে খেয়াল করুন। এতে আপনার ক্লাবের কর্মপরিকল্পনা ঠিক করতে সুবিধা হবে। সব সময় মজিলা বাংলাদেশ কমিউনিটির সাথে যুক্ত থাকুন। চোখ রাখুন &lt;a href=&#34;http://blog.mozillabd.org/&#34;&gt;মজিলা বাংলাদেশ ব্লগে&lt;/a&gt;। বিভিন্ন ভাবে কন্ট্রিবিউট করা শুরু করে দিন মজিলায়। দেখুন, আপনি &lt;a href=&#34;http://whatcanidoformozilla.org&#34; target=&#34;_blank&#34;&gt;মজিলার জন্য কি কি করতে পারেন&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;ভাল থাকুন, আর মজিলার সাথেই থাকুন 🙂&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/mozilla/">Mozilla</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/fsa/">FSA</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AB%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AB%E0%A6%95%E0%A7%8D%E0%A6%B8/">ফায়ারফক্স</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%AE%E0%A6%9C%E0%A6%BF%E0%A6%B2%E0%A6%BE/">মজিলা</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/">স্টুডেন্ট</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>

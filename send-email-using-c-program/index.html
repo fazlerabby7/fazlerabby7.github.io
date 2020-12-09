@@ -12,7 +12,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>C প্রোগ্রাম এর সাহায্যে ইমেইল প্রেরণ | Fazle Rabby&#39;s Thoughts</title>
+    <title>C প্রোগ্রাম এর সাহায্যে ইমেইল প্রেরণ | Thoughts of Fazle Rabby</title>
 
     <link rel="stylesheet" href="../css/meme.min.7af66ef75b0fc8e2ee03c7c7de489594ae607750933d4c3aba8a89f50ca79ff0.css"/>
 
@@ -34,10 +34,10 @@
     <link rel="mask-icon" href="../icons/safari-pinned-tab.svg" color="#2a6df4" />
     <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Fazle Rabby&#39;s Thoughts" />
+    <meta name="apple-mobile-web-app-title" content="Thoughts of Fazle Rabby" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="Fazle Rabby&#39;s Thoughts" />
+    <meta name="application-name" content="Thoughts of Fazle Rabby" />
     <meta name="msapplication-starturl" content="../" />
     <meta name="msapplication-TileColor" content="#fff" />
     <meta name="msapplication-TileImage" content="../icons/mstile-150x150.png" />
@@ -55,13 +55,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2015-10-16T16:53:52+00:00",
-        "dateModified": "2020-12-05T22:19:08+06:00",
+        "dateModified": "2020-12-10T01:22:22+06:00",
         "url": "https://fazlerabby7.github.io/send-email-using-c-program/",
         "headline": "C প্রোগ্রাম এর সাহায্যে ইমেইল প্রেরণ",
         "description": "বিভিন্ন কারণে আমাদের C প্রোগ্রাম থেকে ইমেইল প্রেরণের প্রয়োজন হতে পারে। আজ আমরা দেখবো কীভাবে libcurl ব্যাবহার করে জিমেইল SMTP সার্ভারের মাধ্যমে ইমেইল পাঠানো যায়।\nআমি এখানে libcurl কিংবা SMTP নিয়ে কোন আলোচনা করবো না। এগুলো সম্পর্কে না জেনে থাকলে সার্চ ইঞ্জিন ব্যাবহার করে জেনে নিন। আর আপনার কম্পিউটারে libcurl ইন্সটল করা না থাকলে, তা ইন্সটল করে আপনার IDE (Code::Blocks হয়ত!",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  2089 ,
+        "wordCount":  2454 ,
         "author": {
             "@type": "Person",
             "url": "https://fazlerabby7.github.io/",
@@ -69,7 +69,7 @@
         },
         "publisher": {
             "@type": "Organization",
-            "name": "Fazle Rabby's Thoughts",
+            "name": "Thoughts of Fazle Rabby",
             "url": "https://fazlerabby7.github.io/"
         },
         "mainEntityOfPage": {
@@ -93,10 +93,10 @@
 <meta property="og:description" content="বিভিন্ন কারণে আমাদের C প্রোগ্রাম থেকে ইমেইল প্রেরণের প্রয়োজন হতে পারে। আজ আমরা দেখবো কীভাবে libcurl ব্যাবহার করে জিমেইল SMTP সার্ভারের মাধ্যমে ইমেইল পাঠানো যায়।
 আমি এখানে libcurl কিংবা SMTP নিয়ে কোন আলোচনা করবো না। এগুলো সম্পর্কে না জেনে থাকলে সার্চ ইঞ্জিন ব্যাবহার করে জেনে নিন। আর আপনার কম্পিউটারে libcurl ইন্সটল করা না থাকলে, তা ইন্সটল করে আপনার IDE (Code::Blocks হয়ত!" />
 <meta property="og:url" content="https://fazlerabby7.github.io/send-email-using-c-program/" />
-<meta property="og:site_name" content="Fazle Rabby&#39;s Thoughts" />
+<meta property="og:site_name" content="Thoughts of Fazle Rabby" />
 <meta property="og:locale" content="en" /><meta property="og:type" content="article" />
     <meta property="article:published_time" content="2015-10-16T16:53:52&#43;00:00" />
-    <meta property="article:modified_time" content="2020-12-05T22:19:08&#43;06:00" />
+    <meta property="article:modified_time" content="2020-12-10T01:22:22&#43;06:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -132,7 +132,7 @@
                     
     <div class="site-brand">
         
-            <a href="../" class="brand">Fazle Rabby&#39;s Thoughts</a>
+            <a href="../" class="brand">Thoughts of Fazle Rabby</a>
         
     </div>
 
@@ -221,7 +221,7 @@
 
         
 
-        <article class="content post h-entry" data-small-caps="true" data-align="justify" data-type="post" data-toc-num="true">
+        <article class="content post h-entry" data-small-caps="true" data-align="default" data-type="post" data-toc-num="true">
 
             <h1 class="post-title p-name">C প্রোগ্রাম এর সাহায্যে ইমেইল প্রেরণ</h1>
 
@@ -262,388 +262,827 @@
               <p>বিভিন্ন কারণে আমাদের C প্রোগ্রাম থেকে ইমেইল প্রেরণের প্রয়োজন হতে পারে। আজ আমরা দেখবো কীভাবে libcurl ব্যাবহার করে জিমেইল SMTP সার্ভারের মাধ্যমে ইমেইল পাঠানো যায়।</p>
 <p>আমি এখানে libcurl কিংবা SMTP নিয়ে কোন আলোচনা করবো না। এগুলো সম্পর্কে না জেনে থাকলে সার্চ ইঞ্জিন ব্যাবহার করে জেনে নিন। আর আপনার কম্পিউটারে libcurl ইন্সটল করা না থাকলে, তা ইন্সটল করে আপনার IDE (Code::Blocks হয়ত!) তে লিংক করে নিন। আর এটা করার জন্যও সার্চ ইঞ্জিনের সরণাপন্ন হোন 🙂 ।</p>
 <p>এখন আসল কাজে নামা যাক। প্রথমে নিচের কোডটা দেখুন। এটা <a href="http://curl.haxx.se/libcurl/c/smtp-tls.html" target="_blank" rel="noopener" target="_blank">এখান</a> থেকে নেয়া।</p>
-<pre class="lang:c decode:true">/***************************************************************************
- *                                  _   _ ____  _
- *  Project                     ___| | | |  _ | |
- *                             / __| | | | |_) | |
- *                            | (__| |_| |  _ &lt;| |___
- *                             ___|___/|_| ______|
- *
- * Copyright (C) 1998 - 2014, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.
- *
- * This software is licensed as described in the file COPYING, which
- * you should have received as part of this distribution. The terms
- * are also available at http://curl.haxx.se/docs/copyright.html.
- *
- * You may opt to use, copy, modify, merge, publish, distribute and/or sell
- * copies of the Software, and permit persons to whom the Software is
- * furnished to do so, under the terms of the COPYING file.
- *
- * This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
- * KIND, either express or implied.
- *
- ***************************************************************************/
-#include &lt;stdio.h&gt;
-#include &lt;string.h&gt;
-#include &lt;curl/curl.h&gt;
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/***************************************************************************
+</span><span class="cm"> *                                  _   _ ____  _
+</span><span class="cm"> *  Project                     ___| | | |  _ \| |
+</span><span class="cm"> *                             / __| | | | |_) | |
+</span><span class="cm"> *                            | (__| |_| |  _ &lt;| |___
+</span><span class="cm"> *                             \___|\___/|_| \_\_____|
+</span><span class="cm"> *
+</span><span class="cm"> * Copyright (C) 1998 - 2014, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.
+</span><span class="cm"> *
+</span><span class="cm"> * This software is licensed as described in the file COPYING, which
+</span><span class="cm"> * you should have received as part of this distribution. The terms
+</span><span class="cm"> * are also available at http://curl.haxx.se/docs/copyright.html.
+</span><span class="cm"> *
+</span><span class="cm"> * You may opt to use, copy, modify, merge, publish, distribute and/or sell
+</span><span class="cm"> * copies of the Software, and permit persons to whom the Software is
+</span><span class="cm"> * furnished to do so, under the terms of the COPYING file.
+</span><span class="cm"> *
+</span><span class="cm"> * This software is distributed on an &#34;AS IS&#34; basis, WITHOUT WARRANTY OF ANY
+</span><span class="cm"> * KIND, either express or implied.
+</span><span class="cm"> *
+</span><span class="cm"> ***************************************************************************/</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;curl/curl.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="cm">/* This is a simple example showing how to send mail using libcurl&#39;s SMTP
+</span><span class="cm"> * capabilities. It builds on the smtp-mail.c example to add authentication
+</span><span class="cm"> * and, more importantly, transport security to protect the authentication
+</span><span class="cm"> * details from being snooped.
+</span><span class="cm"> *
+</span><span class="cm"> * Note that this example requires libcurl 7.20.0 or above.
+</span><span class="cm"> */</span>
 
-/* This is a simple example showing how to send mail using libcurl's SMTP
- * capabilities. It builds on the smtp-mail.c example to add authentication
- * and, more importantly, transport security to protect the authentication
- * details from being snooped.
- *
- * Note that this example requires libcurl 7.20.0 or above.
- */
+<span class="cp">#define FROM    &#34;&lt;sender@example.org&gt;&#34;
+</span><span class="cp">#define TO      &#34;&lt;addressee@example.net&gt;&#34;
+</span><span class="cp">#define CC      &#34;&lt;info@example.org&gt;&#34;
+</span><span class="cp"></span>
+<span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">payload_text</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">&#34;Date: Mon, 29 Nov 2010 21:54:29 +1100</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;To: &#34;</span> <span class="n">TO</span> <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;From: &#34;</span> <span class="n">FROM</span> <span class="s">&#34;(Example User)</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Cc: &#34;</span> <span class="n">CC</span> <span class="s">&#34;(Another example User)</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Subject: SMTP TLS example message</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="cm">/* empty line to divide headers from body, see RFC5322 */</span>
+  <span class="s">&#34;The body of the message starts here.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;It could be a lot of lines, could be MIME encoded, whatever.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Check RFC5322.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="nb">NULL</span>
+<span class="p">};</span>
 
-#define FROM    "&lt;sender@example.org&gt;"
-#define TO      "&lt;addressee@example.net&gt;"
-#define CC      "&lt;info@example.org&gt;"
+<span class="k">struct</span> <span class="n">upload_status</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">lines_read</span><span class="p">;</span>
+<span class="p">};</span>
 
-static const char *payload_text[] = {
-  "Date: Mon, 29 Nov 2010 21:54:29 +1100rn",
-  "To: " TO "rn",
-  "From: " FROM "(Example User)rn",
-  "Cc: " CC "(Another example User)rn",
-  "Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;rn",
-  "Subject: SMTP TLS example messagern",
-  "rn", /* empty line to divide headers from body, see RFC5322 */
-  "The body of the message starts here.rn",
-  "rn",
-  "It could be a lot of lines, could be MIME encoded, whatever.rn",
-  "Check RFC5322.rn",
-  NULL
-};
+<span class="k">static</span> <span class="n">size_t</span> <span class="nf">payload_source</span><span class="p">(</span><span class="kt">void</span> <span class="o">*</span><span class="n">ptr</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">size</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">nmemb</span><span class="p">,</span> <span class="kt">void</span> <span class="o">*</span><span class="n">userp</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">struct</span> <span class="n">upload_status</span> <span class="o">*</span><span class="n">upload_ctx</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="n">upload_status</span> <span class="o">*</span><span class="p">)</span><span class="n">userp</span><span class="p">;</span>
+  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">data</span><span class="p">;</span>
 
-struct upload_status {
-  int lines_read;
-};
+  <span class="k">if</span><span class="p">((</span><span class="n">size</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">nmemb</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">((</span><span class="n">size</span><span class="o">*</span><span class="n">nmemb</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="p">}</span>
 
-static size_t payload_source(void *ptr, size_t size, size_t nmemb, void *userp)
-{
-  struct upload_status *upload_ctx = (struct upload_status *)userp;
-  const char *data;
+  <span class="n">data</span> <span class="o">=</span> <span class="n">payload_text</span><span class="p">[</span><span class="n">upload_ctx</span><span class="o">-&gt;</span><span class="n">lines_read</span><span class="p">];</span>
 
-  if((size == 0) || (nmemb == 0) || ((size*nmemb) &lt; 1)) {
-    return 0;
-  }
+  <span class="k">if</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">size_t</span> <span class="n">len</span> <span class="o">=</span> <span class="n">strlen</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+    <span class="n">memcpy</span><span class="p">(</span><span class="n">ptr</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
+    <span class="n">upload_ctx</span><span class="o">-&gt;</span><span class="n">lines_read</span><span class="o">++</span><span class="p">;</span>
 
-  data = payload_text[upload_ctx-&gt;lines_read];
+    <span class="k">return</span> <span class="n">len</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  if(data) {
-    size_t len = strlen(data);
-    memcpy(ptr, data, len);
-    upload_ctx-&gt;lines_read++;
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 
-    return len;
-  }
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">CURL</span> <span class="o">*</span><span class="n">curl</span><span class="p">;</span>
+  <span class="n">CURLcode</span> <span class="n">res</span> <span class="o">=</span> <span class="n">CURLE_OK</span><span class="p">;</span>
+  <span class="k">struct</span> <span class="n">curl_slist</span> <span class="o">*</span><span class="n">recipients</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+  <span class="k">struct</span> <span class="n">upload_status</span> <span class="n">upload_ctx</span><span class="p">;</span>
 
-  return 0;
-}
+  <span class="n">upload_ctx</span><span class="p">.</span><span class="n">lines_read</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-int main(void)
-{
-  CURL *curl;
-  CURLcode res = CURLE_OK;
-  struct curl_slist *recipients = NULL;
-  struct upload_status upload_ctx;
+  <span class="n">curl</span> <span class="o">=</span> <span class="n">curl_easy_init</span><span class="p">();</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">curl</span><span class="p">)</span> <span class="p">{</span>
+    <span class="cm">/* Set username and password */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USERNAME</span><span class="p">,</span> <span class="s">&#34;user&#34;</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_PASSWORD</span><span class="p">,</span> <span class="s">&#34;secret&#34;</span><span class="p">);</span>
 
-  upload_ctx.lines_read = 0;
+    <span class="cm">/* This is the URL for your mailserver. Note the use of port 587 here,
+</span><span class="cm">     * instead of the normal SMTP port (25). Port 587 is commonly used for
+</span><span class="cm">     * secure mail submission (see RFC4403), but you should use whatever
+</span><span class="cm">     * matches your server configuration. */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_URL</span><span class="p">,</span> <span class="s">&#34;smtp://mainserver.example.net:587&#34;</span><span class="p">);</span>
 
-  curl = curl_easy_init();
-  if(curl) {
-    /* Set username and password */
-    curl_easy_setopt(curl, CURLOPT_USERNAME, "user");
-    curl_easy_setopt(curl, CURLOPT_PASSWORD, "secret");
+    <span class="cm">/* In this example, we&#39;ll start with a plain text connection, and upgrade
+</span><span class="cm">     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
+</span><span class="cm">     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
+</span><span class="cm">     * will continue anyway - see the security discussion in the libcurl
+</span><span class="cm">     * tutorial for more details. */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USE_SSL</span><span class="p">,</span> <span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="n">CURLUSESSL_ALL</span><span class="p">);</span>
 
-    /* This is the URL for your mailserver. Note the use of port 587 here,
-     * instead of the normal SMTP port (25). Port 587 is commonly used for
-     * secure mail submission (see RFC4403), but you should use whatever
-     * matches your server configuration. */
-    curl_easy_setopt(curl, CURLOPT_URL, "smtp://mainserver.example.net:587");
+    <span class="cm">/* If your server doesn&#39;t have a valid certificate, then you can disable
+</span><span class="cm">     * part of the Transport Layer Security protection by setting the
+</span><span class="cm">     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
+</span><span class="cm">     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+</span><span class="cm">     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+</span><span class="cm">     * That is, in general, a bad idea. It is still better than sending your
+</span><span class="cm">     * authentication details in plain text though.
+</span><span class="cm">     * Instead, you should get the issuer certificate (or the host certificate
+</span><span class="cm">     * if the certificate is self-signed) and add it to the set of certificates
+</span><span class="cm">     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
+</span><span class="cm">     * docs/SSLCERTS for more information. */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_CAINFO</span><span class="p">,</span> <span class="s">&#34;/path/to/certificate.pem&#34;</span><span class="p">);</span>
 
-    /* In this example, we'll start with a plain text connection, and upgrade
-     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
-     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
-     * will continue anyway - see the security discussion in the libcurl
-     * tutorial for more details. */
-    curl_easy_setopt(curl, CURLOPT_USE_SSL, (long)CURLUSESSL_ALL);
+    <span class="cm">/* Note that this option isn&#39;t strictly required, omitting it will result in
+</span><span class="cm">     * libcurl sending the MAIL FROM command with empty sender data. All
+</span><span class="cm">     * autoresponses should have an empty reverse-path, and should be directed
+</span><span class="cm">     * to the address in the reverse-path which triggered them. Otherwise, they
+</span><span class="cm">     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
+</span><span class="cm">     */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_MAIL_FROM</span><span class="p">,</span> <span class="n">FROM</span><span class="p">);</span>
 
-    /* If your server doesn't have a valid certificate, then you can disable
-     * part of the Transport Layer Security protection by setting the
-     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
-     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-     * That is, in general, a bad idea. It is still better than sending your
-     * authentication details in plain text though.
-     * Instead, you should get the issuer certificate (or the host certificate
-     * if the certificate is self-signed) and add it to the set of certificates
-     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
-     * docs/SSLCERTS for more information. */
-    curl_easy_setopt(curl, CURLOPT_CAINFO, "/path/to/certificate.pem");
+    <span class="cm">/* Add two recipients, in this particular case they correspond to the
+</span><span class="cm">     * To: and Cc: addressees in the header, but they could be any kind of
+</span><span class="cm">     * recipient. */</span>
+    <span class="n">recipients</span> <span class="o">=</span> <span class="n">curl_slist_append</span><span class="p">(</span><span class="n">recipients</span><span class="p">,</span> <span class="n">TO</span><span class="p">);</span>
+    <span class="n">recipients</span> <span class="o">=</span> <span class="n">curl_slist_append</span><span class="p">(</span><span class="n">recipients</span><span class="p">,</span> <span class="n">CC</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_MAIL_RCPT</span><span class="p">,</span> <span class="n">recipients</span><span class="p">);</span>
 
-    /* Note that this option isn't strictly required, omitting it will result in
-     * libcurl sending the MAIL FROM command with empty sender data. All
-     * autoresponses should have an empty reverse-path, and should be directed
-     * to the address in the reverse-path which triggered them. Otherwise, they
-     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
-     */
-    curl_easy_setopt(curl, CURLOPT_MAIL_FROM, FROM);
+    <span class="cm">/* We&#39;re using a callback function to specify the payload (the headers and
+</span><span class="cm">     * body of the message). You could just use the CURLOPT_READDATA option to
+</span><span class="cm">     * specify a FILE pointer to read from. */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_READFUNCTION</span><span class="p">,</span> <span class="n">payload_source</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_READDATA</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">upload_ctx</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_UPLOAD</span><span class="p">,</span> <span class="mi">1L</span><span class="p">);</span>
 
-    /* Add two recipients, in this particular case they correspond to the
-     * To: and Cc: addressees in the header, but they could be any kind of
-     * recipient. */
-    recipients = curl_slist_append(recipients, TO);
-    recipients = curl_slist_append(recipients, CC);
-    curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);
+    <span class="cm">/* Since the traffic will be encrypted, it is very useful to turn on debug
+</span><span class="cm">     * information within libcurl to see what is happening during the transfer.
+</span><span class="cm">     */</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1L</span><span class="p">);</span>
 
-    /* We're using a callback function to specify the payload (the headers and
-     * body of the message). You could just use the CURLOPT_READDATA option to
-     * specify a FILE pointer to read from. */
-    curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);
-    curl_easy_setopt(curl, CURLOPT_READDATA, &upload_ctx);
-    curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);
+    <span class="cm">/* Send the message */</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">curl_easy_perform</span><span class="p">(</span><span class="n">curl</span><span class="p">);</span>
 
-    /* Since the traffic will be encrypted, it is very useful to turn on debug
-     * information within libcurl to see what is happening during the transfer.
-     */
-    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+    <span class="cm">/* Check for errors */</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">res</span> <span class="o">!=</span> <span class="n">CURLE_OK</span><span class="p">)</span>
+      <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">&#34;curl_easy_perform() failed: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span>
+              <span class="n">curl_easy_strerror</span><span class="p">(</span><span class="n">res</span><span class="p">));</span>
 
-    /* Send the message */
-    res = curl_easy_perform(curl);
+    <span class="cm">/* Free the list of recipients */</span>
+    <span class="n">curl_slist_free_all</span><span class="p">(</span><span class="n">recipients</span><span class="p">);</span>
 
-    /* Check for errors */
-    if(res != CURLE_OK)
-      fprintf(stderr, "curl_easy_perform() failed: %sn",
-              curl_easy_strerror(res));
+    <span class="cm">/* Always cleanup */</span>
+    <span class="n">curl_easy_cleanup</span><span class="p">(</span><span class="n">curl</span><span class="p">);</span>
+  <span class="p">}</span>
 
-    /* Free the list of recipients */
-    curl_slist_free_all(recipients);
-
-    /* Always cleanup */
-    curl_easy_cleanup(curl);
-  }
-
-  return (int)res;
-}
-</pre>
-<p>কিহ! ঘাবরে গেলেন! নাহ, ঘাবরানোর কিছু নেই। পুরো কোডটার অর্থ আমাদের আপাতত না বুঝলেও চলবে।</p>
+  <span class="k">return</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>কিহ! ঘাবরে গেলেন! নাহ, ঘাবরানোর কিছু নেই। পুরো কোডটার অর্থ আমাদের আপাতত না বুঝলেও চলবে।</p>
 <p>এখন কোডের এ অংশটির দিকে খেয়াল করুন:</p>
-<pre class="start-line:34 lang:c decode:true">#define FROM    "&lt;sender@example.org&gt;"
-#define TO      "&lt;addressee@example.net&gt;"
-#define CC      "&lt;info@example.org&gt;"</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define FROM    &#34;&lt;sender@example.org&gt;&#34;
+</span><span class="cp">#define TO      &#34;&lt;addressee@example.net&gt;&#34;
+</span><span class="cp">#define CC      &#34;&lt;info@example.org&gt;&#34;</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>মনে করি, আমরা যে ইমেইল এড্রেস থেকে ইমেইলটি পাঠাবো, সেটি হল <a href="mailto:blabla@gmail.com">blabla@gmail.com</a>, যাকে পাঠাবো তার ইমেইল হল, <a href="mailto:hellotest@gmail.com">hellotest@gmail.com</a> এবং CC হল <a href="mailto:testcc@gmail.com">testcc@gmail.com</a>. তাহলে এ অংশ আমাদের এভাবে পরিবর্তন করতে হবে।</p>
-<pre class="start-line:34 lang:c decode:true ">#define FROM    "&lt;blabla@gmail.com&gt;"
-#define TO      "&lt;hellotest@gmail.com&gt;"
-#define CC      "&lt;testcc@gmail.com&gt;"</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define FROM    &#34;&lt;blabla@gmail.com&gt;&#34;
+</span><span class="cp">#define TO      &#34;&lt;hellotest@gmail.com&gt;&#34;
+</span><span class="cp">#define CC      &#34;&lt;testcc@gmail.com&gt;&#34;</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এখন নিচের অংশটুকু লক্ষ্য করুন:</p>
-<pre class="start-line:38 lang:c decode:true ">static const char *payload_text[] = {
-  "Date: Mon, 29 Nov 2010 21:54:29 +1100rn",
-  "To: " TO "rn",
-  "From: " FROM "(Example User)rn",
-  "Cc: " CC "(Another example User)rn",
-  "Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;rn",
-  "Subject: SMTP TLS example messagern",
-  "rn", /* empty line to divide headers from body, see RFC5322 */
-  "The body of the message starts here.rn",
-  "rn",
-  "It could be a lot of lines, could be MIME encoded, whatever.rn",
-  "Check RFC5322.rn",
-  NULL
-};</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">payload_text</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">&#34;Date: Mon, 29 Nov 2010 21:54:29 +1100</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;To: &#34;</span> <span class="n">TO</span> <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;From: &#34;</span> <span class="n">FROM</span> <span class="s">&#34;(Example User)</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Cc: &#34;</span> <span class="n">CC</span> <span class="s">&#34;(Another example User)</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Subject: SMTP TLS example message</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="cm">/* empty line to divide headers from body, see RFC5322 */</span>
+  <span class="s">&#34;The body of the message starts here.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;It could be a lot of lines, could be MIME encoded, whatever.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Check RFC5322.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="nb">NULL</span>
+<span class="p">};</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এ অংশটুকু আশা করি দেখেই বুঝে ফেলেছেন। এখন নিজের ইচ্ছা মত পরিবর্তন করুন। আমি এরকম করছি:</p>
-<pre class="start-line:38 lang:c decode:true ">static const char *payload_text[] = {
-  "Date: Fri, 16 Oct 2015 22:50:29 +0600rn",
-  "To: " TO "rn",
-  "From: " FROM "Bla Blarn",
-  "Cc: " CC "Testerrn",
-  "Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;rn",
-  "Subject: Gmail SMTP test emailrn",
-  "rn", /* empty line to divide headers from body, see RFC5322 */ 
-  "This is my awesome message.rn",
-  "rn",
-  "I can add more text here.rn",
-  "etc etc.rn",
-  NULL
-};</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">payload_text</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">&#34;Date: Fri, 16 Oct 2015 22:50:29 +0600</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;To: &#34;</span> <span class="n">TO</span> <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;From: &#34;</span> <span class="n">FROM</span> <span class="s">&#34;Bla Bla</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Cc: &#34;</span> <span class="n">CC</span> <span class="s">&#34;Tester</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Subject: Gmail SMTP test email</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="cm">/* empty line to divide headers from body, see RFC5322 */</span> 
+  <span class="s">&#34;This is my awesome message.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;I can add more text here.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;etc etc.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="nb">NULL</span>
+<span class="p">};</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এখন গুরুত্বপূর্ণ অংশ। নিচের কোড লক্ষ্য করুন:</p>
-<pre class="start-line:91 lang:c decode:true ">curl_easy_setopt(curl, CURLOPT_USERNAME, "user");
-curl_easy_setopt(curl, CURLOPT_PASSWORD, "secret");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">91
+</span><span class="lnt">92
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USERNAME</span><span class="p">,</span> <span class="s">&#34;user&#34;</span><span class="p">);</span>
+<span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_PASSWORD</span><span class="p">,</span> <span class="s">&#34;secret&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>উপরে যেখানে user এবং secret লেখা দেখছেন, সেখানে যথাক্রমে আপনি যে জিমেইল একাউন্ট ব্যাবহার করে ইমেইলটি পাঠাতে চাচ্ছেন সেটি এবং তার পাসওয়ার্ড দিতে হবে। আমি <a href="mailto:blabla@gmail.com">blabla@gmail.com</a> থেকে যদি ইমেইল টি পাঠাতে চাই, এবং তার পাসওয়ার্ড যদি হয় blablapass , তাহলে কোডটুকু দেখতে হবে এরকম:</p>
-<pre class="start-line:91 lang:c decode:true ">curl_easy_setopt(curl, CURLOPT_USERNAME, "blabla@gmail.com");
-curl_easy_setopt(curl, CURLOPT_PASSWORD, "blablapass");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">91
+</span><span class="lnt">92
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USERNAME</span><span class="p">,</span> <span class="s">&#34;blabla@gmail.com&#34;</span><span class="p">);</span>
+<span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_PASSWORD</span><span class="p">,</span> <span class="s">&#34;blablapass&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এখন দখুন:</p>
-<pre class="start-line:98 lang:c decode:true ">curl_easy_setopt(curl, CURLOPT_URL, "smtp://mainserver.example.net:587");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">98
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_URL</span><span class="p">,</span> <span class="s">&#34;smtp://mainserver.example.net:587&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এটি পরিবর্তন করে করতে হবে এভাবে:</p>
-<pre class="start-line:98 lang:c decode:true ">curl_easy_setopt(curl, CURLOPT_URL, "smtp://smtp.gmail.com:587");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">98
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_URL</span><span class="p">,</span> <span class="s">&#34;smtp://smtp.gmail.com:587&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এখন শেষ কাজ:</p>
-<pre class="start-line:118 lang:c decode:true ">curl_easy_setopt(curl, CURLOPT_CAINFO, "/path/to/certificate.pem");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">118
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_CAINFO</span><span class="p">,</span> <span class="s">&#34;/path/to/certificate.pem&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>এই লাইনটিকে কমেন্ট আউট করুন। এভাবে:</p>
-<pre class="start-line:118 lang:c decode:true ">//curl_easy_setopt(curl, CURLOPT_CAINFO, "/path/to/certificate.pem");</pre>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">118
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="o">//</span> <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_CAINFO</span><span class="p">,</span> <span class="s">&#34;/path/to/certificate.pem&#34;</span><span class="p">);</span></code></pre></td></tr></table></div>
+</div>
+</div>
 <p>তাহলে সম্পূর্ন কোডটি দেখতে হবে এরকম:</p>
-<pre class="lang:c decode:true ">/***************************************************************************
- *                                  _   _ ____  _
- *  Project                     ___| | | |  _ | |
- *                             / __| | | | |_) | |
- *                            | (__| |_| |  _ &lt;| |___
- *                             ___|___/|_| ______|
- *
- * Copyright (C) 1998 - 2014, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.
- *
- * This software is licensed as described in the file COPYING, which
- * you should have received as part of this distribution. The terms
- * are also available at http://curl.haxx.se/docs/copyright.html.
- *
- * You may opt to use, copy, modify, merge, publish, distribute and/or sell
- * copies of the Software, and permit persons to whom the Software is
- * furnished to do so, under the terms of the COPYING file.
- *
- * This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
- * KIND, either express or implied.
- *
- ***************************************************************************/ 
-#include &lt;stdio.h&gt;
-#include &lt;string.h&gt;
-#include &lt;curl/curl.h&gt;
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/***************************************************************************
+</span><span class="cm"> *                                  _   _ ____  _
+</span><span class="cm"> *  Project                     ___| | | |  _ \| |
+</span><span class="cm"> *                             / __| | | | |_) | |
+</span><span class="cm"> *                            | (__| |_| |  _ &lt;| |___
+</span><span class="cm"> *                             \___|\___/|_| \_\_____|
+</span><span class="cm"> *
+</span><span class="cm"> * Copyright (C) 1998 - 2014, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.
+</span><span class="cm"> *
+</span><span class="cm"> * This software is licensed as described in the file COPYING, which
+</span><span class="cm"> * you should have received as part of this distribution. The terms
+</span><span class="cm"> * are also available at http://curl.haxx.se/docs/copyright.html.
+</span><span class="cm"> *
+</span><span class="cm"> * You may opt to use, copy, modify, merge, publish, distribute and/or sell
+</span><span class="cm"> * copies of the Software, and permit persons to whom the Software is
+</span><span class="cm"> * furnished to do so, under the terms of the COPYING file.
+</span><span class="cm"> *
+</span><span class="cm"> * This software is distributed on an &#34;AS IS&#34; basis, WITHOUT WARRANTY OF ANY
+</span><span class="cm"> * KIND, either express or implied.
+</span><span class="cm"> *
+</span><span class="cm"> ***************************************************************************/</span> 
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;curl/curl.h&gt;</span><span class="cp">
+</span><span class="cp"></span> 
+<span class="cm">/* This is a simple example showing how to send mail using libcurl&#39;s SMTP
+</span><span class="cm"> * capabilities. It builds on the smtp-mail.c example to add authentication
+</span><span class="cm"> * and, more importantly, transport security to protect the authentication
+</span><span class="cm"> * details from being snooped.
+</span><span class="cm"> *
+</span><span class="cm"> * Note that this example requires libcurl 7.20.0 or above.
+</span><span class="cm"> */</span> 
  
-/* This is a simple example showing how to send mail using libcurl's SMTP
- * capabilities. It builds on the smtp-mail.c example to add authentication
- * and, more importantly, transport security to protect the authentication
- * details from being snooped.
- *
- * Note that this example requires libcurl 7.20.0 or above.
- */ 
+<span class="cp">#define FROM    &#34;&lt;blabla@gmail.com&gt;&#34;
+</span><span class="cp">#define TO      &#34;&lt;hellotest@gmail.com&gt;&#34;
+</span><span class="cp">#define CC      &#34;&lt;testcc@gmail.com&gt;&#34;
+</span><span class="cp"></span> 
+<span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">payload_text</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">&#34;Date: Fri, 16 Oct 2015 22:50:29 +0600</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;To: &#34;</span> <span class="n">TO</span> <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;From: &#34;</span> <span class="n">FROM</span> <span class="s">&#34;Bla Bla</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Cc: &#34;</span> <span class="n">CC</span> <span class="s">&#34;Tester</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;Subject: Gmail SMTP test email</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="cm">/* empty line to divide headers from body, see RFC5322 */</span> 
+  <span class="s">&#34;This is my awesome message.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;I can add more text here.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="s">&#34;etc etc.</span><span class="se">\r\n</span><span class="s">&#34;</span><span class="p">,</span>
+  <span class="nb">NULL</span>
+<span class="p">};</span>
  
-#define FROM    "&lt;blabla@gmail.com&gt;"
-#define TO      "&lt;hellotest@gmail.com&gt;"
-#define CC      "&lt;testcc@gmail.com&gt;"
+<span class="k">struct</span> <span class="n">upload_status</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">lines_read</span><span class="p">;</span>
+<span class="p">};</span>
  
-static const char *payload_text[] = {
-  "Date: Fri, 16 Oct 2015 22:50:29 +0600rn",
-  "To: " TO "rn",
-  "From: " FROM "Bla Blarn",
-  "Cc: " CC "Testerrn",
-  "Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;rn",
-  "Subject: Gmail SMTP test emailrn",
-  "rn", /* empty line to divide headers from body, see RFC5322 */ 
-  "This is my awesome message.rn",
-  "rn",
-  "I can add more text here.rn",
-  "etc etc.rn",
-  NULL
-};
+<span class="k">static</span> <span class="n">size_t</span> <span class="nf">payload_source</span><span class="p">(</span><span class="kt">void</span> <span class="o">*</span><span class="n">ptr</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">size</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">nmemb</span><span class="p">,</span> <span class="kt">void</span> <span class="o">*</span><span class="n">userp</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">struct</span> <span class="n">upload_status</span> <span class="o">*</span><span class="n">upload_ctx</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="n">upload_status</span> <span class="o">*</span><span class="p">)</span><span class="n">userp</span><span class="p">;</span>
+  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">data</span><span class="p">;</span>
  
-struct upload_status {
-  int lines_read;
-};
+  <span class="k">if</span><span class="p">((</span><span class="n">size</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">nmemb</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">((</span><span class="n">size</span><span class="o">*</span><span class="n">nmemb</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="p">}</span>
  
-static size_t payload_source(void *ptr, size_t size, size_t nmemb, void *userp)
-{
-  struct upload_status *upload_ctx = (struct upload_status *)userp;
-  const char *data;
+  <span class="n">data</span> <span class="o">=</span> <span class="n">payload_text</span><span class="p">[</span><span class="n">upload_ctx</span><span class="o">-&gt;</span><span class="n">lines_read</span><span class="p">];</span>
  
-  if((size == 0) || (nmemb == 0) || ((size*nmemb) &lt; 1)) {
-    return 0;
-  }
+  <span class="k">if</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">size_t</span> <span class="n">len</span> <span class="o">=</span> <span class="n">strlen</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+    <span class="n">memcpy</span><span class="p">(</span><span class="n">ptr</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
+    <span class="n">upload_ctx</span><span class="o">-&gt;</span><span class="n">lines_read</span><span class="o">++</span><span class="p">;</span>
  
-  data = payload_text[upload_ctx-&gt;lines_read];
+    <span class="k">return</span> <span class="n">len</span><span class="p">;</span>
+  <span class="p">}</span>
  
-  if(data) {
-    size_t len = strlen(data);
-    memcpy(ptr, data, len);
-    upload_ctx-&gt;lines_read++;
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
  
-    return len;
-  }
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">CURL</span> <span class="o">*</span><span class="n">curl</span><span class="p">;</span>
+  <span class="n">CURLcode</span> <span class="n">res</span> <span class="o">=</span> <span class="n">CURLE_OK</span><span class="p">;</span>
+  <span class="k">struct</span> <span class="n">curl_slist</span> <span class="o">*</span><span class="n">recipients</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+  <span class="k">struct</span> <span class="n">upload_status</span> <span class="n">upload_ctx</span><span class="p">;</span>
  
-  return 0;
-}
+  <span class="n">upload_ctx</span><span class="p">.</span><span class="n">lines_read</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
  
-int main(void)
-{
-  CURL *curl;
-  CURLcode res = CURLE_OK;
-  struct curl_slist *recipients = NULL;
-  struct upload_status upload_ctx;
+  <span class="n">curl</span> <span class="o">=</span> <span class="n">curl_easy_init</span><span class="p">();</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">curl</span><span class="p">)</span> <span class="p">{</span>
+    <span class="cm">/* Set username and password */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USERNAME</span><span class="p">,</span> <span class="s">&#34;blabla@gmail.com&#34;</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_PASSWORD</span><span class="p">,</span> <span class="s">&#34;blablapass&#34;</span><span class="p">);</span>
  
-  upload_ctx.lines_read = 0;
+    <span class="cm">/* This is the URL for your mailserver. Note the use of port 587 here,
+</span><span class="cm">     * instead of the normal SMTP port (25). Port 587 is commonly used for
+</span><span class="cm">     * secure mail submission (see RFC4403), but you should use whatever
+</span><span class="cm">     * matches your server configuration. */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_URL</span><span class="p">,</span> <span class="s">&#34;smtp://smtp.gmail.com:587&#34;</span><span class="p">);</span>
  
-  curl = curl_easy_init();
-  if(curl) {
-    /* Set username and password */ 
-    curl_easy_setopt(curl, CURLOPT_USERNAME, "blabla@gmail.com");
-    curl_easy_setopt(curl, CURLOPT_PASSWORD, "blablapass");
+    <span class="cm">/* In this example, we&#39;ll start with a plain text connection, and upgrade
+</span><span class="cm">     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
+</span><span class="cm">     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
+</span><span class="cm">     * will continue anyway - see the security discussion in the libcurl
+</span><span class="cm">     * tutorial for more details. */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_USE_SSL</span><span class="p">,</span> <span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="n">CURLUSESSL_ALL</span><span class="p">);</span>
  
-    /* This is the URL for your mailserver. Note the use of port 587 here,
-     * instead of the normal SMTP port (25). Port 587 is commonly used for
-     * secure mail submission (see RFC4403), but you should use whatever
-     * matches your server configuration. */ 
-    curl_easy_setopt(curl, CURLOPT_URL, "smtp://smtp.gmail.com:587");
+    <span class="cm">/* If your server doesn&#39;t have a valid certificate, then you can disable
+</span><span class="cm">     * part of the Transport Layer Security protection by setting the
+</span><span class="cm">     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
+</span><span class="cm">     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+</span><span class="cm">     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+</span><span class="cm">     * That is, in general, a bad idea. It is still better than sending your
+</span><span class="cm">     * authentication details in plain text though.
+</span><span class="cm">     * Instead, you should get the issuer certificate (or the host certificate
+</span><span class="cm">     * if the certificate is self-signed) and add it to the set of certificates
+</span><span class="cm">     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
+</span><span class="cm">     * docs/SSLCERTS for more information. */</span> 
+    <span class="c1">//curl_easy_setopt(curl, CURLOPT_CAINFO, &#34;/path/to/certificate.pem&#34;);
+</span><span class="c1"></span> 
+    <span class="cm">/* Note that this option isn&#39;t strictly required, omitting it will result in
+</span><span class="cm">     * libcurl sending the MAIL FROM command with empty sender data. All
+</span><span class="cm">     * autoresponses should have an empty reverse-path, and should be directed
+</span><span class="cm">     * to the address in the reverse-path which triggered them. Otherwise, they
+</span><span class="cm">     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
+</span><span class="cm">     */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_MAIL_FROM</span><span class="p">,</span> <span class="n">FROM</span><span class="p">);</span>
  
-    /* In this example, we'll start with a plain text connection, and upgrade
-     * to Transport Layer Security (TLS) using the STARTTLS command. Be careful
-     * of using CURLUSESSL_TRY here, because if TLS upgrade fails, the transfer
-     * will continue anyway - see the security discussion in the libcurl
-     * tutorial for more details. */ 
-    curl_easy_setopt(curl, CURLOPT_USE_SSL, (long)CURLUSESSL_ALL);
+    <span class="cm">/* Add two recipients, in this particular case they correspond to the
+</span><span class="cm">     * To: and Cc: addressees in the header, but they could be any kind of
+</span><span class="cm">     * recipient. */</span> 
+    <span class="n">recipients</span> <span class="o">=</span> <span class="n">curl_slist_append</span><span class="p">(</span><span class="n">recipients</span><span class="p">,</span> <span class="n">TO</span><span class="p">);</span>
+    <span class="n">recipients</span> <span class="o">=</span> <span class="n">curl_slist_append</span><span class="p">(</span><span class="n">recipients</span><span class="p">,</span> <span class="n">CC</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_MAIL_RCPT</span><span class="p">,</span> <span class="n">recipients</span><span class="p">);</span>
  
-    /* If your server doesn't have a valid certificate, then you can disable
-     * part of the Transport Layer Security protection by setting the
-     * CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST options to 0 (false).
-     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-     *   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-     * That is, in general, a bad idea. It is still better than sending your
-     * authentication details in plain text though.
-     * Instead, you should get the issuer certificate (or the host certificate
-     * if the certificate is self-signed) and add it to the set of certificates
-     * that are known to libcurl using CURLOPT_CAINFO and/or CURLOPT_CAPATH. See
-     * docs/SSLCERTS for more information. */ 
-    //curl_easy_setopt(curl, CURLOPT_CAINFO, "/path/to/certificate.pem");
+    <span class="cm">/* We&#39;re using a callback function to specify the payload (the headers and
+</span><span class="cm">     * body of the message). You could just use the CURLOPT_READDATA option to
+</span><span class="cm">     * specify a FILE pointer to read from. */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_READFUNCTION</span><span class="p">,</span> <span class="n">payload_source</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_READDATA</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">upload_ctx</span><span class="p">);</span>
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_UPLOAD</span><span class="p">,</span> <span class="mi">1L</span><span class="p">);</span>
  
-    /* Note that this option isn't strictly required, omitting it will result in
-     * libcurl sending the MAIL FROM command with empty sender data. All
-     * autoresponses should have an empty reverse-path, and should be directed
-     * to the address in the reverse-path which triggered them. Otherwise, they
-     * could cause an endless loop. See RFC 5321 Section 4.5.5 for more details.
-     */ 
-    curl_easy_setopt(curl, CURLOPT_MAIL_FROM, FROM);
+    <span class="cm">/* Since the traffic will be encrypted, it is very useful to turn on debug
+</span><span class="cm">     * information within libcurl to see what is happening during the transfer.
+</span><span class="cm">     */</span> 
+    <span class="n">curl_easy_setopt</span><span class="p">(</span><span class="n">curl</span><span class="p">,</span> <span class="n">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1L</span><span class="p">);</span>
  
-    /* Add two recipients, in this particular case they correspond to the
-     * To: and Cc: addressees in the header, but they could be any kind of
-     * recipient. */ 
-    recipients = curl_slist_append(recipients, TO);
-    recipients = curl_slist_append(recipients, CC);
-    curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);
+    <span class="cm">/* Send the message */</span> 
+    <span class="n">res</span> <span class="o">=</span> <span class="n">curl_easy_perform</span><span class="p">(</span><span class="n">curl</span><span class="p">);</span>
  
-    /* We're using a callback function to specify the payload (the headers and
-     * body of the message). You could just use the CURLOPT_READDATA option to
-     * specify a FILE pointer to read from. */ 
-    curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);
-    curl_easy_setopt(curl, CURLOPT_READDATA, &upload_ctx);
-    curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);
+    <span class="cm">/* Check for errors */</span> 
+    <span class="k">if</span><span class="p">(</span><span class="n">res</span> <span class="o">!=</span> <span class="n">CURLE_OK</span><span class="p">)</span>
+      <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">&#34;curl_easy_perform() failed: %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span>
+              <span class="n">curl_easy_strerror</span><span class="p">(</span><span class="n">res</span><span class="p">));</span>
  
-    /* Since the traffic will be encrypted, it is very useful to turn on debug
-     * information within libcurl to see what is happening during the transfer.
-     */ 
-    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+    <span class="cm">/* Free the list of recipients */</span> 
+    <span class="n">curl_slist_free_all</span><span class="p">(</span><span class="n">recipients</span><span class="p">);</span>
  
-    /* Send the message */ 
-    res = curl_easy_perform(curl);
+    <span class="cm">/* Always cleanup */</span> 
+    <span class="n">curl_easy_cleanup</span><span class="p">(</span><span class="n">curl</span><span class="p">);</span>
+  <span class="p">}</span>
  
-    /* Check for errors */ 
-    if(res != CURLE_OK)
-      fprintf(stderr, "curl_easy_perform() failed: %sn",
-              curl_easy_strerror(res));
- 
-    /* Free the list of recipients */ 
-    curl_slist_free_all(recipients);
- 
-    /* Always cleanup */ 
-    curl_easy_cleanup(curl);
-  }
- 
-  return (int)res;
-}</pre>
-<p>এখন কোডটা কম্পাইল করে রান করুন। আপনি যদি সব কিছু ঠিক ঠাক মত করে থাকেন, তাহলে কনসোলে কিছু ইনফরমেশন দেখতে পাবেন এবং আপনার ইমেইলটি যথাযথ ভাবে পৌছে যাবে।</p>
+  <span class="k">return</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>এখন কোডটা কম্পাইল করে রান করুন। আপনি যদি সব কিছু ঠিক ঠাক মত করে থাকেন, তাহলে কনসোলে কিছু ইনফরমেশন দেখতে পাবেন এবং আপনার ইমেইলটি যথাযথ ভাবে পৌছে যাবে।</p>
 <p>ধৈর্য ধরে লেখাটি পড়ার জন্য ধন্যবাদ। আপনি কাজটি করতে সফল হলে কিংবা কোথাও বুঝতে সমস্যা হলে নির্দ্বিধায় কমেন্ট করুন। আর আমি কোথাও ভুল লিখলে সেটাও কমেন্টের মাধ্যমে জানিয়ে দিন। আর ইচ্ছে হলে সাবস্ক্রাইব করতে পারেন এ ব্লগে।</p>
 <p>হ্যাপি কোডিং 🙂</p>
 
@@ -687,7 +1126,7 @@ int main(void)
             
                 <div class="share-item linkedin">
                     
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://fazlerabby7.github.io/send-email-using-c-program/&amp;title=C%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%20%e0%a6%8f%e0%a6%b0%20%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%af%e0%a7%8d%e0%a6%af%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%87%e0%a6%b0%e0%a6%a3&amp;summary=%e0%a6%ac%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%a8%c2%a0%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87%20%e0%a6%86%e0%a6%ae%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b0%20C%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%20%e0%a6%a5%e0%a7%87%e0%a6%95%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%87%e0%a6%b0%e0%a6%a3%e0%a7%87%e0%a6%b0%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%9f%e0%a7%8b%e0%a6%9c%e0%a6%a8%20%e0%a6%b9%e0%a6%a4%e0%a7%87%20%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a5%a4%20%e0%a6%86%e0%a6%9c%20%e0%a6%86%e0%a6%ae%e0%a6%b0%e0%a6%be%20%e0%a6%a6%e0%a7%87%e0%a6%96%e0%a6%ac%e0%a7%8b%20%e0%a6%95%e0%a7%80%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87%20libcurl%20%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%9c%e0%a6%bf%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20SMTP%20%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0%20%e0%a6%ae%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%ae%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a6%be%e0%a6%a0%e0%a6%be%e0%a6%a8%e0%a7%8b%20%e0%a6%af%e0%a6%be%e0%a7%9f%e0%a5%a4%0a%e0%a6%86%e0%a6%ae%e0%a6%bf%20%e0%a6%8f%e0%a6%96%e0%a6%be%e0%a6%a8%e0%a7%87%20libcurl%20%e0%a6%95%e0%a6%bf%e0%a6%82%e0%a6%ac%e0%a6%be%20SMTP%20%e0%a6%a8%e0%a6%bf%e0%a7%9f%e0%a7%87%20%e0%a6%95%e0%a7%8b%e0%a6%a8%20%e0%a6%86%e0%a6%b2%e0%a7%8b%e0%a6%9a%e0%a6%a8%e0%a6%be%20%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%8b%20%e0%a6%a8%e0%a6%be%e0%a5%a4%20%e0%a6%8f%e0%a6%97%e0%a7%81%e0%a6%b2%e0%a7%8b%20%e0%a6%b8%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a7%87%20%e0%a6%a8%e0%a6%be%20%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87%20%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%b2%e0%a7%87%20%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a%20%e0%a6%87%e0%a6%9e%e0%a7%8d%e0%a6%9c%e0%a6%bf%e0%a6%a8%20%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87%20%e0%a6%a8%e0%a6%bf%e0%a6%a8%e0%a5%a4%20%e0%a6%86%e0%a6%b0%20%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%89%e0%a6%9f%e0%a6%be%e0%a6%b0%e0%a7%87%20libcurl%20%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%9f%e0%a6%b2%20%e0%a6%95%e0%a6%b0%e0%a6%be%20%e0%a6%a8%e0%a6%be%20%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%b2%e0%a7%87,%20%e0%a6%a4%e0%a6%be%20%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%9f%e0%a6%b2%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0%20IDE%20%28Code::Blocks%20%e0%a6%b9%e0%a7%9f%e0%a6%a4!&amp;source=Fazle%20Rabby%27s%20Thoughts" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://fazlerabby7.github.io/send-email-using-c-program/&amp;title=C%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%20%e0%a6%8f%e0%a6%b0%20%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%af%e0%a7%8d%e0%a6%af%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%87%e0%a6%b0%e0%a6%a3&amp;summary=%e0%a6%ac%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%a8%c2%a0%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87%20%e0%a6%86%e0%a6%ae%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b0%20C%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%20%e0%a6%a5%e0%a7%87%e0%a6%95%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%87%e0%a6%b0%e0%a6%a3%e0%a7%87%e0%a6%b0%20%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%9f%e0%a7%8b%e0%a6%9c%e0%a6%a8%20%e0%a6%b9%e0%a6%a4%e0%a7%87%20%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a5%a4%20%e0%a6%86%e0%a6%9c%20%e0%a6%86%e0%a6%ae%e0%a6%b0%e0%a6%be%20%e0%a6%a6%e0%a7%87%e0%a6%96%e0%a6%ac%e0%a7%8b%20%e0%a6%95%e0%a7%80%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87%20libcurl%20%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%9c%e0%a6%bf%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20SMTP%20%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0%20%e0%a6%ae%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%ae%e0%a7%87%20%e0%a6%87%e0%a6%ae%e0%a7%87%e0%a6%87%e0%a6%b2%20%e0%a6%aa%e0%a6%be%e0%a6%a0%e0%a6%be%e0%a6%a8%e0%a7%8b%20%e0%a6%af%e0%a6%be%e0%a7%9f%e0%a5%a4%0a%e0%a6%86%e0%a6%ae%e0%a6%bf%20%e0%a6%8f%e0%a6%96%e0%a6%be%e0%a6%a8%e0%a7%87%20libcurl%20%e0%a6%95%e0%a6%bf%e0%a6%82%e0%a6%ac%e0%a6%be%20SMTP%20%e0%a6%a8%e0%a6%bf%e0%a7%9f%e0%a7%87%20%e0%a6%95%e0%a7%8b%e0%a6%a8%20%e0%a6%86%e0%a6%b2%e0%a7%8b%e0%a6%9a%e0%a6%a8%e0%a6%be%20%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%8b%20%e0%a6%a8%e0%a6%be%e0%a5%a4%20%e0%a6%8f%e0%a6%97%e0%a7%81%e0%a6%b2%e0%a7%8b%20%e0%a6%b8%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a7%87%20%e0%a6%a8%e0%a6%be%20%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87%20%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%b2%e0%a7%87%20%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a%20%e0%a6%87%e0%a6%9e%e0%a7%8d%e0%a6%9c%e0%a6%bf%e0%a6%a8%20%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87%20%e0%a6%a8%e0%a6%bf%e0%a6%a8%e0%a5%a4%20%e0%a6%86%e0%a6%b0%20%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0%20%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%89%e0%a6%9f%e0%a6%be%e0%a6%b0%e0%a7%87%20libcurl%20%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%9f%e0%a6%b2%20%e0%a6%95%e0%a6%b0%e0%a6%be%20%e0%a6%a8%e0%a6%be%20%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%b2%e0%a7%87,%20%e0%a6%a4%e0%a6%be%20%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%9f%e0%a6%b2%20%e0%a6%95%e0%a6%b0%e0%a7%87%20%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0%20IDE%20%28Code::Blocks%20%e0%a6%b9%e0%a7%9f%e0%a6%a4!&amp;source=Thoughts%20of%20Fazle%20Rabby" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
                 </div>
             
 
@@ -823,7 +1262,7 @@ int main(void)
             
             
                 <li class="post-nav-next">
-                    <a href="../project-story-website-of-isaca-student-group-diu/" rel="next">Project story: website of ISACA student group, DIU &gt;</a>
+                    <a href="../solution-wordpress-asks-for-ftp-credentials-in-ubuntu/" rel="next">[Solution] WordPress asks for FTP credentials in Ubuntu ></a>
                 </li>
             
         </ul>

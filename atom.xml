@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Thoughts of Fazle Rabby</title>
     <subtitle type="html">Personal blog of Fazle Rabby about software engineering, technology and self!.</subtitle>
-    <updated>2020-12-10T02:14:38&#43;06:00</updated>
+    <updated>2020-12-12T21:37:38&#43;06:00</updated>
     <id>https://fazlerabby7.github.io/</id>
     <link rel="alternate" type="text/html" href="https://fazlerabby7.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://fazlerabby7.github.io/atom.xml" />
@@ -198,7 +198,7 @@
             <title type="text">পাইথন ডেকরেটর‍্স‍</title>
             <link rel="alternate" type="text/html" href="https://fazlerabby7.github.io/python-decorator-bangla/" />
             <id>https://fazlerabby7.github.io/python-decorator-bangla/</id>
-            <updated>2020-12-10T00:18:21&#43;06:00</updated>
+            <updated>2020-12-12T21:35:18&#43;06:00</updated>
             <published>2016-10-01T18:19:22&#43;00:00</published>
             <author>
                     <uri>https://fazlerabby7.github.io/</uri>
@@ -208,6 +208,7 @@
             
                 <content type="html">&lt;p&gt;&amp;ldquo;ডেকরেটর! ওই যে বিভিন্ন অনুষ্ঠানের সাজ সজ্জা করে মানে ডেকরেট করে&amp;hellip;.. তো পাইথনে আবার তাদের কি কাজ!&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;পোস্টের টাইটেল দেখে যদি আপনার মনে এরকম প্রশ্নের উদয় হয় তাহলেও দোষের কিছু নেই। পাইথনে ডেকরেটর কিছুটা এডভান্স আর কমপ্লেক্স টপিক। তবে চিন্তা নেই, এই পোস্টে আমরা একটু সহজ ভাবে, ধাপে ধাপে জানার চেষ্টা করবো পাইথনে ডেকরেটর জিনিষটা কী, কীভাবে কাজ করে আর কীভাবেই বা ব্যাবহার করে।&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../files/2016/10/decorator.png&#34; alt=&#34;Python Decorator&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ঠিক ঠাক ভাবে বললে, ডেকরেটর হল এক ধরনের callable যা অন্য callable এর ফাংশনালিটিকে মডিফাই করে। আরেকটু সহজ করে বললে, ডেকরেটর হল এক ধরনের ফাংশন যা অন্য ফাংশনের ফাংশনালিটিকে মডিফাই করে। [ডেকরেটর ক্লাসও হয়, তবে এ পোস্টে সেটা আলোচনা করবো না।] তো ধাপে ধাপে শুরু করা যাক। আমি ধরে নিচ্ছি ভ্যারিয়েবলের স্কোপ রেজ্যুলেশন সম্পর্কে আমাদের মোটামুটি ভাল ধারনা আছে, তাই এ সম্পর্কে আর বাড়তি কিছু লিখলাম না।&lt;/p&gt;
 &lt;h3 id=&#34;ফশনর-করকর&#34;&gt;ফাংশনের কারিকুরি&lt;/h3&gt;
 &lt;p&gt;এই কোড ব্লক টা দেখি:&lt;/p&gt;
@@ -2969,7 +2970,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
             <title type="text">ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর : কী, কেন এবং কীভাবে!</title>
             <link rel="alternate" type="text/html" href="https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/" />
             <id>https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/</id>
-            <updated>2020-12-10T02:05:24&#43;06:00</updated>
+            <updated>2020-12-12T21:33:07&#43;06:00</updated>
             <published>2015-02-05T15:57:10&#43;00:00</published>
             <author>
                     <uri>https://fazlerabby7.github.io/</uri>
@@ -2987,7 +2988,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
 &lt;/ul&gt;
 &lt;p&gt;আচ্ছা, তাহলে শুরু করা যাক!&lt;/p&gt;
 &lt;h2 id=&#34;ফয়রফকস-সটডনট-অযমবসডর-পরগরম&#34;&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম:&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://fazlerabby7.files.wordpress.com/2015/02/fsa1.jpg&#34; alt=&#34;FSA&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../files/2015/02/fsa1.jpg&#34; alt=&#34;FSA&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর(সংক্ষেপে FSA) হলেন সেই সকল শিক্ষার্থীরা, যারা মজিলা, ওপেন ওয়েব, ফায়ারফক্স, ফায়ারফক্স ওস সহ মজিলার বিভিন্ন সেবার সুবিধা সমূহ নিয়ে উৎসাহী। এ সকল উৎসাহী শিক্ষার্থীদের নিয়েই মজিলার এই ফায়ারফক্স স্টুডেন্ট অ্যাম্বাসেডর প্রোগ্রাম।&lt;/p&gt;
 &lt;h2 id=&#34;মজল-এব-এর-উদদশয&#34;&gt;মজিলা এবং এর উদ্দেশ্য:&lt;/h2&gt;
 &lt;p&gt;মজিলা হল একটি অলাভজনক প্রতিষ্ঠান, যেটা ওয়েব কে মুক্ত রাখতে ও আমাদের মত ব্যাবহারকারীদের স্বার্থ সংরক্ষণে নানা উপায়ে কাজ করে যাচ্ছে। এটি কোন ব্যাবসায়ীক প্রতিষ্ঠান নয়, একটি সংগঠন। আমার এবং আপনার মত সাধারণ মানুষের সংগঠন। যা আমাদের মত সাধারণ মানুষদের অধিকারের জন্য, বড় বড় ব্যাবসায়ীক প্রতিষ্ঠানের বিরুদ্ধে লড়ে যাচ্ছে।&lt;/p&gt;
@@ -3003,7 +3004,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;মজিলার মিশন সম্পর্কে জানতে চলে যান &lt;a href=&#34;https://www.mozilla.org/en-US/mission/&#34; target=&#34;_blank&#34;&gt;এই লিংকে&lt;/a&gt;।&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fazlerabby7.files.wordpress.com/2015/02/meaning-of-open.png&#34; alt=&#34;meaning of open&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;../files/2015/02/meaning-of-open.png&#34; alt=&#34;meaning of open&#34;&gt;
 &lt;em&gt;মজিলা ওপেন বলতে যা বোঝায়&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;সটডনট-অযমবসডরর-য-সকল-কজ-সমপকত-থকন&#34;&gt;স্টুডেন্ট অ্যাম্বাসেডররা যে সকল কাজে সম্পৃক্ত থাকেন:&lt;/h2&gt;
 &lt;ul&gt;

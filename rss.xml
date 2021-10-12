@@ -17,10 +17,236 @@
         
         
         
-        <lastBuildDate>Sat, 12 Dec 2020 21:37:38 &#43;0600</lastBuildDate>
+        <lastBuildDate>Tue, 12 Oct 2021 23:12:41 &#43;0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://fazlerabby7.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Incident on Python 2 to 3 Migration: Redis Cache and Pickle</title>
+                <link>https://fazlerabby7.github.io/incident-on-python-2-to-3-migration-redis-cache-and-pickle/</link>
+                <guid isPermaLink="true">https://fazlerabby7.github.io/incident-on-python-2-to-3-migration-redis-cache-and-pickle/</guid>
+                <pubDate>Tue, 12 Oct 2021 19:39:22 &#43;0600</pubDate>
+                
+                
+                
+                    <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;1st January 2020&lt;/strong&gt;&lt;/em&gt; was the official &lt;a href=&#34;https://www.python.org/doc/sunset-python-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sunset&lt;/a&gt; date of Python 2. At NewsCred (now Welcome) we had a bunch of services written in Python 2 that we wanted to migrate to Python 3 as soon as we can, since the sunset date was approaching. In late &lt;em&gt;&lt;strong&gt;November 2019&lt;/strong&gt;&lt;/em&gt;, my team (Public API) took the first initiative to migrate one Flask service from Python &lt;code&gt;2.7.9&lt;/code&gt; to &lt;code&gt;3.8.0&lt;/code&gt;. As you can guess, it didn&amp;rsquo;t go butter smooth, and I&amp;rsquo;m here to tell the tale.&lt;/p&gt;
+&lt;p&gt;That big migration PR got reviewed by 4 experienced engineers. We had good test coverage. We created integration tests from log replay. We did extensive manual testing before production deployment. But as soon as it hit the production, we started getting PagerDuty alerts!&lt;/p&gt;
+&lt;p&gt;A lot of API requests were getting HTTP &lt;code&gt;500&lt;/code&gt; responses. Without much investigation, out of instinct we reverted the migration PR. Though the frequency went down by a big margin, we were still getting some &lt;code&gt;500&lt;/code&gt;s.&lt;/p&gt;
+&lt;h2 id=&#34;heres-why&#34;&gt;Here&amp;rsquo;s Why!&lt;/h2&gt;
+&lt;p&gt;From the logs we saw, after the migration PR deployment we started getting the following exception:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;...
+...
+  File &amp;quot;/.../werkzeug/contrib/cache.py&amp;quot;, line 631, in get
+    return self.load_object(self._client.get(self.key_prefix + key))
+  File &amp;quot;/.../werkzeug/contrib/cache.py&amp;quot;, line 621, in load_object
+    return pickle.loads(value[1:])
+UnicodeDecodeError: &#39;ascii&#39; codec can&#39;t decode byte 0xe2 in position 180662: ordinal not in range(128)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After the deployment of the revert PR, we got the following exception:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;...
+...
+  File &amp;quot;/...werkzeug/contrib/cache.py&amp;quot;, line 598, in get
+    return self.load_object(self._client.get(self.key_prefix + key))
+  File &amp;quot;/.../werkzeug/contrib/cache.py&amp;quot;, line 588, in load_object
+    return pickle.loads(value[1:])
+ValueError: unsupported pickle protocol: 4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;So the underlying issue was with &lt;a href=&#34;https://docs.python.org/3/library/pickle.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pickle&lt;/code&gt;&lt;/a&gt; not being able to de-serialize the cached object. Let&amp;rsquo;s dive a little deeper.&lt;/p&gt;
+&lt;h3 id=&#34;cache-setup&#34;&gt;Cache Setup&lt;/h3&gt;
+&lt;p&gt;We used Redis for response caching in that service. The setup looked something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;werkzeug.contrib.cache&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RedisCache&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;cache&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RedisCache&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CACHE_HOST&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CACHE_PORT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;cache&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;timeout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CACHE_TIMEOUT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cache&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;So we used the &lt;code&gt;RedisCache&lt;/code&gt; client from the &lt;a href=&#34;https://werkzeug.palletsprojects.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;werkzeug&lt;/code&gt;&lt;/a&gt;. (Underneath it uses the &lt;a href=&#34;https://github.com/redis/redis-py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;redis-py&lt;/code&gt;&lt;/a&gt;, this information is not relevant here though).&lt;/p&gt;
+&lt;h3 id=&#34;where-things-went-wrong&#34;&gt;Where Things Went Wrong&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;RedisCache&lt;/code&gt; uses &lt;code&gt;pickle&lt;/code&gt; to serialize objects &lt;a href=&#34;https://github.com/pallets/werkzeug/blob/f7c0ce03965bb654d5345aee19eb21071f1a917a/werkzeug/contrib/cache.py#L578&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;before writing to redis&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;dump_object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Dumps an object into a string for redis.  By default it serializes
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;    integers as regular string and pickle dumps everything else.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;    &amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integer_types&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ascii&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;sa&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;!&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pickle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dumps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And de-serialize objects &lt;a href=&#34;https://github.com/pallets/werkzeug/blob/1aba7408bbb1118ba86013f3e16585dbd3e56ede/src/werkzeug/contrib/cache.py#L621&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;after reading from redis&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;load_object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&amp;#34;The reversal of :meth:`dump_object`.  This might be called with
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;    None.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;    &amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;None&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;startswith&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pickle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;loads&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:])&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pickle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PickleError&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;None&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt; &lt;span class=&#34;ne&#34;&gt;ValueError&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;# before 0.8 we did not have serialization.  Still support that.&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Implementation of the &lt;a href=&#34;https://github.com/python/cpython/blob/a5f49f5bb46b6b8c7bf1ffedbaf3009186b94b50/Lib/pickle.py#L198&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;default &lt;code&gt;pickle&lt;/code&gt; protocol in Python 2.7.9&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;protocol&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;protocol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And the implementation of the &lt;a href=&#34;https://github.com/python/cpython/blob/fa919fdf2583bdfead1df00e842f24f30b2a34bf/Lib/pickle.py#L443&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;default &lt;code&gt;pickle&lt;/code&gt; protocol in Python 3.8.0&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;protocol&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;protocol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;DEFAULT_PROTOCOL&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The value of the &lt;a href=&#34;https://github.com/python/cpython/blob/fa919fdf2583bdfead1df00e842f24f30b2a34bf/Lib/pickle.py#L71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;DEFAULT_PROTOCOL&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;n&#34;&gt;DEFAULT_PROTOCOL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And there&amp;rsquo;s a &lt;a href=&#34;https://github.com/python/cpython/blob/fa919fdf2583bdfead1df00e842f24f30b2a34bf/Lib/pickle.py#L411-L414&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;docstring&lt;/a&gt; telling:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The optional *protocol* argument tells the pickler to use the
+given protocol; supported protocols are 0, 1, 2, 3 and 4.  The
+default protocol is 4. It was introduced in Python 3.4, it is
+incompatible with previous versions.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;As the default protocol of &lt;code&gt;pickle&lt;/code&gt; got changed from Python 2 to 3, the cache objects those were serialized (&lt;code&gt;set&lt;/code&gt;) using Python 2, couldn&amp;rsquo;t be de-serialized (&lt;code&gt;get&lt;/code&gt;) using Python 3 due to the unicode conversion error.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;UnicodeDecodeError: &#39;ascii&#39; codec can&#39;t decode byte 0xe2 in position 180662: ordinal not in range(128)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Thus we were getting that influx of &lt;code&gt;500&lt;/code&gt;s after the migration PR deployment.&lt;/p&gt;
+&lt;p&gt;While the service was running in Python 3, some data got cached, after reverting to Python 2, &lt;code&gt;pickle&lt;/code&gt; couldn&amp;rsquo;t read those cached data since protocol &lt;code&gt;4&lt;/code&gt; was unknown to it, and we were getting some &lt;code&gt;500&lt;/code&gt;s.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ValueError: unsupported pickle protocol: 4
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;why-this-wasnt-detected-before-deployment&#34;&gt;Why This Wasn&amp;rsquo;t detected Before Deployment&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Though we had good test coverage, caching scenarios were mocked in the unit tests.&lt;/li&gt;
+&lt;li&gt;The subset of data we used for integration tests didn&amp;rsquo;t have any unicode entry.&lt;/li&gt;
+&lt;li&gt;We didn&amp;rsquo;t test manually with unicode data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Hence it caught us off guard!&lt;/p&gt;
+&lt;h3 id=&#34;how-we-solved-the-issue&#34;&gt;How We Solved the Issue&lt;/h3&gt;
+&lt;p&gt;We re-reverted the revert PR, and instantly after the deployment, we deleted the already cached data from redis. Since most of the consumers of that service were kind of background workers with high timeouts, performance spike from the mass cache invalidation didn&amp;rsquo;t cause much trouble.&lt;/p&gt;
+&lt;p&gt;Around 2 years after the incident, when I look back, definitely can realize - this kind of incidents teach us invaluable lessons!&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/python/">Python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/categories/flask/">Flask</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/python/">Python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/flask/">Flask</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/cache/">cache</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/redis/">redis</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://fazlerabby7.github.io/tags/pickle/">pickle</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Auto generating unique slug in Django: a generic approach</title>

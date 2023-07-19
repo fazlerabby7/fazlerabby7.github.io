@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.79.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.115.3"><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,11 +14,11 @@
 
     <title>পাইথন ডেকরেটর‍্স‍ | Thoughts of Fazle Rabby</title>
 
-    <link rel="stylesheet" href="../css/meme.min.7af66ef75b0fc8e2ee03c7c7de489594ae607750933d4c3aba8a89f50ca79ff0.css"/>
+    <link rel="stylesheet" href="../css/meme.min.143d7c6f28ba10f904b587b04977415f356289ff70cc7b4c626d2c9d5360d4d6.css"/>
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.d4d63fcd68bc80a122d93530a7262520b08e72f49dfde48589d747d0299d6bed.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.a4a2bdc4720b60e7eaf29e2fd7e652c1708d86a09e93fda21ca2ae9a5ca1b2de.js"></script>
 
     
 
@@ -55,13 +55,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2016-10-01T18:19:22+00:00",
-        "dateModified": "2020-12-12T21:35:18+06:00",
+        "dateModified": "2023-07-19T15:40:05+02:00",
         "url": "https://fazlerabby7.github.io/python-decorator-bangla/",
         "headline": "পাইথন ডেকরেটর‍্স‍",
         "description": "“ডেকরেটর! ওই যে বিভিন্ন অনুষ্ঠানের সাজ সজ্জা করে মানে ডেকরেট করে….. তো পাইথনে আবার তাদের কি কাজ!”\nপোস্টের টাইটেল দেখে যদি আপনার মনে এরকম প্রশ্নের উদয় হয় তাহলেও দোষের কিছু নেই। পাইথনে ডেকরেটর কিছুটা এডভান্স আর কমপ্লেক্স টপিক। তবে চিন্তা নেই, এই পোস্টে আমরা একটু সহজ ভাবে, ধাপে ধাপে জানার চেষ্টা করবো পাইথনে ডেকরেটর জিনিষটা কী, কীভাবে কাজ করে আর কীভাবেই বা ব্যাবহার করে।",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  1043 ,
+        "wordCount":  1045 ,
         "image": ["https://fazlerabby7.github.io/files/2016/10/decorator.png"],
         "author": {
             "@type": "Person",
@@ -99,7 +99,7 @@
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://fazlerabby7.github.io/files/2016/10/decorator.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2016-10-01T18:19:22&#43;00:00" />
-    <meta property="article:modified_time" content="2020-12-12T21:35:18&#43;06:00" />
+    <meta property="article:modified_time" content="2023-07-19T15:40:05&#43;02:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -148,7 +148,7 @@
         
         
             
-                <li class="menu-item active"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
+                <li class="menu-item"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
                 </li>
             
         
@@ -270,7 +270,7 @@
 <p>এই কোড ব্লক টা দেখি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -286,28 +286,28 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
-
-
-<span class="n">hello</span><span class="p">()</span>
-<span class="c1"># output: Hello World!</span>
-
-<span class="n">hi</span> <span class="o">=</span> <span class="n">hello</span>    <span class="c1"># interesting!</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">hi</span><span class="p">)</span>
-<span class="c1"># output: &lt;function hello at 0x7ff330b412f0&gt;</span>
-
-<span class="n">hi</span><span class="p">()</span>
-<span class="c1"># output: Hello World!</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: Hello World!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hi</span> <span class="o">=</span> <span class="n">hello</span>    <span class="c1"># interesting!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">hi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: &lt;function hello at 0x7ff330b412f0&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hi</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: Hello World!</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>8 নম্বর লাইন থেকে কোডটা ইন্টারেস্টিং হওয়া শুরু করেছে। আমরা জানি পাইথনে সব কিছুই এক একটা অবজেক্ট। ফাংশনও। এই লাইনে আমরা <code>hello</code> কে <code>hi</code> তে এসাইন করেছি। লক্ষনীয়, এখানে <code>hello</code> এর পাশে <code>()</code> (ব্র্যাকেট/প্যারেন্থেসিস) দেই নি। অর্থাৎ এখানে <code>hello</code> ফাংশনটি এক্সিকিউট বা কল হয় নি। 10 নম্বর লাইনের আউটপুট দেখলে ব্যাপারটা আরো পরিষ্কার হবে। আর 13 নম্বর লাইনে <code>hi</code> কে কল করা হয়েছে, আউটপুট পেয়েছি ঠিক <code>hello</code> এর মত।</p>
 <h3 id="ফশনর-ভতর-ফশন"><a href="#ফশনর-ভতর-ফশন" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>ফাংশনের ভেতর ফাংশন!</h3>
 <p>হ্যা, পাইথনে আমরা ফাংশনের ভেতর ফাংশন ডিফাইন করতে পারি। অন্যভাবে বললে আমরা নেস্টেড ফাংশন বানাতে পারি। এরকম:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -320,27 +320,27 @@
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Inside hello&#34;</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">nested</span><span class="p">():</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Inside nested&#34;</span><span class="p">)</span>
-
-    <span class="n">nested</span><span class="p">()</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Inside hello again&#34;</span><span class="p">)</span>
-
-
-<span class="n">hello</span><span class="p">()</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Inside hello&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">nested</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Inside nested&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">nested</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Inside hello again&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hello</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>আউটপুট:</p>
-<pre><code>Inside hello
+<pre tabindex="0"><code>Inside hello
 Inside nested
 Inside hello again
 </code></pre><p>আরেকটি কোড ব্লক দেখি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -352,24 +352,24 @@ Inside hello again
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">increment</span><span class="p">():</span>
-        <span class="k">return</span> <span class="n">value</span> <span class="o">+</span> <span class="mi">1</span>
-
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Incremented value of {} is {}&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">increment</span><span class="p">()))</span>
-
-
-<span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="c1"># output: Incremented value of 5 is 6</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">increment</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">value</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Incremented value of </span><span class="si">{}</span><span class="s2"> is </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">increment</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: Incremented value of 5 is 6</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>শুরুতেই লিখেছিলাম ভ্যারিয়েবলের স্কোপ রেজ্যুলেশন সম্পর্কে লিখবো না। কোডটা একটু ভাল মত লক্ষ্য করলেই আশা করি বুঝতে পারবেন।</p>
 <h3 id="ফশন-থক-ফশন-রটরন"><a href="#ফশন-থক-ফশন-রটরন" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>ফাংশন থেকে ফাংশন রিটার্ন!</h3>
 <p>ফাংশন থেকে ইচ্ছা করলে আমরা ফাংশন রিটার্নও করতে পারি! এই কোডটা দেখলে ব্যাপারটা পরিষ্কার হবে:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -386,28 +386,28 @@ Inside hello again
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-
-    <span class="k">def</span> <span class="nf">nested</span><span class="p">():</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Inside nested&#34;</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">nested</span>
-
-
-<span class="n">hi</span> <span class="o">=</span> <span class="n">hello</span><span class="p">()</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">hi</span><span class="p">)</span>
-<span class="c1"># output: &lt;function hello.&lt;locals&gt;.nested at 0x7f1ed4e94488&gt;</span>
-
-<span class="n">hi</span><span class="p">()</span>
-<span class="c1"># output: Inside nested</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">nested</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Inside nested&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">nested</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hi</span> <span class="o">=</span> <span class="n">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">hi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: &lt;function hello.&lt;locals&gt;.nested at 0x7f1ed4e94488&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hi</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output: Inside nested</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>9 নম্বর লাইনে <code>hello()</code> কে কল করায় এটা <code>nested</code> কে রিটার্ন করেছে, তা এসাইন হয়েছে <code>hi</code> তে। পূর্বের কোড ব্লক গুলো ফলো করলে এটি সহজেই বোঝা যাবে।</p>
 <p>আরেকটি কোড ব্লক দেখি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -419,24 +419,24 @@ Inside hello again
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">value</span> <span class="o">+</span> <span class="n">n</span>
-
-    <span class="k">return</span> <span class="n">increment</span>
-
-
-<span class="n">counter</span> <span class="o">=</span> <span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">counter</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="c1"># Guess the output!</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">value</span> <span class="o">+</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">increment</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">counter</span> <span class="o">=</span> <span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">counter</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="c1"># Guess the output!</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>কি, আউটপুট গেস করেছেন? এটা আর এক্সপ্লেইন করবো না। আউটপুট হবে 6।</p>
 <h3 id="ফশনর-আরগমনটপযরমটর-হসব-ফশন"><a href="#ফশনর-আরগমনটপযরমটর-হসব-ফশন" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>ফাংশনের আর্গুমেন্ট/প্যারামিটার হিসেবে ফাংশন</h3>
 <p>সরাসরি একটা কোড স্নিপেট দেখে ফেলি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -448,26 +448,26 @@ Inside hello again
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
-
-
-<span class="k">def</span> <span class="nf">hi</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hi!&#34;</span><span class="p">)</span>
-    <span class="n">func</span><span class="p">()</span>
-
-
-<span class="n">hi</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hi</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hi!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">func</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hi</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এখানে <code>hi</code> ফাংশনের প্যারামিটার হিসেবে <code>hello</code> কে পাস করা হয়েছে। <code>hi</code> এর ভেতর <code>hello</code> কল হয়েছে। আউটপুট হবে এরকম:</p>
-<pre><code>Hi!
+<pre tabindex="0"><code>Hi!
 Hello World!
 </code></pre><h2 id="ডকরটর"><a href="#ডকরটর" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>ডেকরেটর</h2>
 <p>এখন হচ্ছে মূল বিষয়, ডেকরেটর। আমরা আগেই জেনেছি, ডেকরেটর হচ্ছে এমন ফাংশন যা অন্য ফাংশনের ফাংশনালিটি মডিফাই করে। এখন তাহলে একটু সাজানো গুছানো উদাহরণ দেখে নেই:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -485,33 +485,33 @@ Hello World!
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">mydecorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Before calling func()&#34;</span><span class="p">)</span>
-        <span class="n">func</span><span class="p">()</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;After calling func()&#34;</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">wrapper</span>
-
-
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
-
-
-<span class="n">hello</span> <span class="o">=</span> <span class="n">mydecorator</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
-<span class="n">hello</span><span class="p">()</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">mydecorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Before calling func()&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">func</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;After calling func()&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">wrapper</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hello</span> <span class="o">=</span> <span class="n">mydecorator</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">hello</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এখানে <code>mydecorator</code> ফাংশনটি প্যারামিটার হিসেবে আরেকটি ফাংশন এক্সপেক্ট করছে। এর মধ্যকার <code>wrapper</code> ফাংশনটিতে প্যারামিটারে পাওয়া ফাংশন কল করার আগে এবং পরে কিছু কাজ হচ্ছে। আর <code>mydecorator</code> থেকে <code>wrapper</code> কে রিটার্ন করা হচ্ছে। ১৫ নম্বর লাইনে <code>mydecorator</code> কে <code>hello</code> প্যারামিটার দিয়ে কল করা হয়েছে। রিটার্ন ভ্যালু এসাইন করা হয়েছে আবার <code>hello</code> তে। অর্থাৎ <code>mydecorator</code> এর মাধ্যমে <code>hello</code> মডিফাই হয়েছে। [প্রয়োজনে আবার খেয়াল করুন।] সব শেষ লাইনে <code>hello()</code> কল হয়েছে। আউটপুট হবে এরকম:</p>
-<pre><code>Before calling func()
+<pre tabindex="0"><code>Before calling func()
 Hello World!
 After calling func()
 </code></pre><p>নাম এবং কাজ দেখে বোঝাই যাচ্ছে <code>mydecorator</code> হচ্ছে আমাদের কাঙ্খিত সেই ডেকরেটর।</p>
 <p>তবে ডেকরেটর ব্যাবহারের সুন্দর একটি সিনট্যাক্স আছে, @। উপরের কোড কে আমরা সুন্দর করে এভাবে লিখতে পারি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -529,30 +529,30 @@ After calling func()
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">mydecorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Before calling func()&#34;</span><span class="p">)</span>
-        <span class="n">func</span><span class="p">()</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;After calling func()&#34;</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">wrapper</span>
-
-
-<span class="nd">@mydecorator</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
-
-
-<span class="n">hello</span><span class="p">()</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">mydecorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Before calling func()&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">func</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;After calling func()&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">wrapper</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@mydecorator</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">hello</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>অর্থাৎ,<code> hello = mydecorator(hello)</code> এই লাইনের পরিবর্তে আমরা <code>hello</code> ফাংশনটি ডিফাইনের ঠিক আগে <code>@mydecorator</code> লিখেছি। পূর্বের মত একই কাজ হবে।</p>
 <h3 id="বসতব-উদহরণ"><a href="#বসতব-উদহরণ" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>বাস্তব উদাহরণ</h3>
 <p>এবার একটি বাস্তব উদাহরণ দেখা যাক। মনে করি আমাদের একটি ফাংশন আছে, আমরা চাই যখন এটি কল হবে ঠিক ওই সময় যেন লগ হিসবে একটা ফাইলে থাকে। এর সমাধান দেখে নেয়া যাক:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -577,37 +577,37 @@ After calling func()
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
-
-
-<span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;log.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-            <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%I:%M:%S%p on </span><span class="si">%d</span><span class="s2"> %B, %Y&#34;</span><span class="p">)</span>
-            <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">now</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
-        <span class="n">func</span><span class="p">()</span>
-
-    <span class="k">return</span> <span class="n">wrapper</span>
-
-
-<span class="nd">@log</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
-
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-    <span class="n">hello</span><span class="p">()</span>
-    <span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;log.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%I:%M:%S%p on </span><span class="si">%d</span><span class="s2"> %B, %Y&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">now</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">func</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">wrapper</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@log</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এই প্রোগ্রাম রান করলে কারেন্ট ওয়ার্কিং ডিরেক্টরিতে <code>log.txt</code> নামের একটা ফাইল তৈরি হবে, সেটি খুললে <code>hello()</code> এক্সিকিউট হওয়ার সময় গুলো পাওয়া যাবে।</p>
 <h3 id="পযরমটরআরগমনট-সহ-ডকরটর"><a href="#পযরমটরআরগমনট-সহ-ডকরটর" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>প্যারামিটার/আর্গুমেন্ট সহ ডেকরেটর</h3>
 <p>যদি <code>log</code> ডেকরেটর টায় প্যারামিটার হিসেবে ফাইলের নাম দিয়ে দেয়া যেত, <code>log.txt</code> এর পরিবর্তে আমাদের প্রয়োজন মত নাম, তাহলে সুবিধা হতো না? হ্যা, ডেকরেটরে প্যারামিটার/আর্গুমেন্ট পাস করা সম্ভব। এজন্য আমাদের ডেকরেটরকে আরেকটা ফাংশনের মধ্যে নেস্টেড আকারে রাখা লাগবে। এরকম:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -632,30 +632,30 @@ After calling func()
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
-
-
-<span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;log.txt&#39;</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">log_decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
-            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-                <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%I:%M:%S%p on </span><span class="si">%d</span><span class="s2"> %B, %Y&#34;</span><span class="p">)</span>
-                <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">now</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
-            <span class="n">func</span><span class="p">()</span>
-        <span class="k">return</span> <span class="n">wrapper</span>
-    <span class="k">return</span> <span class="n">log_decorator</span>
-
-
-<span class="nd">@log</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;history.txt&#39;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
-
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-    <span class="n">hello</span><span class="p">()</span>
-    <span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;log.txt&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">log_decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%I:%M:%S%p on </span><span class="si">%d</span><span class="s2"> %B, %Y&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">now</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">func</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">wrapper</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">log_decorator</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@log</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;history.txt&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এখন আমাদের লগ <code>history.txt</code> খুললে পাওয়া যাবে। আর যদি <code>@log</code> এ কোন প্যারামিটার পাস না করা হয়, তাহলে ডিফল্ট ভাবে <code>log.txt</code> তে লগ থাকবে।</p>
 <p>এইত! এই ছিল পাইথনের ডেকরেটর‍্স‍ কনসেপ্ট। যদিও যেভাবে উপস্থাপন করতে চেয়েছিলাম সেভাবে পারি নি, তারপরও আশা করছি অপেক্ষাকৃত নতুনেরা উপকৃত হবে। সামনে কোন এক সময় ক্লাস ডেকরেটর নিয়ে লিখবো ইনশাআল্লাহ।</p>
@@ -864,7 +864,7 @@ After calling func()
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">2015–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
+            <div class="site-info">2015–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
 
             
 

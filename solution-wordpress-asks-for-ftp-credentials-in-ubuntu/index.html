@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.79.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.115.3"><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,11 +14,11 @@
 
     <title>[Solution] WordPress asks for FTP credentials in Ubuntu | Thoughts of Fazle Rabby</title>
 
-    <link rel="stylesheet" href="../css/meme.min.7af66ef75b0fc8e2ee03c7c7de489594ae607750933d4c3aba8a89f50ca79ff0.css"/>
+    <link rel="stylesheet" href="../css/meme.min.143d7c6f28ba10f904b587b04977415f356289ff70cc7b4c626d2c9d5360d4d6.css"/>
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.d4d63fcd68bc80a122d93530a7262520b08e72f49dfde48589d747d0299d6bed.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.a4a2bdc4720b60e7eaf29e2fd7e652c1708d86a09e93fda21ca2ae9a5ca1b2de.js"></script>
 
     
 
@@ -55,7 +55,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2015-08-13T18:20:15+00:00",
-        "dateModified": "2020-12-10T01:38:14+06:00",
+        "dateModified": "2023-07-19T15:40:05+02:00",
         "url": "https://fazlerabby7.github.io/solution-wordpress-asks-for-ftp-credentials-in-ubuntu/",
         "headline": "[Solution] WordPress asks for FTP credentials in Ubuntu",
         "description": "Maybe the title of this blog post isn’t perfect. While I am writing this post, no better title is coming to my mind.\nBy the way, let me explain the topic. Suppose you have installed WordPress in the XAMPP stack in Ubuntu (or any other ubuntu based distro).",
@@ -99,7 +99,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://fazlerabby7.github.io/files/2015/08/wp-ftp-info.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2015-08-13T18:20:15&#43;00:00" />
-    <meta property="article:modified_time" content="2020-12-10T01:38:14&#43;06:00" />
+    <meta property="article:modified_time" content="2023-07-19T15:40:05&#43;02:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -148,7 +148,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
         
         
             
-                <li class="menu-item active"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
+                <li class="menu-item"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
                 </li>
             
         
@@ -268,11 +268,11 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
 <p>But it should not happen. So you start searching in the internet how to fix this problem. In the maximum solution, you have been told to input your FTP credentials or add them to the wp-config.php file. But it can be solved in a different way.</p>
 <p>Actually if the user of WordPress installation directory is different from the user of apache, this problem happens. So we need to fix this.</p>
 <p>Firstly, we need to check the user of apache. To do this, run the following command in terminal:</p>
-<pre><code>ps -ef | grep httpd | grep -v `whoami` | grep -v root | head -n1 | awk '{print $1}'
+<pre tabindex="0"><code>ps -ef | grep httpd | grep -v `whoami` | grep -v root | head -n1 | awk &#39;{print $1}&#39;
 </code></pre><p>In my case, the user of apache is &ldquo;daemon&rdquo;.</p>
 <p><img src="../files/2015/08/user_of_apache.png" alt="user of apache"></p>
 <p>So we need to change the user and group of WordPress installation directory to &ldquo;daemon&rdquo;. To do this, run the following command in terminal:</p>
-<pre><code>sudo chown -R daemon:daemon /opt/lampp/htdocs/wordpress/
+<pre tabindex="0"><code>sudo chown -R daemon:daemon /opt/lampp/htdocs/wordpress/
 </code></pre><p>Replace <code>daemon:daemon</code> with your apache <code>user:group</code> (you have got this by running the firstly mentioned command). Replace <code>/opt/lampp/htdocs/wordpress/</code> with your WordPress directory location.</p>
 <p>Boom!!! Done!!!</p>
 <p>So by now you can install themes and plugins and can update them without your FTP credentials. Congratulation!</p>
@@ -463,7 +463,7 @@ By the way, let me explain the topic. Suppose you have installed WordPress in th
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">2015–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
+            <div class="site-info">2015–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
 
             
 

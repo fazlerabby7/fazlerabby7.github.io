@@ -1,274 +1,190 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://fazlerabby7.github.io/tags/cache/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://fazlerabby7.github.io/tags/agile/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/categories/book/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/book-overview-the-phoenix-project/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/tags/flask/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/categories/flask/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/incident-on-python-2-to-3-migration-redis-cache-and-pickle/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/tags/pickle/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/devops/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/categories/leadership/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/management/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/posts/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/tags/python/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/categories/python/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/tags/redis/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/review/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/</loc>
-    <lastmod>2021-10-12T23:09:12+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/transformation/</loc>
+    <lastmod>2023-07-19T16:47:51+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/cache/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/flask/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/categories/flask/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/incident-on-python-2-to-3-migration-redis-cache-and-pickle/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/pickle/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/python/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/categories/python/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/redis/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/auto-generating-unique-slug-django-generic-approach/</loc>
-    <lastmod>2020-12-10T02:13:57+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/django/</loc>
-    <lastmod>2020-12-10T02:13:57+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/django/</loc>
-    <lastmod>2020-12-10T02:13:57+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/slug/</loc>
-    <lastmod>2020-12-10T02:13:57+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/programming/</loc>
-    <lastmod>2020-12-12T21:35:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%A1%E0%A7%87%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9F%E0%A6%B0/</loc>
-    <lastmod>2020-12-12T21:35:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8/</loc>
-    <lastmod>2020-12-12T21:35:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/python-decorator-bangla/</loc>
-    <lastmod>2020-12-12T21:35:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/python-file-name-and-module-conflict-bangla/</loc>
-    <lastmod>2020-12-09T23:53:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%AE%E0%A6%A1%E0%A6%BF%E0%A6%89%E0%A6%B2/</loc>
-    <lastmod>2020-12-09T23:53:18+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/object-oriented-programming/</loc>
-    <lastmod>2020-12-10T01:01:55+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A1/</loc>
-    <lastmod>2020-12-10T01:01:55+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/inheriting-from-built-ins-in-python-bangla/</loc>
-    <lastmod>2020-12-10T00:12:24+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/auto-generating-unique-slug-in-django/</loc>
-    <lastmod>2020-12-10T02:10:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/creating-simple-feedback-system-using-django/</loc>
-    <lastmod>2020-12-10T00:40:44+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/project/</loc>
-    <lastmod>2020-12-10T00:40:44+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8/</loc>
-    <lastmod>2020-12-10T00:49:51+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/python-abstract-base-class-in-bangla/</loc>
-    <lastmod>2020-12-10T00:49:51+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%87%E0%A6%A8%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8/</loc>
-    <lastmod>2020-12-10T01:01:55+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/multiple-inheritance-in-python-in-bangla/</loc>
-    <lastmod>2020-12-10T01:01:55+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/c/</loc>
-    <lastmod>2020-12-10T01:22:22+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/send-email-using-c-program/</loc>
-    <lastmod>2020-12-10T01:22:22+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/libcurl/</loc>
-    <lastmod>2020-12-10T01:22:22+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/smtp/</loc>
-    <lastmod>2020-12-10T01:22:22+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A7%87%E0%A6%87%E0%A6%B2/</loc>
-    <lastmod>2020-12-10T01:22:22+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/solution-wordpress-asks-for-ftp-credentials-in-ubuntu/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/ftp/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/linux/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/ubuntu/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/ubuntu/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fazlerabby7.github.io/tags/wordpress/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/wordpress/</loc>
-    <lastmod>2020-12-10T01:38:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
+    <loc>https://fazlerabby7.github.io/tags/wordpress/</loc>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/mozbasis15/</loc>
-    <lastmod>2020-12-10T01:46:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/mozilla/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/mozbasis15/</loc>
-    <lastmod>2020-12-10T01:46:14+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%AE%E0%A6%9C%E0%A6%BF%E0%A6%B2%E0%A6%BE/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/fsa/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%AB%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AB%E0%A6%95%E0%A7%8D%E0%A6%B8/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/firefox-student-ambassador-what-why-how-in-bangla/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/tags/%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/</loc>
-    <lastmod>2020-12-12T21:33:07+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
+  </url><url>
     <loc>https://fazlerabby7.github.io/categories/c/c-/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fazlerabby7.github.io/contact/</loc>
-    <lastmod>2020-12-06T23:27:49+06:00</lastmod>
+    <lastmod>2023-07-19T15:40:05+02:00</lastmod>
   </url>
-  
 </urlset>

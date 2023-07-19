@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.79.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.115.3"><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,11 +14,11 @@
 
     <title>পাইথনে ফাইলের নাম এবং মডিউল নিয়ে বিভ্রাট | Thoughts of Fazle Rabby</title>
 
-    <link rel="stylesheet" href="../css/meme.min.7af66ef75b0fc8e2ee03c7c7de489594ae607750933d4c3aba8a89f50ca79ff0.css"/>
+    <link rel="stylesheet" href="../css/meme.min.143d7c6f28ba10f904b587b04977415f356289ff70cc7b4c626d2c9d5360d4d6.css"/>
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.d4d63fcd68bc80a122d93530a7262520b08e72f49dfde48589d747d0299d6bed.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.a4a2bdc4720b60e7eaf29e2fd7e652c1708d86a09e93fda21ca2ae9a5ca1b2de.js"></script>
 
     
 
@@ -55,7 +55,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2016-07-29T17:42:56+00:00",
-        "dateModified": "2020-12-09T23:53:18+06:00",
+        "dateModified": "2023-07-19T15:40:05+02:00",
         "url": "https://fazlerabby7.github.io/python-file-name-and-module-conflict-bangla/",
         "headline": "পাইথনে ফাইলের নাম এবং মডিউল নিয়ে বিভ্রাট",
         "description": "আসলে লেখাটির সঠিক শিরোনাম কি হবে, কিছুক্ষণ চিন্তা করেও যখন ঠিক করতে পারছিলাম না, ঠিক করলাম আর চিন্তা করে সময় নষ্ট না করে মূল বিষয়টা লিখে ফেলি।\nআচ্ছা, একটা ফাইল ক্রিয়েট করি email.py নামে। এর ভেতর শুধুমাত্র এই দুটি লাইন লিখে সেভ করি:",
@@ -96,7 +96,7 @@
 <meta property="og:site_name" content="Thoughts of Fazle Rabby" />
 <meta property="og:locale" content="en" /><meta property="og:type" content="article" />
     <meta property="article:published_time" content="2016-07-29T17:42:56&#43;00:00" />
-    <meta property="article:modified_time" content="2020-12-09T23:53:18&#43;06:00" />
+    <meta property="article:modified_time" content="2023-07-19T15:40:05&#43;02:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -145,7 +145,7 @@
         
         
             
-                <li class="menu-item active"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
+                <li class="menu-item"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
                 </li>
             
         
@@ -263,38 +263,38 @@
 <p>আচ্ছা, একটা ফাইল ক্রিয়েট করি email.py নামে। এর ভেতর শুধুমাত্র এই দুটি লাইন লিখে সেভ করি:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I have been executed!&#39;</span><span class="p">)</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;I have been executed!&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এখন ফাইলটা রান করি:</p>
-<pre><code>python3  email.py
+<pre tabindex="0"><code>python3  email.py
 </code></pre><p>কি দেখলেন! নিশ্চই পাইথন এরকম বিদঘুটে ধরনের এক্সেপশন থ্রো করেছে:</p>
-<pre><code>Traceback (most recent call last):
-  File &quot;email.py&quot;, line 1, in &lt;module&gt;
+<pre tabindex="0"><code>Traceback (most recent call last):
+  File &#34;email.py&#34;, line 1, in &lt;module&gt;
     import requests
-  File &quot;/usr/lib/python3/dist-packages/requests/__init__.py&quot;, line 58, in &lt;module&gt;
+  File &#34;/usr/lib/python3/dist-packages/requests/__init__.py&#34;, line 58, in &lt;module&gt;
     from . import utils
-  File &quot;/usr/lib/python3/dist-packages/requests/utils.py&quot;, line 12, in &lt;module&gt;
+  File &#34;/usr/lib/python3/dist-packages/requests/utils.py&#34;, line 12, in &lt;module&gt;
     import cgi
-  File &quot;/usr/lib/python3.5/cgi.py&quot;, line 39, in &lt;module&gt;
+  File &#34;/usr/lib/python3.5/cgi.py&#34;, line 39, in &lt;module&gt;
     from email.parser import FeedParser
-ImportError: No module named 'email.parser'; 'email' is not a package
+ImportError: No module named &#39;email.parser&#39;; &#39;email&#39; is not a package
 </code></pre><p>আচ্ছা এখন ফাইলটাকে রিনেম করি a.py নামে।</p>
 <p>এখন আবার রান করি:</p>
-<pre><code>python3 a.py
+<pre tabindex="0"><code>python3 a.py
 </code></pre><p>এখন আউটপুট এসেছে এরকম:</p>
-<pre><code>I have been executed!
+<pre tabindex="0"><code>I have been executed!
 </code></pre><p>কিন্তু কেন এ বৈষম্য!</p>
 <p>requests মডিউলটার মধ্যে email নামের আরেকটা মডিউলকে কল করা হয়েছে, যা পাইথন স্ট্যান্ডার্ড লাইব্রেরির অংশ। এখন পাইথন নিয়ম অনুযায়ী কোন মডিউল প্রথমে করেন্ট ওয়ার্কিং ডিরেক্টরিতে খোঁজে, এরপর অন্য যায়গায়। যখন আমাদের ফাইলের নাম email.py ছিল, তখন পাইথন এটাকেই স্ট্যান্ডার্ড লাইব্রেরির email মডিউল ধরে নিয়েছে। তাই ওরকম বিদঘুটে এক্সেপশন রেইজ হয়েছে। আবার রিনেম করে a.py করার পর সব ঠিক ঠাক।</p>
 <p>পাইথনের মডিউল লুক আপ অর্ডার দেখতে ইন্টারএক্টিভ শেল চালু করে এরকম লিখুন:</p>
-<pre><code>&gt;&gt;&gt; import sys
+<pre tabindex="0"><code>&gt;&gt;&gt; import sys
 &gt;&gt;&gt; 
 &gt;&gt;&gt; sys.path
 </code></pre><p>সুতরাং, আমাদের পাইথন ফাইল নামকরণের সময় একটু সতর্ক থাকা লাগবে, চেষ্টা করতে হবে তা যেন অন্য কোন লাইব্রেরির নামে না হয়।</p>
@@ -504,7 +504,7 @@ ImportError: No module named 'email.parser'; 'email' is not a package
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">2015–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
+            <div class="site-info">2015–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
 
             
 

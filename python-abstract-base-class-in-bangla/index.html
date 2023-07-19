@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.79.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.115.3"><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,11 +14,11 @@
 
     <title>পাইথনে অ্যাবস্ট্রাক্ট বেস ক্লাস | Thoughts of Fazle Rabby</title>
 
-    <link rel="stylesheet" href="../css/meme.min.7af66ef75b0fc8e2ee03c7c7de489594ae607750933d4c3aba8a89f50ca79ff0.css"/>
+    <link rel="stylesheet" href="../css/meme.min.143d7c6f28ba10f904b587b04977415f356289ff70cc7b4c626d2c9d5360d4d6.css"/>
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.d4d63fcd68bc80a122d93530a7262520b08e72f49dfde48589d747d0299d6bed.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="../js/meme.min.a4a2bdc4720b60e7eaf29e2fd7e652c1708d86a09e93fda21ca2ae9a5ca1b2de.js"></script>
 
     
 
@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2016-06-18T08:42:04+00:00",
-        "dateModified": "2020-12-10T00:49:51+06:00",
+        "dateModified": "2023-07-19T15:40:05+02:00",
         "url": "https://fazlerabby7.github.io/python-abstract-base-class-in-bangla/",
         "headline": "পাইথনে অ্যাবস্ট্রাক্ট বেস ক্লাস",
         "description": "অ্যাবস্ট্রাক্ট ক্লাস হল – যেভাবে সাবক্লাস গুলো ডিজাইন করা হবে তার একটা নকশা বা ব্লু-প্রিন্ট। আমরা যদি টিমে কাজ করে থাকি তাহলে এরকম প্রয়োজন হতে পারে যে, একজন ডেভেলপার শুরুতে ঠিক করে দিবেন ক্লাস গুলোতে কি কি মেথড/প্রোপার্টি থাকবে। অন্য ডেভেলপার সে অনুযায়ী ক্লাস ডিজাইন করবেন। অর্থাৎ একজন নকশা করবেন, আরেকজন ইমপ্লিমেন্ট করবেন। এরকম পরিস্থিতির জন্য আছে অ্যাবস্ট্রাক্ট বেস ক্লাস।",
@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Thoughts of Fazle Rabby" />
 <meta property="og:locale" content="en" /><meta property="og:type" content="article" />
     <meta property="article:published_time" content="2016-06-18T08:42:04&#43;00:00" />
-    <meta property="article:modified_time" content="2020-12-10T00:49:51&#43;06:00" />
+    <meta property="article:modified_time" content="2023-07-19T15:40:05&#43;02:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -143,7 +143,7 @@
         
         
             
-                <li class="menu-item active"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
+                <li class="menu-item"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
                 </li>
             
         
@@ -262,7 +262,7 @@
 <p>তাহলে আমি আমার বন্ধুকে নিচের মত একটা অ্যাবস্ট্রাক্ট  ক্লাস তৈরি করে দিলাম।</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -276,35 +276,35 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">abc</span>
-
-
-<span class="k">class</span> <span class="nc">BaseCar</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span>
-
-    <span class="nd">@abc.abstractmethod</span>
-    <span class="k">def</span> <span class="nf">speed_up</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">pass</span>
-
-    <span class="nd">@abc.abstractmethod</span>
-    <span class="k">def</span> <span class="nf">speed_down</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">pass</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">abc</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">BaseCar</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@abc.abstractmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_up</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@abc.abstractmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_down</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">pass</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>এখানে লক্ষ্যনীয়, প্রথম লাইনে আমি <code>abc</code> নামের একটা মডিউল ইমপোর্ট করেছি। এ মডিউলটা আমাদের অ্যাবস্ট্রাক্ট বেস ক্লাস ফিচারটা দেয়। এরপর 4 নম্বর <code>লাইনের metaclass=abc.ABCMeta</code> দিয়ে পাইথনকে বলে দিচ্ছি, এটা অ্যাবস্ট্রাক্ট ক্লাস। মেটাক্লাস নিয়ে এখানে বিস্তারিত লিখবো না। পরে এ নিয়ে একটা ব্লগ লেখার ইচ্ছা আছে। এরপর 6 এবং 10 নম্বর লাইনে <code>@abc.abstractmethod</code> ডেকরেটর দিয়ে বুঝিয়ে দিচ্ছি মেথড দুইটি অ্যাবস্ট্রাক্ট মেথড।</p>
 <p>তাহলে আমি একরকম একটা কনট্রাক্ট লিখলাম। আর এ কনট্রাক্ট বাস্তবায়নের দায়িত্ব দিলাম আমার বন্ধুকে। কিন্তু আমার বন্ধু একটু হাবলু কিসিমের। সে প্রথমেই করলো কি, আমার দেয়া <code>BaseCar</code> অ্যাবস্ট্রাক্ট ক্লাসটাকে ইন্সটেন্সশিয়েট করার চেষ্টা করলো।</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">15
+<pre tabindex="0" class="chroma"><code><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">toyota</span> <span class="o">=</span> <span class="n">BaseCar</span><span class="p">()</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">toyota</span> <span class="o">=</span> <span class="n">BaseCar</span><span class="p">()</span></span></span></code></pre></td></tr></table></div>
 </div>
 </div>
 <p>কিন্তু অ্যাবস্ট্রাক্ট ক্লাসকে ইন্সটেন্সশিয়েট করা যায় না, শুধু ইনহেরিট বা সাবক্লাস করা যায়।</p>
 <p>এ কথা জেনে ও এরপর এরকম কোড লিখলো:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">15
+<pre tabindex="0" class="chroma"><code><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
 </span><span class="lnt">18
@@ -319,30 +319,30 @@
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Car</span><span class="p">(</span><span class="n">BaseCar</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial_speed</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="n">initial_speed</span>
-
-    <span class="k">def</span> <span class="nf">speed_plus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">+=</span> <span class="mi">5</span>
-
-    <span class="k">def</span> <span class="nf">speed_minus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">-=</span> <span class="mi">5</span>
-
-
-<span class="n">toyota</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Car</span><span class="p">(</span><span class="n">BaseCar</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial_speed</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="n">initial_speed</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_plus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">+=</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_minus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">-=</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">toyota</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span></span></span></code></pre></td></tr></table></div>
 </div>
 </div>
 <p>এবার পাইথন ওকে এরকম ইরর দিল:</p>
-<pre><code>Traceback (most recent call last):
-  File &quot;abstract.py&quot;, line 27, in &lt;module&gt;
+<pre tabindex="0"><code>Traceback (most recent call last):
+  File &#34;abstract.py&#34;, line 27, in &lt;module&gt;
     toyota = Car(50)
-TypeError: Can't instantiate abstract class Car with abstract methods speed_down, speed_up
+TypeError: Can&#39;t instantiate abstract class Car with abstract methods speed_down, speed_up
 </code></pre><p>আসলে কনট্রাক্টে(অ্যাবস্ট্রাক্ট ক্লাসে) আমি বলে দিয়েছিলাম যে <code>speed_up</code> আর <code>speed_down</code> নামের দুটি মেথড থাকবে। কিন্তু আমার বন্ধু মেথড দুটির নাম দিয়েছে <code>speed_plus</code> আর <code>speed_minus</code> । অর্থাৎ সে কনট্রাক্ট ভায়োলেট করেছে। এটা করলে তো চলবে না। এখন সে ঠিক ঠাক করে এরকম কোড লিখলো:</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">15
+<pre tabindex="0" class="chroma"><code><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
 </span><span class="lnt">18
@@ -357,19 +357,19 @@ TypeError: Can't instantiate abstract class Car with abstract methods speed_down
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Car</span><span class="p">(</span><span class="n">BaseCar</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial_speed</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="n">initial_speed</span>
-
-    <span class="k">def</span> <span class="nf">speed_up</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">+=</span> <span class="mi">5</span>
-
-    <span class="k">def</span> <span class="nf">speed_down</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">-=</span> <span class="mi">5</span>
-
-
-<span class="n">toyota</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Car</span><span class="p">(</span><span class="n">BaseCar</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial_speed</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="n">initial_speed</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_up</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">+=</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">speed_down</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">-=</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">toyota</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span></span></span></code></pre></td></tr></table></div>
 </div>
 </div>
 <p>এবার আর পাইথন বেঁকে বসেনি। অর্থাৎ সব ঠিক ঠাকই আছে।</p>
@@ -587,7 +587,7 @@ TypeError: Can't instantiate abstract class Car with abstract methods speed_down
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">2015–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
+            <div class="site-info">2015–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;</div>
 
             
 
